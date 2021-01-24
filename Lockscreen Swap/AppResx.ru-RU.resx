@@ -1,0 +1,616 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AAA_AppName" xml:space="preserve">
+    <value>8.1 Устройство смены сит</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>о</value>
+  </data>
+  <data name="AllPictures" xml:space="preserve">
+    <value>все фотографии</value>
+  </data>
+  <data name="BuyApp" xml:space="preserve">
+    <value>Купить это приложение</value>
+  </data>
+  <data name="ClickSkip" xml:space="preserve">
+    <value>нажмите, чтобы перейти</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>копия</value>
+  </data>
+  <data name="CopyFolder" xml:space="preserve">
+    <value>папки Копирование</value>
+  </data>
+  <data name="CopyImagesTo" xml:space="preserve">
+    <value>Скопируйте изображения после</value>
+  </data>
+  <data name="CopyPictures" xml:space="preserve">
+    <value>Копирование изображений</value>
+  </data>
+  <data name="CreateNewFolder" xml:space="preserve">
+    <value>Создайте новую папку</value>
+  </data>
+  <data name="Current" xml:space="preserve">
+    <value>ток</value>
+  </data>
+  <data name="Cut" xml:space="preserve">
+    <value>вырезать</value>
+  </data>
+  <data name="CutAuto" xml:space="preserve">
+    <value>автоматически</value>
+  </data>
+  <data name="CutPicture" xml:space="preserve">
+    <value>Вырезать изображение</value>
+  </data>
+  <data name="CutPictures" xml:space="preserve">
+    <value>Вырезать фотографии</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>удалять</value>
+  </data>
+  <data name="DeleteBar" xml:space="preserve">
+    <value>удалять</value>
+  </data>
+  <data name="DeleteFolder" xml:space="preserve">
+    <value>Удалить папку</value>
+  </data>
+  <data name="DeleteImages" xml:space="preserve">
+    <value>Удаление изображений</value>
+  </data>
+  <data name="ErrorEnterName" xml:space="preserve">
+    <value>ОШИБКА ! Введите имя!</value>
+  </data>
+  <data name="ErrorEnterNewName" xml:space="preserve">
+    <value>ОШИБКА ! Введите новое имя !</value>
+  </data>
+  <data name="ErrorName" xml:space="preserve">
+    <value>ОШИБКА ! Имя уже используется или неверные символы !</value>
+  </data>
+  <data name="ExError" xml:space="preserve">
+    <value>Ошибка: Фоновые задачи для этого приложения была отключена !</value>
+  </data>
+  <data name="Folder" xml:space="preserve">
+    <value>файл</value>
+  </data>
+  <data name="GenerateNew" xml:space="preserve">
+    <value>Создать новый</value>
+  </data>
+  <data name="Instructions" xml:space="preserve">
+    <value>инструкции</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>язык</value>
+  </data>
+  <data name="Left" xml:space="preserve">
+    <value>связи</value>
+  </data>
+  <data name="LikeXtrose" xml:space="preserve">
+    <value>подобно</value>
+  </data>
+  <data name="LockhelperInfo" xml:space="preserve">
+    <value>Вы сказали, что нет, таким образом, мы не можем изменить блокировку экрана !</value>
+  </data>
+  <data name="LockScreenChanger" xml:space="preserve">
+    <value>Изменение образа в фоновом режиме</value>
+  </data>
+  <data name="MultipleAdd" xml:space="preserve">
+    <value>более и более присоединялось</value>
+  </data>
+  <data name="NewName" xml:space="preserve">
+    <value>Новое имя</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>следующий</value>
+  </data>
+  <data name="Notification" xml:space="preserve">
+    <value>уведомление</value>
+  </data>
+  <data name="Off" xml:space="preserve">
+    <value>нет</value>
+  </data>
+  <data name="On" xml:space="preserve">
+    <value>да</value>
+  </data>
+  <data name="OpenFolder" xml:space="preserve">
+    <value>Открыть папку</value>
+  </data>
+  <data name="OtherApps" xml:space="preserve">
+    <value>Андер xtrose Apps</value>
+  </data>
+  <data name="Picture" xml:space="preserve">
+    <value>изображение</value>
+  </data>
+  <data name="Pictures" xml:space="preserve">
+    <value>Фотографии</value>
+  </data>
+  <data name="PleaseWait" xml:space="preserve">
+    <value>Пожалуйста, подождите .....</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>предыдущий</value>
+  </data>
+  <data name="PurchaseNote" xml:space="preserve">
+    <value>Благодарим Вас за покупку этого приложения</value>
+  </data>
+  <data name="Random" xml:space="preserve">
+    <value>случайный</value>
+  </data>
+  <data name="RandomFolder" xml:space="preserve">
+    <value>Случайное Папка</value>
+  </data>
+  <data name="RandomPicture" xml:space="preserve">
+    <value>Случайная фотография</value>
+  </data>
+  <data name="RateApp" xml:space="preserve">
+    <value>Оценить это приложение</value>
+  </data>
+  <data name="RenameFolder" xml:space="preserve">
+    <value>Переименовать</value>
+  </data>
+  <data name="Right" xml:space="preserve">
+    <value>право</value>
+  </data>
+  <data name="RotateLeft" xml:space="preserve">
+    <value>поверните налево</value>
+  </data>
+  <data name="RotateRight" xml:space="preserve">
+    <value>повернуть направо</value>
+  </data>
+  <data name="SavedPictures" xml:space="preserve">
+    <value>сохраненные изображения</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>выбирать</value>
+  </data>
+  <data name="SelectAll" xml:space="preserve">
+    <value>выбрать все</value>
+  </data>
+  <data name="SelectCopy" xml:space="preserve">
+    <value>Выберите изображения для копирования</value>
+  </data>
+  <data name="SelectDelete" xml:space="preserve">
+    <value>Выберите изображения для удаления</value>
+  </data>
+  <data name="SelectImages" xml:space="preserve">
+    <value>Выберите изображения , чтобы добавить</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>настройки</value>
+  </data>
+  <data name="SingleAdd" xml:space="preserve">
+    <value>индивидуальный добавил</value>
+  </data>
+  <data name="SourceTarget" xml:space="preserve">
+    <value>Источник и цель равна</value>
+  </data>
+  <data name="Support" xml:space="preserve">
+    <value>поддержка</value>
+  </data>
+  <data name="TaskInfo" xml:space="preserve">
+    <value>Изменение Экран блокировки изображения</value>
+  </data>
+  <data name="TrialVersion" xml:space="preserve">
+    <value>Test Версия</value>
+  </data>
+  <data name="UnselectAll" xml:space="preserve">
+    <value>отменить все</value>
+  </data>
+  <data name="WARNING" xml:space="preserve">
+    <value>ВНИМАНИЕ !</value>
+  </data>
+  <data name="Hour" xml:space="preserve">
+    <value>час</value>
+  </data>
+  <data name="Hours" xml:space="preserve">
+    <value>часов</value>
+  </data>
+  <data name="Minute" xml:space="preserve">
+    <value>минут</value>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>минут</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Пробная версия истек !</value>
+  </data>
+  <data name="TrialNote" xml:space="preserve">
+    <value>Демо-версия истек ! Создание приложений стоит много времени. Цена этого приложения не дорого. Для дополнительной блокировки экрана для создания изображений , которые необходимо купить это приложение . Спасибо!</value>
+  </data>
+  <data name="MsgNoPicture" xml:space="preserve">
+    <value>Там нет изображения в выбранной папке . Вы сначала откройте папку и импортировать изображения .</value>
+  </data>
+  <data name="Randomization" xml:space="preserve">
+    <value>случайный</value>
+  </data>
+  <data name="ClickHere" xml:space="preserve">
+    <value>нажмите сюда</value>
+  </data>
+  <data name="LockScreenSettings" xml:space="preserve">
+    <value>Настройки блокировки экрана</value>
+  </data>
+  <data name="LowBatteryWarning" xml:space="preserve">
+    <value>предупреждение о разряде батареи</value>
+  </data>
+  <data name="NotificationFullyCharged" xml:space="preserve">
+    <value>Уведомление полностью заряжен</value>
+  </data>
+  <data name="NotificationIsCharging" xml:space="preserve">
+    <value>Зарядка Уведомление</value>
+  </data>
+  <data name="NotificationSounds" xml:space="preserve">
+    <value>Сигналы уведомлений</value>
+  </data>
+  <data name="PlaySounds" xml:space="preserve">
+    <value>Играть звуки</value>
+  </data>
+  <data name="Special" xml:space="preserve">
+    <value>специальный</value>
+  </data>
+  <data name="Standard" xml:space="preserve">
+    <value>стандарт</value>
+  </data>
+  <data name="BatteryFullyCharged" xml:space="preserve">
+    <value>Аккумулятор полностью заряжен</value>
+  </data>
+  <data name="BatteryIsCharging" xml:space="preserve">
+    <value>Аккумулятор заряжается</value>
+  </data>
+  <data name="BatteryLow" xml:space="preserve">
+    <value>Низкий уровень заряда батареи</value>
+  </data>
+  <data name="BatteryStatus" xml:space="preserve">
+    <value>Состояние батареи</value>
+  </data>
+  <data name="Day" xml:space="preserve">
+    <value>день</value>
+  </data>
+  <data name="Days" xml:space="preserve">
+    <value>Дни</value>
+  </data>
+  <data name="ThankYouDown" xml:space="preserve">
+    <value>Благодарим Вас за загрузку</value>
+  </data>
+  <data name="AAA_1" xml:space="preserve">
+    <value>экран блокировки</value>
+  </data>
+  <data name="AAA_2" xml:space="preserve">
+    <value>батарея</value>
+  </data>
+  <data name="AAA_3" xml:space="preserve">
+    <value>Обои</value>
+  </data>
+  <data name="AAA_4" xml:space="preserve">
+    <value>Wallaper</value>
+  </data>
+  <data name="AAA_5" xml:space="preserve">
+    <value>изображение</value>
+  </data>
+  <data name="AAA_AppDescription" xml:space="preserve">
+    <value>Используйте это приложение , чтобы создать чередующиеся фоновые изображения .
+Кроме того, в информации о приложении о вашей индикации состояния батареи позволяет .
+Для этой цели огромное количество готовых великих настроек .
+Ваш фоновое изображение и ваш индикатор батареи обновляется каждые 30 минут.
+
+Новое!
+Из обновлений GRD3 приложение говорят уведомлений .</value>
+  </data>
+  <data name="InstGeneralHeader" xml:space="preserve">
+    <value>обычно</value>
+  </data>
+  <data name="InstGeneralText" xml:space="preserve">
+    <value>Используйте это приложение , чтобы создать чередующиеся фоновые изображения . Кроме того, в информации о приложении о вашей индикации состояния батареи позволяет .
+Для этого огромное количество готовых настроек. Ваш фоновое изображение и ваш индикатор батареи обновляется каждые 30 минут. Обратите внимание, что в Windows Phone выполнять фоновые службы требуется активное подключение к Интернету .
+Дисплей на экране блокировки основан на уведомления системы Windows Phone. Поэтому он является лишь максимальный дисплей на 99% можно .</value>
+  </data>
+  <data name="InstMiscellaneousHeader" xml:space="preserve">
+    <value>другие</value>
+  </data>
+  <data name="InstMiscellaneousText" xml:space="preserve">
+    <value>Пожалуйста, оцените эту хорошее приложение , если вам это нравится. Если у вас возникли проблемы с этим приложением , то, пожалуйста, войти в контакт поддержку! Вопросы и проблемы все еще не потеряли в рейтингах.
+Спасибо!</value>
+  </data>
+  <data name="InstPictureHeader" xml:space="preserve">
+    <value>Фотографии</value>
+  </data>
+  <data name="InstPictureText" xml:space="preserve">
+    <value>Создайте папку , откройте ее и импорта , любое количество изображений. Когда Импорт изображений может быть любое изображение выравнивается и сократить . Изображение всегда создается в максимальном разрешении для вашего мобильного телефона. Вы можете создать изменить ваши обои быстрее папка .</value>
+  </data>
+  <data name="InstSettingsHeader" xml:space="preserve">
+    <value>настройки</value>
+  </data>
+  <data name="InstSettingsText" xml:space="preserve">
+    <value>На странице настроек фона и индикатор состояния батареи могут быть настроены. Выберите папку с изменяющимся изображений загружаются . Вы также можете выбрать изображения должны быть загружены последовательно или в случайном порядке один должен быть выбран.
+Индикатор состояния аккумулятора должен быть установлен в настройках системы . В настройках приложения, которую можно найти ссылку для этого.
+Вы можете выбрать дополнительные звуки уведомлений. В Spezialen тона говорят уведомления . Пожалуйста, обратите внимание , что это молчание и уведомления работать первый из обновления GDR3 .</value>
+  </data>
+  <data name="NoteLanguage" xml:space="preserve">
+    <value>Изменить язык</value>
+  </data>
+  <data name="NoteLanguage2" xml:space="preserve">
+    <value>Перезапустите приложение</value>
+  </data>
+  <data name="SelectLanguage" xml:space="preserve">
+    <value>Выберите язык</value>
+  </data>
+  <data name="Z01_BatteryFullyCharged" xml:space="preserve">
+    <value>Полностью заряженный аккумулятор</value>
+  </data>
+  <data name="Z01_BatteryIsCharging" xml:space="preserve">
+    <value>Аккумулятор заряжается</value>
+  </data>
+  <data name="Z01_BatteryLow" xml:space="preserve">
+    <value>низкий уровень заряда</value>
+  </data>
+  <data name="Z01_CompNewSound" xml:space="preserve">
+    <value>Новые звуки уведомлений</value>
+  </data>
+  <data name="Z01_Components" xml:space="preserve">
+    <value>Компоненты</value>
+  </data>
+  <data name="Z01_Connecting" xml:space="preserve">
+    <value>Связаться с xtrose</value>
+  </data>
+  <data name="Z01_CopySounds" xml:space="preserve">
+    <value>Копирование тона</value>
+  </data>
+  <data name="Z01_DeleteSounds" xml:space="preserve">
+    <value>Удалить заметки</value>
+  </data>
+  <data name="Z01_EditSounds" xml:space="preserve">
+    <value>Изменить звуки</value>
+  </data>
+  <data name="Z01_Installed" xml:space="preserve">
+    <value>установлен</value>
+  </data>
+  <data name="Z01_NewName" xml:space="preserve">
+    <value>новое наименование</value>
+  </data>
+  <data name="Z01_NoteSounds" xml:space="preserve">
+    <value>звуки уведомлений</value>
+  </data>
+  <data name="Z01_Online" xml:space="preserve">
+    <value>онлайн</value>
+  </data>
+  <data name="Z01_Play" xml:space="preserve">
+    <value>Играть</value>
+  </data>
+  <data name="Z01_ReneameSounds" xml:space="preserve">
+    <value>Переименовать звуки</value>
+  </data>
+  <data name="Z01_Save" xml:space="preserve">
+    <value>экономить</value>
+  </data>
+  <data name="Z01_Change" xml:space="preserve">
+    <value>замена</value>
+  </data>
+  <data name="Z01_ConnectingNow" xml:space="preserve">
+    <value>Подключите .....</value>
+  </data>
+  <data name="Z01_ConnectionFailed" xml:space="preserve">
+    <value>Не удалось установить соединение</value>
+  </data>
+  <data name="Z01_ConnectionTimeOut" xml:space="preserve">
+    <value>Превысил или не сочетается время</value>
+  </data>
+  <data name="Z01_CopySoundInfo" xml:space="preserve">
+    <value>Скопируйте эти звуки и редактировать его с редактором</value>
+  </data>
+  <data name="Z01_CreateSounds" xml:space="preserve">
+    <value>Создание новых звуков уведомлений</value>
+  </data>
+  <data name="Z01_CreateSoundsInfo" xml:space="preserve">
+    <value>Данная функция копирует существующие тона. Затем вы можете изменить звуки в редакцию</value>
+  </data>
+  <data name="Z01_DownloadingSound" xml:space="preserve">
+    <value>Скачать звук для уведомлений</value>
+  </data>
+  <data name="Z01_EnterUrl" xml:space="preserve">
+    <value>Введите адрес . mp3 файл</value>
+  </data>
+  <data name="Z01_Error" xml:space="preserve">
+    <value>ОШИБКА !</value>
+  </data>
+  <data name="Z01_ErrorSounds" xml:space="preserve">
+    <value>является компонентом системы и не может изменить, переименовать или удалить.</value>
+  </data>
+  <data name="Z01_InUse" xml:space="preserve">
+    <value>ОШИБКА ! Имя уже используется или недопустимые символы .</value>
+  </data>
+  <data name="Z01_LogoStart" xml:space="preserve">
+    <value>Показать логотип при запуске</value>
+  </data>
+  <data name="Z01_NoComponentsOnline" xml:space="preserve">
+    <value>Не содержит компонентов, присутствуют</value>
+  </data>
+  <data name="Z01_NoteDeleteSound" xml:space="preserve">
+    <value>Если уведомление звучит действительно хотите удалить</value>
+  </data>
+  <data name="Z01_RenameSoundsWarning" xml:space="preserve">
+    <value>ВНИМАНИЕ ! Если эти звуковые сигналы в настройках не Benachrichtingungston не выдается.</value>
+  </data>
+  <data name="Z01_SoundChangeInfo" xml:space="preserve">
+    <value>К сожалению , нет никакого способа, чтобы импортировать звуки уведомлений от телефона в приложение. Таким образом, они должны быть загружены из Интернета .</value>
+  </data>
+  <data name="Z01_SoundSilent" xml:space="preserve">
+    <value>( Бесшумный )</value>
+  </data>
+  <data name="Z01_SoundStandard" xml:space="preserve">
+    <value>(стандарт)</value>
+  </data>
+  <data name="Z01_Warning" xml:space="preserve">
+    <value>ПРЕДУПРЕЖДЕНИЕ</value>
+  </data>
+  <data name="Z01_Address" xml:space="preserve">
+    <value>Контактный адрес</value>
+  </data>
+  <data name="Z01_Contact" xml:space="preserve">
+    <value>контакт</value>
+  </data>
+  <data name="Z01_OtherApps" xml:space="preserve">
+    <value>Андере xtrose Apps</value>
+  </data>
+  <data name="Z01_InstNoteHeader" xml:space="preserve">
+    <value>звуки уведомлений</value>
+  </data>
+  <data name="Z01_InstNoteText" xml:space="preserve">
+    <value>Звуки Пользовательские оповещений впервые опубликован выше , чем 8.0.10492 от версии операционной системы.</value>
+  </data>
+  <data name="Z02_OtherXtroseApps" xml:space="preserve">
+    <value>Другие приложения xtrose</value>
+  </data>
+  <data name="Z02_RateLater" xml:space="preserve">
+    <value>позже</value>
+  </data>
+  <data name="Z02_RateNever" xml:space="preserve">
+    <value>никогда не</value>
+  </data>
+  <data name="Z02_RateNow" xml:space="preserve">
+    <value>скорость</value>
+  </data>
+  <data name="Z02_RateText" xml:space="preserve">
+    <value>Это приложение было обратиться к вам.
+Для программирования приложений занимает много времени и трудно .
+Хороший обзор может помочь нам распространить его дальше.
+
+Большое спасибо</value>
+  </data>
+  
+  <data name="Z03_10_0_Screen_Changer" xml:space="preserve">
+<value>10.0 Cмены экрана</value>
+</data>
+  <data name="Z03_T1" xml:space="preserve">
+<value>Мы разработали совершенно новый app!</value>
+</data>
+  <data name="Z03_T2" xml:space="preserve">
+<value>Приспособлены к Windows 10.</value>
+</data>
+  <data name="Z03_T3" xml:space="preserve">
+<value>Высокое разрешение. С учетом размера отображения.</value>
+</data>
+  <data name="Z03_T6" xml:space="preserve">
+<value>Поле для пользователя информации.</value>
+</data>
+  <data name="Z03_T7" xml:space="preserve">
+<value>Многие другие новые возможности.</value>
+</data>
+  <data name="Z03_TestNow" xml:space="preserve">
+<value>Теперь тест</value>
+</data>
+</root>

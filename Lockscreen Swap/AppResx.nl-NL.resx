@@ -1,0 +1,617 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AAA_AppName" xml:space="preserve">
+    <value>8.1 Scherm wisselaar</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>over</value>
+  </data>
+  <data name="AllPictures" xml:space="preserve">
+    <value>alle foto's</value>
+  </data>
+  <data name="BuyApp" xml:space="preserve">
+    <value>Koop deze app</value>
+  </data>
+  <data name="ClickSkip" xml:space="preserve">
+    <value>drukken om naar</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>kopie</value>
+  </data>
+  <data name="CopyFolder" xml:space="preserve">
+    <value>mappen te kopiëren</value>
+  </data>
+  <data name="CopyImagesTo" xml:space="preserve">
+    <value>Kopieer beelden na</value>
+  </data>
+  <data name="CopyPictures" xml:space="preserve">
+    <value>Kopieer afbeeldingen</value>
+  </data>
+  <data name="CreateNewFolder" xml:space="preserve">
+    <value>Maak een nieuwe map</value>
+  </data>
+  <data name="Current" xml:space="preserve">
+    <value>stroom</value>
+  </data>
+  <data name="Cut" xml:space="preserve">
+    <value>gesneden</value>
+  </data>
+  <data name="CutAuto" xml:space="preserve">
+    <value>automatisch</value>
+  </data>
+  <data name="CutPicture" xml:space="preserve">
+    <value>image Cut</value>
+  </data>
+  <data name="CutPictures" xml:space="preserve">
+    <value>snijd foto's</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Verwijder</value>
+  </data>
+  <data name="DeleteBar" xml:space="preserve">
+    <value>verwijderen</value>
+  </data>
+  <data name="DeleteFolder" xml:space="preserve">
+    <value>map verwijderen</value>
+  </data>
+  <data name="DeleteImages" xml:space="preserve">
+    <value>Verwijder afbeeldingen</value>
+  </data>
+  <data name="ErrorEnterName" xml:space="preserve">
+    <value>FOUT ! Voer de naam !</value>
+  </data>
+  <data name="ErrorEnterNewName" xml:space="preserve">
+    <value>FOUT ! Voer de nieuwe naam !</value>
+  </data>
+  <data name="ErrorName" xml:space="preserve">
+    <value>FOUT ! Naam wordt al gebruikt of de verkeerde tekens !</value>
+  </data>
+  <data name="ExError" xml:space="preserve">
+    <value>FOUT : Achtergrond taken voor deze app is uitgeschakeld !</value>
+  </data>
+  <data name="Folder" xml:space="preserve">
+    <value>bestand</value>
+  </data>
+  <data name="GenerateNew" xml:space="preserve">
+    <value>Create New</value>
+  </data>
+  <data name="Instructions" xml:space="preserve">
+    <value>instructies</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>taal</value>
+  </data>
+  <data name="Left" xml:space="preserve">
+    <value>koppelingen</value>
+  </data>
+  <data name="LikeXtrose" xml:space="preserve">
+    <value>zoals</value>
+  </data>
+  <data name="LockhelperInfo" xml:space="preserve">
+    <value>Je zei nee , dus we kunnen niet uw slot scherm wijzigen !</value>
+  </data>
+  <data name="LockScreenChanger" xml:space="preserve">
+    <value>Verander een afbeelding op de achtergrond</value>
+  </data>
+  <data name="MultipleAdd" xml:space="preserve">
+    <value>meer toegevoegde</value>
+  </data>
+  <data name="NewName" xml:space="preserve">
+    <value>nieuwe naam</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>volgende</value>
+  </data>
+  <data name="Notification" xml:space="preserve">
+    <value>kennisgeving</value>
+  </data>
+  <data name="Off" xml:space="preserve">
+    <value>geen</value>
+  </data>
+  <data name="On" xml:space="preserve">
+    <value>ja</value>
+  </data>
+  <data name="OpenFolder" xml:space="preserve">
+    <value>map openen</value>
+  </data>
+  <data name="OtherApps" xml:space="preserve">
+    <value>Ander xtrose Apps</value>
+  </data>
+  <data name="Picture" xml:space="preserve">
+    <value>afbeelding</value>
+  </data>
+  <data name="Pictures" xml:space="preserve">
+    <value>Afbeeldingen</value>
+  </data>
+  <data name="PleaseWait" xml:space="preserve">
+    <value>Please wait .....</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>vorig</value>
+  </data>
+  <data name="PurchaseNote" xml:space="preserve">
+    <value>Dank u voor de aanschaf van deze app</value>
+  </data>
+  <data name="Random" xml:space="preserve">
+    <value>toeval</value>
+  </data>
+  <data name="RandomFolder" xml:space="preserve">
+    <value>Random Map</value>
+  </data>
+  <data name="RandomPicture" xml:space="preserve">
+    <value>Willekeurige afbeelding</value>
+  </data>
+  <data name="RateApp" xml:space="preserve">
+    <value>Beoordeel deze App</value>
+  </data>
+  <data name="RenameFolder" xml:space="preserve">
+    <value>map hernoemen</value>
+  </data>
+  <data name="Right" xml:space="preserve">
+    <value>rechts</value>
+  </data>
+  <data name="RotateLeft" xml:space="preserve">
+    <value>linksaf</value>
+  </data>
+  <data name="RotateRight" xml:space="preserve">
+    <value>rechtsaf</value>
+  </data>
+  <data name="SavedPictures" xml:space="preserve">
+    <value>opgeslagen beelden</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>kiezen</value>
+  </data>
+  <data name="SelectAll" xml:space="preserve">
+    <value>alles selecteren</value>
+  </data>
+  <data name="SelectCopy" xml:space="preserve">
+    <value>Selecteer de afbeeldingen die u wilt kopiëren</value>
+  </data>
+  <data name="SelectDelete" xml:space="preserve">
+    <value>Beelden selecteren voor verwijdering</value>
+  </data>
+  <data name="SelectImages" xml:space="preserve">
+    <value>Selecteer afbeeldingen aan toe te voegen</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>instellingen</value>
+  </data>
+  <data name="SingleAdd" xml:space="preserve">
+    <value>individuele toegevoegd</value>
+  </data>
+  <data name="SourceTarget" xml:space="preserve">
+    <value>Bron en doel is gelijk aan</value>
+  </data>
+  <data name="Support" xml:space="preserve">
+    <value>ondersteuning</value>
+  </data>
+  <data name="TaskInfo" xml:space="preserve">
+    <value>Lock screen beeld wijzigen</value>
+  </data>
+  <data name="TrialVersion" xml:space="preserve">
+    <value>Test versie</value>
+  </data>
+  <data name="UnselectAll" xml:space="preserve">
+    <value>deselecteren</value>
+  </data>
+  <data name="WARNING" xml:space="preserve">
+    <value>WAARSCHUWING!</value>
+  </data>
+  <data name="Hour" xml:space="preserve">
+    <value>uur</value>
+  </data>
+  <data name="Hours" xml:space="preserve">
+    <value>uur</value>
+  </data>
+  <data name="Minute" xml:space="preserve">
+    <value>minuut</value>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>notulen</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Proefversie verlopen!</value>
+  </data>
+  <data name="TrialNote" xml:space="preserve">
+    <value>Demo-versie is verlopen! Maak apps kost veel tijd . De prijs van deze app is niet duur . Om verder te vergrendelen scherm om beelden die u nodig hebt om deze app te kopen te creëren . Dank je wel!</value>
+  </data>
+  <data name="MsgNoPicture" xml:space="preserve">
+    <value>Er is geen afbeelding in de geselecteerde map . U zult eerst Open de map en afbeeldingen importeren .</value>
+  </data>
+  <data name="Randomization" xml:space="preserve">
+    <value>toeval</value>
+  </data>
+  <data name="ClickHere" xml:space="preserve">
+    <value>klik hier</value>
+  </data>
+  <data name="LockScreenSettings" xml:space="preserve">
+    <value>Lock instellingenscherm</value>
+  </data>
+  <data name="LowBatteryWarning" xml:space="preserve">
+    <value>waarschuwing batterij</value>
+  </data>
+  <data name="NotificationFullyCharged" xml:space="preserve">
+    <value>Kennisgeving volledig opgeladen</value>
+  </data>
+  <data name="NotificationIsCharging" xml:space="preserve">
+    <value>Laad Kennisgeving</value>
+  </data>
+  <data name="NotificationSounds" xml:space="preserve">
+    <value>Alarmtonen</value>
+  </data>
+  <data name="PlaySounds" xml:space="preserve">
+    <value>Speel geluiden</value>
+  </data>
+  <data name="Special" xml:space="preserve">
+    <value>speciaal</value>
+  </data>
+  <data name="Standard" xml:space="preserve">
+    <value>standaard</value>
+  </data>
+  <data name="BatteryFullyCharged" xml:space="preserve">
+    <value>Batterij volledig is opgeladen</value>
+  </data>
+  <data name="BatteryIsCharging" xml:space="preserve">
+    <value>Batterij wordt opgeladen</value>
+  </data>
+  <data name="BatteryLow" xml:space="preserve">
+    <value>Batterij is bijna leeg</value>
+  </data>
+  <data name="BatteryStatus" xml:space="preserve">
+    <value>batterijstatus</value>
+  </data>
+  <data name="Day" xml:space="preserve">
+    <value>dag</value>
+  </data>
+  <data name="Days" xml:space="preserve">
+    <value>dagen</value>
+  </data>
+  <data name="ThankYouDown" xml:space="preserve">
+    <value>Bedankt voor het downloaden</value>
+  </data>
+  <data name="AAA_1" xml:space="preserve">
+    <value>Lock screen</value>
+  </data>
+  <data name="AAA_2" xml:space="preserve">
+    <value>batterij</value>
+  </data>
+  <data name="AAA_3" xml:space="preserve">
+    <value>Behang</value>
+  </data>
+  <data name="AAA_4" xml:space="preserve">
+    <value>Wallaper</value>
+  </data>
+  <data name="AAA_5" xml:space="preserve">
+    <value>afbeelding</value>
+  </data>
+  <data name="AAA_AppDescription" xml:space="preserve">
+    <value>Gebruik deze toepassing om wisselende achtergrond beelden te creëren .
+Daarnaast is de applicatie informatie over uw batterij status display maakt .
+Hiervoor zijn tal van kant grote instellingen .
+Je achtergrond afbeelding en uw batterij-indicator wordt elke 30 minuten bijgewerkt .
+
+Gloednieuw !
+Van GRD3 aanpassing van de toepassing wordt gesproken meldingen.</value>
+  </data>
+  <data name="InstGeneralHeader" xml:space="preserve">
+    <value>algemeen</value>
+  </data>
+  <data name="InstGeneralText" xml:space="preserve">
+    <value>Gebruik deze toepassing om wisselende achtergrond beelden te creëren . Daarnaast is de applicatie informatie over uw batterij status display maakt .
+Hiervoor zijn tal van kant -instellingen. Je achtergrond afbeelding en uw batterij-indicator wordt elke 30 minuten bijgewerkt . Houd er rekening mee dat er in Windows Phone op de achtergrond diensten draaien een actieve internetverbinding nodig .
+Het display op het slot scherm is gebaseerd op de melding van Windows Phone . Het is dus slechts een maximale weergave van 99 % mogelijk .</value>
+  </data>
+  <data name="InstMiscellaneousHeader" xml:space="preserve">
+    <value>anderen</value>
+  </data>
+  <data name="InstMiscellaneousText" xml:space="preserve">
+    <value>Gelieve uw mening over deze toepassing goed als je het leuk vindt. Als u problemen met deze toepassing hebben , dan kunt u contact opnemen steun! Vragen en problemen hebben niets verloren in de ratings .
+Dank je wel!</value>
+  </data>
+  <data name="InstPictureHeader" xml:space="preserve">
+    <value>Afbeeldingen</value>
+  </data>
+  <data name="InstPictureText" xml:space="preserve">
+    <value>Maak een map , open het en import , een willekeurig aantal afbeeldingen . Als de afbeeldingen importeren elke afbeelding uitgelijnd en snijden kan zijn. Het beeld wordt altijd gemaakt in de maximale resolutie voor uw mobiele telefoon. U kunt maken om uw wallpapers sneller map wijzigen.</value>
+  </data>
+  <data name="InstSettingsHeader" xml:space="preserve">
+    <value>instellingen</value>
+  </data>
+  <data name="InstSettingsText" xml:space="preserve">
+    <value>Op de pagina met instellingen van de achtergrond en de status van de batterij -indicator kan worden aangepast . Kies een map uit de veranderende beelden worden geladen . U kunt ook instellen of de beelden moeten worden geladen achtereenvolgens of willekeurig moet men worden geselecteerd.
+De batterij status indicator moet worden ingesteld in de systeeminstellingen . In de instellingen van de toepassing beschikbaar is een link voor dit.
+U kunt extra geluiden kennisgeving te selecteren . De Spezialen tonen zijn gesproken meldingen. Houd er rekening mee dat deze stille en meldingen werken eerst uit de GDR3 -update .</value>
+  </data>
+  <data name="NoteLanguage" xml:space="preserve">
+    <value>Taal wijzigen</value>
+  </data>
+  <data name="NoteLanguage2" xml:space="preserve">
+    <value>Start de toepassing opnieuw</value>
+  </data>
+  <data name="SelectLanguage" xml:space="preserve">
+    <value>Selecteer een taal</value>
+  </data>
+  <data name="Z01_BatteryFullyCharged" xml:space="preserve">
+    <value>Volledig opgeladen batterij</value>
+  </data>
+  <data name="Z01_BatteryIsCharging" xml:space="preserve">
+    <value>Batterij wordt opgeladen</value>
+  </data>
+  <data name="Z01_BatteryLow" xml:space="preserve">
+    <value>low Battery</value>
+  </data>
+  <data name="Z01_CompNewSound" xml:space="preserve">
+    <value>Nieuwe geluiden kennisgeving</value>
+  </data>
+  <data name="Z01_Components" xml:space="preserve">
+    <value>onderdelen</value>
+  </data>
+  <data name="Z01_Connecting" xml:space="preserve">
+    <value>Verbinden met xtrose</value>
+  </data>
+  <data name="Z01_CopySounds" xml:space="preserve">
+    <value>Copy tonen</value>
+  </data>
+  <data name="Z01_DeleteSounds" xml:space="preserve">
+    <value>notities verwijderen</value>
+  </data>
+  <data name="Z01_EditSounds" xml:space="preserve">
+    <value>geluiden bewerken</value>
+  </data>
+  <data name="Z01_Installed" xml:space="preserve">
+    <value>geïnstalleerd</value>
+  </data>
+  <data name="Z01_NewName" xml:space="preserve">
+    <value>nieuwe naam</value>
+  </data>
+  <data name="Z01_NoteSounds" xml:space="preserve">
+    <value>kennisgeving geluiden</value>
+  </data>
+  <data name="Z01_Online" xml:space="preserve">
+    <value>online</value>
+  </data>
+  <data name="Z01_Play" xml:space="preserve">
+    <value>Afspelen</value>
+  </data>
+  <data name="Z01_ReneameSounds" xml:space="preserve">
+    <value>hernoemen geluiden</value>
+  </data>
+  <data name="Z01_Save" xml:space="preserve">
+    <value>besparen</value>
+  </data>
+  <data name="Z01_Change" xml:space="preserve">
+    <value>Veranderen</value>
+  </data>
+  <data name="Z01_ConnectingNow" xml:space="preserve">
+    <value>Sluit .....</value>
+  </data>
+  <data name="Z01_ConnectionFailed" xml:space="preserve">
+    <value>verbinding mislukt</value>
+  </data>
+  <data name="Z01_ConnectionTimeOut" xml:space="preserve">
+    <value>Overschreden of niet gecombineerd tijd</value>
+  </data>
+  <data name="Z01_CopySoundInfo" xml:space="preserve">
+    <value>Kopieer deze geluiden en bewerken met de editor</value>
+  </data>
+  <data name="Z01_CreateSounds" xml:space="preserve">
+    <value>Maak nieuwe geluiden kennisgeving</value>
+  </data>
+  <data name="Z01_CreateSoundsInfo" xml:space="preserve">
+    <value>Deze optie kopieert bestaande tinten . Vervolgens kunt u de geluiden aan de redactie</value>
+  </data>
+  <data name="Z01_DownloadingSound" xml:space="preserve">
+    <value>Download geluid kennisgeving</value>
+  </data>
+  <data name="Z01_EnterUrl" xml:space="preserve">
+    <value>Geef de url van . mp3 -bestand</value>
+  </data>
+  <data name="Z01_Error" xml:space="preserve">
+    <value>FOUT !</value>
+  </data>
+  <data name="Z01_ErrorSounds" xml:space="preserve">
+    <value>is een component systeem en kan niet worden bewerkt , hernoemd of verwijderd.</value>
+  </data>
+  <data name="Z01_InUse" xml:space="preserve">
+    <value>FOUT ! Naam wordt al gebruikt of ongeldige tekens .</value>
+  </data>
+  <data name="Z01_LogoStart" xml:space="preserve">
+    <value>Tonen logo bij het opstarten</value>
+  </data>
+  <data name="Z01_NoComponentsOnline" xml:space="preserve">
+    <value>Geen onderdelen aanwezig zijn</value>
+  </data>
+  <data name="Z01_NoteDeleteSound" xml:space="preserve">
+    <value>Indien de kennisgeving klinkt echt wilt verwijderen</value>
+  </data>
+  <data name="Z01_RenameSoundsWarning" xml:space="preserve">
+    <value>WAARSCHUWING! Als deze geluiden worden ingesteld in de instellingen geen Benachrichtingungston wordt afgegeven .</value>
+  </data>
+  <data name="Z01_SoundChangeInfo" xml:space="preserve">
+    <value>Helaas is er geen manier om te importeren meldingsgeluiden van de telefoon naar de app . Daarom moeten deze worden gedownload van het internet .</value>
+  </data>
+  <data name="Z01_SoundSilent" xml:space="preserve">
+    <value>( Geruisloze )</value>
+  </data>
+  <data name="Z01_SoundStandard" xml:space="preserve">
+    <value>( standaard )</value>
+  </data>
+  <data name="Z01_Warning" xml:space="preserve">
+    <value>WAARSCHUWING</value>
+  </data>
+  <data name="Z01_Address" xml:space="preserve">
+    <value>Contact Adres</value>
+  </data>
+  <data name="Z01_Contact" xml:space="preserve">
+    <value>contact</value>
+  </data>
+  <data name="Z01_OtherApps" xml:space="preserve">
+    <value>Andere xtrose Apps</value>
+  </data>
+  <data name="Z01_InstNoteHeader" xml:space="preserve">
+    <value>kennisgeving geluiden</value>
+  </data>
+  <data name="Z01_InstNoteText" xml:space="preserve">
+    <value>Geluiden aangepaste waarschuwingen zijn voor het eerst uitgegeven hoger dan 8.0.10492 van een versie van het besturingssysteem .</value>
+  </data>
+  <data name="Z02_OtherXtroseApps" xml:space="preserve">
+    <value>Andere xtrose apps</value>
+  </data>
+  <data name="Z02_RateLater" xml:space="preserve">
+    <value>later</value>
+  </data>
+  <data name="Z02_RateNever" xml:space="preserve">
+    <value>nooit</value>
+  </data>
+  <data name="Z02_RateNow" xml:space="preserve">
+    <value>tarief</value>
+  </data>
+  <data name="Z02_RateText" xml:space="preserve">
+    <value>Deze applicatie lijkt een beroep op u .
+Om apps te programmeren is tijdrovend en moeilijk.
+Een goede review kan ons helpen om het verder te verspreiden.
+
+Heel hartelijk bedankt</value>
+  </data>
+  
+  
+  <data name="Z03_10_0_Screen_Changer" xml:space="preserve">
+<value>10.0 Scherm wisselaar</value>
+</data>
+  <data name="Z03_T1" xml:space="preserve">
+<value>Hebben we een volledig nieuwe app!</value>
+</data>
+  <data name="Z03_T2" xml:space="preserve">
+<value>Aangepast naar Windows 10.</value>
+</data>
+  <data name="Z03_T3" xml:space="preserve">
+<value>Hogere resolutie. Aangepast aan de weergavegrootte.</value>
+</data>
+  <data name="Z03_T6" xml:space="preserve">
+<value>Veld voor gebruikersgegevens.</value>
+</data>
+  <data name="Z03_T7" xml:space="preserve">
+<value>Veel meer nieuwe mogelijkheden.</value>
+</data>
+  <data name="Z03_TestNow" xml:space="preserve">
+<value>Nu testen</value>
+</data>
+</root>

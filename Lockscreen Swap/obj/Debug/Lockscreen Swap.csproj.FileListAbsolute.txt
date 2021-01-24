@@ -1,0 +1,383 @@
+D:\Eigene Dateien\Projekte\Windows Phone\Lockscreen Swap\Lockscreen Swap\Lockscreen Swap\Bin\Debug\Assets\ApplicationIcon.png
+D:\Eigene Dateien\Projekte\Windows Phone\Lockscreen Swap\Lockscreen Swap\Lockscreen Swap\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+D:\Eigene Dateien\Projekte\Windows Phone\Lockscreen Swap\Lockscreen Swap\Lockscreen Swap\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+D:\Eigene Dateien\Projekte\Windows Phone\Lockscreen Swap\Lockscreen Swap\Lockscreen Swap\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+D:\Eigene Dateien\Projekte\Windows Phone\Lockscreen Swap\Lockscreen Swap\Lockscreen Swap\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+D:\Eigene Dateien\Projekte\Windows Phone\Lockscreen Swap\Lockscreen Swap\Lockscreen Swap\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+D:\Eigene Dateien\Projekte\Windows Phone\Lockscreen Swap\Lockscreen Swap\Lockscreen Swap\Bin\Debug\Lockscreen Swap.dll
+D:\Eigene Dateien\Projekte\Windows Phone\Lockscreen Swap\Lockscreen Swap\Lockscreen Swap\Bin\Debug\Lockscreen Swap.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\Lockscreen Swap\Lockscreen Swap\Lockscreen Swap\Bin\Debug\AppManifest.xaml
+D:\Eigene Dateien\Projekte\Windows Phone\Lockscreen Swap\Lockscreen Swap\Lockscreen Swap\Bin\Debug\Properties\WMAppManifest.xml
+D:\Eigene Dateien\Projekte\Windows Phone\Lockscreen Swap\Lockscreen Swap\Lockscreen Swap\Bin\Debug\Lockscreen_Swap_Debug_AnyCPU.xap
+D:\Eigene Dateien\Projekte\Windows Phone\Lockscreen Swap\Lockscreen Swap\Lockscreen Swap\obj\Debug\App.g.cs
+D:\Eigene Dateien\Projekte\Windows Phone\Lockscreen Swap\Lockscreen Swap\Lockscreen Swap\obj\Debug\MainPage.g.cs
+D:\Eigene Dateien\Projekte\Windows Phone\Lockscreen Swap\Lockscreen Swap\Lockscreen Swap\obj\Debug\Lockscreen Swap.g.resources
+D:\Eigene Dateien\Projekte\Windows Phone\Lockscreen Swap\Lockscreen Swap\Lockscreen Swap\obj\Debug\Lockscreen_Swap.Resources.AppResources.resources
+D:\Eigene Dateien\Projekte\Windows Phone\Lockscreen Swap\Lockscreen Swap\Lockscreen Swap\obj\Debug\Lockscreen Swap.csproj.GenerateResource.Cache
+D:\Eigene Dateien\Projekte\Windows Phone\Lockscreen Swap\Lockscreen Swap\Lockscreen Swap\obj\Debug\Lockscreen Swap.dll
+D:\Eigene Dateien\Projekte\Windows Phone\Lockscreen Swap\Lockscreen Swap\Lockscreen Swap\obj\Debug\Lockscreen Swap.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\Lockscreen Swap\Lockscreen Swap\Lockscreen Swap\obj\Debug\XapCacheFile.xml
+D:\Eigene Dateien\Projekte\Windows Phone\Lockscreen Swap\Lockscreen Swap\Lockscreen Swap\obj\Debug\Lockscreen Swap.csprojResolveAssemblyReference.cache
+D:\Eigene Dateien\Projekte\Windows Phone\Lockscreen Swap\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ICSharpCode.SharpZLib.Phone.dll
+D:\Eigene Dateien\Projekte\Windows Phone\Lockscreen Swap\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.Controls.dll
+D:\Eigene Dateien\Projekte\Windows Phone\Lockscreen Swap\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.dll
+D:\Eigene Dateien\Projekte\Windows Phone\Lockscreen Swap\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.Filtering.dll
+D:\Eigene Dateien\Projekte\Windows Phone\Lockscreen Swap\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.IO.Bmp.dll
+D:\Eigene Dateien\Projekte\Windows Phone\Lockscreen Swap\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.IO.Gif.dll
+D:\Eigene Dateien\Projekte\Windows Phone\Lockscreen Swap\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.IO.Png.dll
+D:\Eigene Dateien\Projekte\Windows Phone\Lockscreen Swap\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.Utils.dll
+D:\Eigene Dateien\Projekte\Windows Phone\Lockscreen Swap\Lockscreen Swap\Lockscreen Swap\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll
+D:\Eigene Dateien\Projekte\Windows Phone\Lockscreen Swap\Lockscreen Swap\Lockscreen Swap\Bin\Debug\PhoneCodeContractsAssemblies.dll
+D:\Eigene Dateien\Projekte\Windows Phone\Lockscreen Swap\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ICSharpCode.SharpZLib.Phone.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\Lockscreen Swap\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\Lockscreen Swap\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.xml
+D:\Eigene Dateien\Projekte\Windows Phone\Lockscreen Swap\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.Controls.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\Lockscreen Swap\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.Controls.xml
+D:\Eigene Dateien\Projekte\Windows Phone\Lockscreen Swap\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.Filtering.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\Lockscreen Swap\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.Filtering.xml
+D:\Eigene Dateien\Projekte\Windows Phone\Lockscreen Swap\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.IO.Bmp.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\Lockscreen Swap\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.IO.Bmp.xml
+D:\Eigene Dateien\Projekte\Windows Phone\Lockscreen Swap\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.IO.Gif.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\Lockscreen Swap\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.IO.Gif.xml
+D:\Eigene Dateien\Projekte\Windows Phone\Lockscreen Swap\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.IO.Png.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\Lockscreen Swap\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.IO.Png.xml
+D:\Eigene Dateien\Projekte\Windows Phone\Lockscreen Swap\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.Utils.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\Lockscreen Swap\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.Utils.xml
+D:\Eigene Dateien\Projekte\Windows Phone\Lockscreen Swap\Lockscreen Swap\Lockscreen Swap\Bin\Debug\PhoneCodeContractsAssemblies.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\Lockscreen Swap\Lockscreen Swap\Lockscreen Swap\Bin\Debug\MyScheduledTaskAgent.dll
+D:\Eigene Dateien\Projekte\Windows Phone\Lockscreen Swap\Lockscreen Swap\Lockscreen Swap\Bin\Debug\MyScheduledTaskAgent.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\Lockscreen Swap\Lockscreen Swap\Lockscreen Swap\obj\Debug\Pages\CreateFolder.g.cs
+D:\Eigene Dateien\Projekte\Windows Phone\Lockscreen Swap\Lockscreen Swap\Lockscreen Swap\obj\Debug\Pages\RenameFolder.g.cs
+D:\Eigene Dateien\Projekte\Windows Phone\Lockscreen Swap\Lockscreen Swap\Lockscreen Swap\obj\Debug\Pages\CopyFolder.g.cs
+D:\Eigene Dateien\Projekte\Windows Phone\Lockscreen Swap\Lockscreen Swap\Lockscreen Swap\obj\Debug\Pages\EditFolder.g.cs
+D:\Eigene Dateien\Projekte\Windows Phone\Lockscreen Swap\Lockscreen Swap\Lockscreen Swap\Bin\Debug\WriteableBitmapExWinPhone.dll
+D:\Eigene Dateien\Projekte\Windows Phone\Lockscreen Swap\Lockscreen Swap\Lockscreen Swap\Bin\Debug\WriteableBitmapExWinPhone.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\Lockscreen Swap\Lockscreen Swap\Lockscreen Swap\Bin\Debug\WriteableBitmapExWinPhone.xml
+D:\Eigene Dateien\Projekte\Windows Phone\Lockscreen Swap\Lockscreen Swap\Lockscreen Swap\obj\Debug\Pages\ImageViewer.g.cs
+D:\Eigene Dateien\Projekte\Windows Phone\LockPaper\Lockscreen Swap\Lockscreen Swap\Bin\Debug\Assets\ApplicationIcon.png
+D:\Eigene Dateien\Projekte\Windows Phone\LockPaper\Lockscreen Swap\Lockscreen Swap\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+D:\Eigene Dateien\Projekte\Windows Phone\LockPaper\Lockscreen Swap\Lockscreen Swap\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+D:\Eigene Dateien\Projekte\Windows Phone\LockPaper\Lockscreen Swap\Lockscreen Swap\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+D:\Eigene Dateien\Projekte\Windows Phone\LockPaper\Lockscreen Swap\Lockscreen Swap\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+D:\Eigene Dateien\Projekte\Windows Phone\LockPaper\Lockscreen Swap\Lockscreen Swap\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+D:\Eigene Dateien\Projekte\Windows Phone\LockPaper\Lockscreen Swap\Lockscreen Swap\Bin\Debug\Lockscreen Swap.dll
+D:\Eigene Dateien\Projekte\Windows Phone\LockPaper\Lockscreen Swap\Lockscreen Swap\Bin\Debug\Lockscreen Swap.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\LockPaper\Lockscreen Swap\Lockscreen Swap\Bin\Debug\AppManifest.xaml
+D:\Eigene Dateien\Projekte\Windows Phone\LockPaper\Lockscreen Swap\Lockscreen Swap\Bin\Debug\Properties\WMAppManifest.xml
+D:\Eigene Dateien\Projekte\Windows Phone\LockPaper\Lockscreen Swap\Lockscreen Swap\Bin\Debug\Lockscreen_Swap_Debug_AnyCPU.xap
+D:\Eigene Dateien\Projekte\Windows Phone\LockPaper\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ICSharpCode.SharpZLib.Phone.dll
+D:\Eigene Dateien\Projekte\Windows Phone\LockPaper\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.Controls.dll
+D:\Eigene Dateien\Projekte\Windows Phone\LockPaper\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.dll
+D:\Eigene Dateien\Projekte\Windows Phone\LockPaper\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.Filtering.dll
+D:\Eigene Dateien\Projekte\Windows Phone\LockPaper\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.IO.Bmp.dll
+D:\Eigene Dateien\Projekte\Windows Phone\LockPaper\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.IO.Gif.dll
+D:\Eigene Dateien\Projekte\Windows Phone\LockPaper\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.IO.Png.dll
+D:\Eigene Dateien\Projekte\Windows Phone\LockPaper\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.Utils.dll
+D:\Eigene Dateien\Projekte\Windows Phone\LockPaper\Lockscreen Swap\Lockscreen Swap\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll
+D:\Eigene Dateien\Projekte\Windows Phone\LockPaper\Lockscreen Swap\Lockscreen Swap\Bin\Debug\MyScheduledTaskAgent.dll
+D:\Eigene Dateien\Projekte\Windows Phone\LockPaper\Lockscreen Swap\Lockscreen Swap\Bin\Debug\PhoneCodeContractsAssemblies.dll
+D:\Eigene Dateien\Projekte\Windows Phone\LockPaper\Lockscreen Swap\Lockscreen Swap\Bin\Debug\WriteableBitmapExWinPhone.dll
+D:\Eigene Dateien\Projekte\Windows Phone\LockPaper\Lockscreen Swap\Lockscreen Swap\Bin\Debug\MyScheduledTaskAgent.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\LockPaper\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ICSharpCode.SharpZLib.Phone.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\LockPaper\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\LockPaper\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.xml
+D:\Eigene Dateien\Projekte\Windows Phone\LockPaper\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.Controls.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\LockPaper\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.Controls.xml
+D:\Eigene Dateien\Projekte\Windows Phone\LockPaper\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.Filtering.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\LockPaper\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.Filtering.xml
+D:\Eigene Dateien\Projekte\Windows Phone\LockPaper\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.IO.Bmp.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\LockPaper\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.IO.Bmp.xml
+D:\Eigene Dateien\Projekte\Windows Phone\LockPaper\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.IO.Gif.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\LockPaper\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.IO.Gif.xml
+D:\Eigene Dateien\Projekte\Windows Phone\LockPaper\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.IO.Png.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\LockPaper\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.IO.Png.xml
+D:\Eigene Dateien\Projekte\Windows Phone\LockPaper\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.Utils.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\LockPaper\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.Utils.xml
+D:\Eigene Dateien\Projekte\Windows Phone\LockPaper\Lockscreen Swap\Lockscreen Swap\Bin\Debug\PhoneCodeContractsAssemblies.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\LockPaper\Lockscreen Swap\Lockscreen Swap\Bin\Debug\WriteableBitmapExWinPhone.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\LockPaper\Lockscreen Swap\Lockscreen Swap\Bin\Debug\WriteableBitmapExWinPhone.xml
+D:\Eigene Dateien\Projekte\Windows Phone\LockPaper\Lockscreen Swap\Lockscreen Swap\obj\Debug\Lockscreen Swap.csprojResolveAssemblyReference.cache
+D:\Eigene Dateien\Projekte\Windows Phone\LockPaper\Lockscreen Swap\Lockscreen Swap\obj\Debug\App.g.cs
+D:\Eigene Dateien\Projekte\Windows Phone\LockPaper\Lockscreen Swap\Lockscreen Swap\obj\Debug\MainPage.g.cs
+D:\Eigene Dateien\Projekte\Windows Phone\LockPaper\Lockscreen Swap\Lockscreen Swap\obj\Debug\Pages\CopyFolder.g.cs
+D:\Eigene Dateien\Projekte\Windows Phone\LockPaper\Lockscreen Swap\Lockscreen Swap\obj\Debug\Pages\CreateFolder.g.cs
+D:\Eigene Dateien\Projekte\Windows Phone\LockPaper\Lockscreen Swap\Lockscreen Swap\obj\Debug\Pages\EditFolder.g.cs
+D:\Eigene Dateien\Projekte\Windows Phone\LockPaper\Lockscreen Swap\Lockscreen Swap\obj\Debug\Pages\ImageViewer.g.cs
+D:\Eigene Dateien\Projekte\Windows Phone\LockPaper\Lockscreen Swap\Lockscreen Swap\obj\Debug\Pages\RenameFolder.g.cs
+D:\Eigene Dateien\Projekte\Windows Phone\LockPaper\Lockscreen Swap\Lockscreen Swap\obj\Debug\Lockscreen Swap.g.resources
+D:\Eigene Dateien\Projekte\Windows Phone\LockPaper\Lockscreen Swap\Lockscreen Swap\obj\Debug\Lockscreen_Swap.Resources.AppResources.resources
+D:\Eigene Dateien\Projekte\Windows Phone\LockPaper\Lockscreen Swap\Lockscreen Swap\obj\Debug\Lockscreen Swap.csproj.GenerateResource.Cache
+D:\Eigene Dateien\Projekte\Windows Phone\LockPaper\Lockscreen Swap\Lockscreen Swap\obj\Debug\Lockscreen Swap.dll
+D:\Eigene Dateien\Projekte\Windows Phone\LockPaper\Lockscreen Swap\Lockscreen Swap\obj\Debug\Lockscreen Swap.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\LockPaper\Lockscreen Swap\Lockscreen Swap\obj\Debug\XapCacheFile.xml
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Screen changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\Assets\ApplicationIcon.png
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Screen changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Screen changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Screen changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Screen changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Screen changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Screen changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\Lockscreen Swap.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Screen changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\Lockscreen Swap.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Screen changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\de-DE\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Screen changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\AppManifest.xaml
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Screen changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\Properties\WMAppManifest.xml
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Screen changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\Lockscreen_Swap_Debug_AnyCPU.xap
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Screen changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ICSharpCode.SharpZLib.Phone.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Screen changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.Controls.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Screen changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Screen changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.Filtering.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Screen changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.IO.Bmp.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Screen changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.IO.Gif.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Screen changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.IO.Png.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Screen changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.Utils.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Screen changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Screen changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\MyScheduledTaskAgent.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Screen changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\PhoneCodeContractsAssemblies.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Screen changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\WriteableBitmapExWinPhone.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Screen changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\MyScheduledTaskAgent.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Screen changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ICSharpCode.SharpZLib.Phone.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Screen changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Screen changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.xml
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Screen changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.Controls.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Screen changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.Controls.xml
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Screen changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.Filtering.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Screen changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.Filtering.xml
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Screen changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.IO.Bmp.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Screen changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.IO.Bmp.xml
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Screen changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.IO.Gif.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Screen changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.IO.Gif.xml
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Screen changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.IO.Png.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Screen changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.IO.Png.xml
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Screen changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.Utils.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Screen changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.Utils.xml
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Screen changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\PhoneCodeContractsAssemblies.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Screen changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\WriteableBitmapExWinPhone.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Screen changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\WriteableBitmapExWinPhone.xml
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Screen changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Lockscreen Swap.csprojResolveAssemblyReference.cache
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Screen changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\App.g.cs
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Screen changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\MainPage.g.cs
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Screen changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Pages\CopyFolder.g.cs
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Screen changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Pages\CreateFolder.g.cs
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Screen changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Pages\EditFolder.g.cs
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Screen changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Pages\ImagesImporter.g.cs
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Screen changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Pages\RenameFolder.g.cs
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Screen changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Lockscreen Swap.g.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Screen changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Lockscreen_Swap.AppResx.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Screen changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Lockscreen_Swap.Resources.AppResources.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Screen changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Lockscreen_Swap.AppResx.de-DE.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Screen changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Lockscreen_Swap.Resources.AppResources.de-DE.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Screen changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Lockscreen Swap.csproj.GenerateResource.Cache
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Screen changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\de-DE\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Screen changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Lockscreen Swap.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Screen changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Lockscreen Swap.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Screen changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\XapCacheFile.xml
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\Assets\ApplicationIcon.png
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\Lockscreen Swap.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\Lockscreen Swap.pdb
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ar-SA\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\Az-Latn-AZ\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\be-BY\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\bg-BG\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ca-ES\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\cs-CZ\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\da-DK\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\de-DE\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\el-GR\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\en-GB\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\en-US\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\en\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\es-ES\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\es-MX\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\et-EE\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\fa-IR\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\fi-FI\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\fil-PH\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\fr-FR\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\he-IL\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\hi-IN\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\hr-HR\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\hu-HU\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\id-ID\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\it-IT\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ja-JP\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ko-KR\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\lt-LT\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\lv-LV\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\mk-MK\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ms-MY\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\nb-NO\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\nl-NL\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\pl-PL\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\pt-BR\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\pt-PT\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ro-RO\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ru-RU\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\sk-SK\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\sq-AL\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\sv-SE\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\th-TH\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\tr-TR\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\uk-UA\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\vi-VN\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\zh-CN\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\zh-TW\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\AppManifest.xaml
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\Properties\WMAppManifest.xml
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\Lockscreen_Swap_Debug_AnyCPU.xap
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ICSharpCode.SharpZLib.Phone.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.Controls.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.Filtering.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.IO.Bmp.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.IO.Gif.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.IO.Png.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.Utils.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\MyScheduledTaskAgent.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\PhoneCodeContractsAssemblies.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\WriteableBitmapExWinPhone.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\MyScheduledTaskAgent.pdb
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ICSharpCode.SharpZLib.Phone.pdb
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.pdb
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.xml
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.Controls.pdb
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.Controls.xml
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.Filtering.pdb
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.Filtering.xml
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.IO.Bmp.pdb
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.IO.Bmp.xml
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.IO.Gif.pdb
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.IO.Gif.xml
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.IO.Png.pdb
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.IO.Png.xml
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.Utils.pdb
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\ImageTools.Utils.xml
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\PhoneCodeContractsAssemblies.pdb
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\WriteableBitmapExWinPhone.pdb
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\Bin\Debug\WriteableBitmapExWinPhone.xml
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Lockscreen Swap.csprojResolveAssemblyReference.cache
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\App.g.cs
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Pages\10_0_Screen_Changer.g.cs
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Pages\ComponentsSounds.g.cs
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\MainPage.g.cs
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Pages\CopyFolder.g.cs
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Pages\CopySounds.g.cs
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Pages\CreateFolder.g.cs
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Pages\CreateSounds.g.cs
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Pages\EditFolder.g.cs
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Pages\ImagesImporter.g.cs
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Pages\Instructions.g.cs
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Pages\Language.g.cs
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Pages\RenameFolder.g.cs
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Pages\RenameSounds.g.cs
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Pages\SoundsEditor.g.cs
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Pages\Support.g.cs
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Lockscreen Swap.g.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Lockscreen_Swap.AppResx.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Lockscreen_Swap.AppResx.sl-SL.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Lockscreen_Swap.AppResx.sr-Latn-CS.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Lockscreen_Swap.Resources.AppResources.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Lockscreen_Swap.AppResx.ar-SA.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Lockscreen_Swap.AppResx.Az-Latn-AZ.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Lockscreen_Swap.AppResx.be-BY.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Lockscreen_Swap.AppResx.bg-BG.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Lockscreen_Swap.AppResx.ca-ES.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Lockscreen_Swap.AppResx.cs-CZ.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Lockscreen_Swap.AppResx.da-DK.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Lockscreen_Swap.AppResx.de-DE.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Lockscreen_Swap.AppResx.el-GR.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Lockscreen_Swap.AppResx.en-GB.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Lockscreen_Swap.AppResx.en-US.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Lockscreen_Swap.AppResx.en.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Lockscreen_Swap.AppResx.es-ES.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Lockscreen_Swap.AppResx.es-MX.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Lockscreen_Swap.AppResx.et-EE.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Lockscreen_Swap.AppResx.fa-IR.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Lockscreen_Swap.AppResx.fi-FI.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Lockscreen_Swap.AppResx.fil-PH.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Lockscreen_Swap.AppResx.fr-FR.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Lockscreen_Swap.AppResx.he-IL.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Lockscreen_Swap.AppResx.hi-IN.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Lockscreen_Swap.AppResx.hr-HR.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Lockscreen_Swap.AppResx.hu-HU.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Lockscreen_Swap.AppResx.id-ID.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Lockscreen_Swap.AppResx.it-IT.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Lockscreen_Swap.AppResx.ja-JP.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Lockscreen_Swap.AppResx.ko-KR.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Lockscreen_Swap.AppResx.lt-LT.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Lockscreen_Swap.AppResx.lv-LV.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Lockscreen_Swap.AppResx.mk-MK.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Lockscreen_Swap.AppResx.ms-MY.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Lockscreen_Swap.AppResx.nb-NO.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Lockscreen_Swap.AppResx.nl-NL.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Lockscreen_Swap.AppResx.pl-PL.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Lockscreen_Swap.AppResx.pt-BR.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Lockscreen_Swap.AppResx.pt-PT.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Lockscreen_Swap.AppResx.ro-RO.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Lockscreen_Swap.AppResx.ru-RU.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Lockscreen_Swap.AppResx.sk-SK.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Lockscreen_Swap.AppResx.sq-AL.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Lockscreen_Swap.AppResx.sv-SE.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Lockscreen_Swap.AppResx.th-TH.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Lockscreen_Swap.AppResx.tr-TR.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Lockscreen_Swap.AppResx.uk-UA.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Lockscreen_Swap.AppResx.vi-VN.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Lockscreen_Swap.AppResx.zh-CN.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Lockscreen_Swap.AppResx.zh-TW.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Lockscreen_Swap.Resources.AppResources.de-DE.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Lockscreen Swap.csproj.GenerateResource.Cache
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\ar-SA\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Az-Latn-AZ\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\be-BY\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\bg-BG\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\ca-ES\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\cs-CZ\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\da-DK\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\de-DE\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\el-GR\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\en-GB\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\en-US\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\en\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\es-ES\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\es-MX\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\et-EE\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\fa-IR\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\fi-FI\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\fil-PH\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\fr-FR\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\he-IL\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\hi-IN\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\hr-HR\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\hu-HU\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\id-ID\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\it-IT\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\ja-JP\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\ko-KR\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\lt-LT\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\lv-LV\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\mk-MK\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\ms-MY\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\nb-NO\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\nl-NL\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\pl-PL\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\pt-BR\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\pt-PT\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\ro-RO\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\ru-RU\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\sk-SK\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\sq-AL\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\sv-SE\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\th-TH\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\tr-TR\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\uk-UA\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\vi-VN\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\zh-CN\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\zh-TW\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Lockscreen Swap.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\Lockscreen Swap.pdb
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Screen Changer\Lockscreen Swap\Lockscreen Swap\obj\Debug\XapCacheFile.xml

@@ -1,0 +1,616 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AAA_AppName" xml:space="preserve">
+    <value>8.1 екран менувач</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>за</value>
+  </data>
+  <data name="AllPictures" xml:space="preserve">
+    <value>сите слики</value>
+  </data>
+  <data name="BuyApp" xml:space="preserve">
+    <value>Купи овој стан</value>
+  </data>
+  <data name="ClickSkip" xml:space="preserve">
+    <value>притиснете за да го прескокнете</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>копија</value>
+  </data>
+  <data name="CopyFolder" xml:space="preserve">
+    <value>копија папки</value>
+  </data>
+  <data name="CopyImagesTo" xml:space="preserve">
+    <value>Копија слики по</value>
+  </data>
+  <data name="CopyPictures" xml:space="preserve">
+    <value>копија слики</value>
+  </data>
+  <data name="CreateNewFolder" xml:space="preserve">
+    <value>Креирајте нова папка</value>
+  </data>
+  <data name="Current" xml:space="preserve">
+    <value>тековната</value>
+  </data>
+  <data name="Cut" xml:space="preserve">
+    <value>намалување на</value>
+  </data>
+  <data name="CutAuto" xml:space="preserve">
+    <value>автоматски</value>
+  </data>
+  <data name="CutPicture" xml:space="preserve">
+    <value>намалување на сликата</value>
+  </data>
+  <data name="CutPictures" xml:space="preserve">
+    <value>Исечете слики</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>избришете</value>
+  </data>
+  <data name="DeleteBar" xml:space="preserve">
+    <value>избришете</value>
+  </data>
+  <data name="DeleteFolder" xml:space="preserve">
+    <value>Избришипапка</value>
+  </data>
+  <data name="DeleteImages" xml:space="preserve">
+    <value>избришете слики</value>
+  </data>
+  <data name="ErrorEnterName" xml:space="preserve">
+    <value>ГРЕШКА ! Внесете име !</value>
+  </data>
+  <data name="ErrorEnterNewName" xml:space="preserve">
+    <value>ГРЕШКА ! Внесете го новото име !</value>
+  </data>
+  <data name="ErrorName" xml:space="preserve">
+    <value>ГРЕШКА ! Име веќе се користи или неточни карактери!</value>
+  </data>
+  <data name="ExError" xml:space="preserve">
+    <value>ГРЕШКА: Позадина задачи за овој стан е оневозможен !</value>
+  </data>
+  <data name="Folder" xml:space="preserve">
+    <value>датотека</value>
+  </data>
+  <data name="GenerateNew" xml:space="preserve">
+    <value>Креирај нова</value>
+  </data>
+  <data name="Instructions" xml:space="preserve">
+    <value>инструкции</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>јазик</value>
+  </data>
+  <data name="Left" xml:space="preserve">
+    <value>врски</value>
+  </data>
+  <data name="LikeXtrose" xml:space="preserve">
+    <value>како</value>
+  </data>
+  <data name="LockhelperInfo" xml:space="preserve">
+    <value>Ќе рече не, тоа и ние не може да го промени вашиот заклучување на екранот !</value>
+  </data>
+  <data name="LockScreenChanger" xml:space="preserve">
+    <value>Промените сликата во позадина</value>
+  </data>
+  <data name="MultipleAdd" xml:space="preserve">
+    <value>повеќе додадена</value>
+  </data>
+  <data name="NewName" xml:space="preserve">
+    <value>ново име</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>следната</value>
+  </data>
+  <data name="Notification" xml:space="preserve">
+    <value>известување</value>
+  </data>
+  <data name="Off" xml:space="preserve">
+    <value>нема</value>
+  </data>
+  <data name="On" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="OpenFolder" xml:space="preserve">
+    <value>Отвори папка</value>
+  </data>
+  <data name="OtherApps" xml:space="preserve">
+    <value>Ander xtrose Apps</value>
+  </data>
+  <data name="Picture" xml:space="preserve">
+    <value>сликата</value>
+  </data>
+  <data name="Pictures" xml:space="preserve">
+    <value>слики</value>
+  </data>
+  <data name="PleaseWait" xml:space="preserve">
+    <value>Ве молиме почекајте .....</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>претходна</value>
+  </data>
+  <data name="PurchaseNote" xml:space="preserve">
+    <value>Ви благодариме за купување на овој стан</value>
+  </data>
+  <data name="Random" xml:space="preserve">
+    <value>случаен</value>
+  </data>
+  <data name="RandomFolder" xml:space="preserve">
+    <value>случаен папка</value>
+  </data>
+  <data name="RandomPicture" xml:space="preserve">
+    <value>СОЕУРМ форум</value>
+  </data>
+  <data name="RateApp" xml:space="preserve">
+    <value>Ја оценувате оваа App</value>
+  </data>
+  <data name="RenameFolder" xml:space="preserve">
+    <value>Преименувај фолдер</value>
+  </data>
+  <data name="Right" xml:space="preserve">
+    <value>право</value>
+  </data>
+  <data name="RotateLeft" xml:space="preserve">
+    <value>Свртете лево</value>
+  </data>
+  <data name="RotateRight" xml:space="preserve">
+    <value>завртете десно</value>
+  </data>
+  <data name="SavedPictures" xml:space="preserve">
+    <value>чуваат слики</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>изберете</value>
+  </data>
+  <data name="SelectAll" xml:space="preserve">
+    <value>изберете сите</value>
+  </data>
+  <data name="SelectCopy" xml:space="preserve">
+    <value>Изберете слики за копирање</value>
+  </data>
+  <data name="SelectDelete" xml:space="preserve">
+    <value>Изберете слики за бришење</value>
+  </data>
+  <data name="SelectImages" xml:space="preserve">
+    <value>Изберете слики за да додадете</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>подесувања</value>
+  </data>
+  <data name="SingleAdd" xml:space="preserve">
+    <value>индивидуални додадени</value>
+  </data>
+  <data name="SourceTarget" xml:space="preserve">
+    <value>Изворен и целен е еднаква на</value>
+  </data>
+  <data name="Support" xml:space="preserve">
+    <value>поддршка</value>
+  </data>
+  <data name="TaskInfo" xml:space="preserve">
+    <value>Заклучување на екранот сликата промена</value>
+  </data>
+  <data name="TrialVersion" xml:space="preserve">
+    <value>тест верзија</value>
+  </data>
+  <data name="UnselectAll" xml:space="preserve">
+    <value>деселектирате сите</value>
+  </data>
+  <data name="WARNING" xml:space="preserve">
+    <value>ПРЕДУПРЕДУВАЊЕ!</value>
+  </data>
+  <data name="Hour" xml:space="preserve">
+    <value>час</value>
+  </data>
+  <data name="Hours" xml:space="preserve">
+    <value>часа</value>
+  </data>
+  <data name="Minute" xml:space="preserve">
+    <value>минута</value>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>минути</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Пробна верзија истече!</value>
+  </data>
+  <data name="TrialNote" xml:space="preserve">
+    <value>Демо верзија е истечен ! Создаде апликации чини многу време. Цената на овој стан не е скапо. И понатаму да го заклучите екранот да се создаде слики треба да се купат овој стан. Ви благодарам!</value>
+  </data>
+  <data name="MsgNoPicture" xml:space="preserve">
+    <value>Нема слики во избраната папка. Прво ќе ја отвори папката и увоз слики.</value>
+  </data>
+  <data name="Randomization" xml:space="preserve">
+    <value>Случајни</value>
+  </data>
+  <data name="ClickHere" xml:space="preserve">
+    <value>притиснете тука</value>
+  </data>
+  <data name="LockScreenSettings" xml:space="preserve">
+    <value>Заклучување поставки екран</value>
+  </data>
+  <data name="LowBatteryWarning" xml:space="preserve">
+    <value>предупредување батерија</value>
+  </data>
+  <data name="NotificationFullyCharged" xml:space="preserve">
+    <value>Известување целосно наполнета</value>
+  </data>
+  <data name="NotificationIsCharging" xml:space="preserve">
+    <value>наплаќаат Известување</value>
+  </data>
+  <data name="NotificationSounds" xml:space="preserve">
+    <value>известување тонови</value>
+  </data>
+  <data name="PlaySounds" xml:space="preserve">
+    <value>се пуштаат звуци</value>
+  </data>
+  <data name="Special" xml:space="preserve">
+    <value>специјални</value>
+  </data>
+  <data name="Standard" xml:space="preserve">
+    <value>стандард</value>
+  </data>
+  <data name="BatteryFullyCharged" xml:space="preserve">
+    <value>Батеријата е целосно наполнета</value>
+  </data>
+  <data name="BatteryIsCharging" xml:space="preserve">
+    <value>Батеријата е наполнета</value>
+  </data>
+  <data name="BatteryLow" xml:space="preserve">
+    <value>Батеријата е низок</value>
+  </data>
+  <data name="BatteryStatus" xml:space="preserve">
+    <value>статусот на батеријата</value>
+  </data>
+  <data name="Day" xml:space="preserve">
+    <value>ден</value>
+  </data>
+  <data name="Days" xml:space="preserve">
+    <value>дена</value>
+  </data>
+  <data name="ThankYouDown" xml:space="preserve">
+    <value>Ви благодариме за симнување на</value>
+  </data>
+  <data name="AAA_1" xml:space="preserve">
+    <value>заклучување на екранот</value>
+  </data>
+  <data name="AAA_2" xml:space="preserve">
+    <value>батерија</value>
+  </data>
+  <data name="AAA_3" xml:space="preserve">
+    <value>Позадина</value>
+  </data>
+  <data name="AAA_4" xml:space="preserve">
+    <value>Wallaper</value>
+  </data>
+  <data name="AAA_5" xml:space="preserve">
+    <value>сликата</value>
+  </data>
+  <data name="AAA_AppDescription" xml:space="preserve">
+    <value>Го користите оваа апликација да се создаде наизменични слики во позадина .
+Покрај тоа, примената информации за батеријата статус приказ дозволува.
+За оваа намена се многу подготвени голема поставувања.
+Вашата позадина на сликата и вашата батерија индикатор се ажурира на секои 30 минути.
+
+Сосема нов !
+Од GRD3 ажурирање на апликацијата се говори известувања.</value>
+  </data>
+  <data name="InstGeneralHeader" xml:space="preserve">
+    <value>Општо земено</value>
+  </data>
+  <data name="InstGeneralText" xml:space="preserve">
+    <value>Го користите оваа апликација да се создаде наизменични слики во позадина . Покрај тоа, примената информации за батеријата статус приказ дозволува.
+За оваа намена се многу подготвени поставувања. Вашата позадина на сликата и вашата батерија индикатор се ажурира на секои 30 минути. Ве молиме имајте предвид дека во Windows Телефон да се кандидира позадина услуги активна интернет конекција е потребна.
+На екранот на екранот заклучување се базира на систем за известување на Windows Phone . Затоа е само максимум дисплеј од 99% е можно.</value>
+  </data>
+  <data name="InstMiscellaneousHeader" xml:space="preserve">
+    <value>други</value>
+  </data>
+  <data name="InstMiscellaneousText" xml:space="preserve">
+    <value>Ве молиме дадете го на оваа апликација е добро ако ви се допаѓа. Ако имате било какви проблеми со оваа апликација, тогаш Ве молиме да стапите во контакт поддршка! Прашања и проблеми не сме изгубиле нешто во рејтингот.
+Ви благодарам!</value>
+  </data>
+  <data name="InstPictureHeader" xml:space="preserve">
+    <value>слики</value>
+  </data>
+  <data name="InstPictureText" xml:space="preserve">
+    <value>Креирај папка , отворете го и увозот, било кој број на слики. Кога Увоз слики може да биде било која слика усогласена и сече. Сликата е секогаш создадена во максимална резолуција за вашиот мобилен телефон. Можете да ја креирате да го смените Вашиот позадини побрзо папка.</value>
+  </data>
+  <data name="InstSettingsHeader" xml:space="preserve">
+    <value>подесувања</value>
+  </data>
+  <data name="InstSettingsText" xml:space="preserve">
+    <value>На страната на позадината и индикаторот на статусот на батеријата поставувања може да се изменуваат. Изберете папка од менување на сликите се вчита. Можете исто така да изберете дали сликите треба да биде вчитан секвенцијално или случајно треба да бидат избрани.
+Индикаторот за батеријата статус мора да биде поставен во системските поставувања. Во подесувањата на апликацијата е достапна врска за оваа .
+Можете да изберете дополнителни звуци известувањето. На Spezialen тонови се говорниот известувања. Ве молиме имајте предвид дека ова молчи и известувања работат прва од GDR3 ажурирање.</value>
+  </data>
+  <data name="NoteLanguage" xml:space="preserve">
+    <value>промената на јазикот</value>
+  </data>
+  <data name="NoteLanguage2" xml:space="preserve">
+    <value>Рестартирате апликацијата</value>
+  </data>
+  <data name="SelectLanguage" xml:space="preserve">
+    <value>изберете јазик</value>
+  </data>
+  <data name="Z01_BatteryFullyCharged" xml:space="preserve">
+    <value>Целосно наполнета батерија</value>
+  </data>
+  <data name="Z01_BatteryIsCharging" xml:space="preserve">
+    <value>Батеријата е наполнета</value>
+  </data>
+  <data name="Z01_BatteryLow" xml:space="preserve">
+    <value>ниско ниво на батеријата</value>
+  </data>
+  <data name="Z01_CompNewSound" xml:space="preserve">
+    <value>Нови звуци известување</value>
+  </data>
+  <data name="Z01_Components" xml:space="preserve">
+    <value>компоненти</value>
+  </data>
+  <data name="Z01_Connecting" xml:space="preserve">
+    <value>Поврзете се со xtrose</value>
+  </data>
+  <data name="Z01_CopySounds" xml:space="preserve">
+    <value>копија тонови</value>
+  </data>
+  <data name="Z01_DeleteSounds" xml:space="preserve">
+    <value>Избриши белешки</value>
+  </data>
+  <data name="Z01_EditSounds" xml:space="preserve">
+    <value>уредување на звуци</value>
+  </data>
+  <data name="Z01_Installed" xml:space="preserve">
+    <value>инсталиран</value>
+  </data>
+  <data name="Z01_NewName" xml:space="preserve">
+    <value>ново име</value>
+  </data>
+  <data name="Z01_NoteSounds" xml:space="preserve">
+    <value>известување звуци</value>
+  </data>
+  <data name="Z01_Online" xml:space="preserve">
+    <value>онлајн</value>
+  </data>
+  <data name="Z01_Play" xml:space="preserve">
+    <value>игра</value>
+  </data>
+  <data name="Z01_ReneameSounds" xml:space="preserve">
+    <value>преименувате звуци</value>
+  </data>
+  <data name="Z01_Save" xml:space="preserve">
+    <value>Зачувај</value>
+  </data>
+  <data name="Z01_Change" xml:space="preserve">
+    <value>менување</value>
+  </data>
+  <data name="Z01_ConnectingNow" xml:space="preserve">
+    <value>Поврзете .....</value>
+  </data>
+  <data name="Z01_ConnectionFailed" xml:space="preserve">
+    <value>Поврзувањето не успеа</value>
+  </data>
+  <data name="Z01_ConnectionTimeOut" xml:space="preserve">
+    <value>Надминати или не во комбинација време</value>
+  </data>
+  <data name="Z01_CopySoundInfo" xml:space="preserve">
+    <value>Копија на овие звуци и уреди со уредникот</value>
+  </data>
+  <data name="Z01_CreateSounds" xml:space="preserve">
+    <value>Креирање на нови известување звуци</value>
+  </data>
+  <data name="Z01_CreateSoundsInfo" xml:space="preserve">
+    <value>Оваа опција копии на постоечките тонови. Тогаш може да го промени звуци до уредникот</value>
+  </data>
+  <data name="Z01_DownloadingSound" xml:space="preserve">
+    <value>Превземи известување звук</value>
+  </data>
+  <data name="Z01_EnterUrl" xml:space="preserve">
+    <value>Внесете го URL-то на . mp3 датотека</value>
+  </data>
+  <data name="Z01_Error" xml:space="preserve">
+    <value>ГРЕШКА !</value>
+  </data>
+  <data name="Z01_ErrorSounds" xml:space="preserve">
+    <value>е систем компонента и не може да се уредува, преименувана или избришани.</value>
+  </data>
+  <data name="Z01_InUse" xml:space="preserve">
+    <value>ГРЕШКА ! Име веќе се користи или не е валиден карактери.</value>
+  </data>
+  <data name="Z01_LogoStart" xml:space="preserve">
+    <value>Покаже логото на стартување</value>
+  </data>
+  <data name="Z01_NoComponentsOnline" xml:space="preserve">
+    <value>Нема компоненти се присутни</value>
+  </data>
+  <data name="Z01_NoteDeleteSound" xml:space="preserve">
+    <value>Ако известувањето звучи навистина сакате да ја избришете</value>
+  </data>
+  <data name="Z01_RenameSoundsWarning" xml:space="preserve">
+    <value>ПРЕДУПРЕДУВАЊЕ! Ако овие звуци се поставени во подесувањата нема Benachrichtingungston е издадена.</value>
+  </data>
+  <data name="Z01_SoundChangeInfo" xml:space="preserve">
+    <value>За жал , не постои начин да внесуваат известување звуци од телефонот на стан. Затоа, тие мора да се симне од интернет.</value>
+  </data>
+  <data name="Z01_SoundSilent" xml:space="preserve">
+    <value>( бесшумен )</value>
+  </data>
+  <data name="Z01_SoundStandard" xml:space="preserve">
+    <value>(стандард)</value>
+  </data>
+  <data name="Z01_Warning" xml:space="preserve">
+    <value>ПРЕДУПРЕДУВАЊЕ</value>
+  </data>
+  <data name="Z01_Address" xml:space="preserve">
+    <value>Контакт адреса</value>
+  </data>
+  <data name="Z01_Contact" xml:space="preserve">
+    <value>Контакт</value>
+  </data>
+  <data name="Z01_OtherApps" xml:space="preserve">
+    <value>Andere xtrose Apps</value>
+  </data>
+  <data name="Z01_InstNoteHeader" xml:space="preserve">
+    <value>известување звуци</value>
+  </data>
+  <data name="Z01_InstNoteText" xml:space="preserve">
+    <value>Звуци прилагодено известување се првпат издаден повисока од 8.0.10492 од оперативниот систем верзија.</value>
+  </data>
+  <data name="Z02_OtherXtroseApps" xml:space="preserve">
+    <value>Други xtrose апликации</value>
+  </data>
+  <data name="Z02_RateLater" xml:space="preserve">
+    <value>подоцна</value>
+  </data>
+  <data name="Z02_RateNever" xml:space="preserve">
+    <value>никогаш</value>
+  </data>
+  <data name="Z02_RateNow" xml:space="preserve">
+    <value>стапка</value>
+  </data>
+  <data name="Z02_RateText" xml:space="preserve">
+    <value>Оваа апликација чини да се жалите до вас.
+Да се ​​програмира апликации е време и тешко.
+Еден добар преглед може да ни помогне да се шири понатаму.
+
+Ви благодарам многу</value>
+  </data>
+  
+  <data name="Z03_10_0_Screen_Changer" xml:space="preserve">
+<value>10.0 менувач екран</value>
+</data>
+  <data name="Z03_T1" xml:space="preserve">
+<value>Имаме развиена сосема нов стан!</value>
+</data>
+  <data name="Z03_T2" xml:space="preserve">
+<value>Прилагодено за Windows 10</value>
+</data>
+  <data name="Z03_T3" xml:space="preserve">
+<value>поголема резолуција. Прилагодени на големината на екранот.</value>
+</data>
+  <data name="Z03_T6" xml:space="preserve">
+<value>Поле за корисник информации.</value>
+</data>
+  <data name="Z03_T7" xml:space="preserve">
+<value>Многу други нови опции.</value>
+</data>
+  <data name="Z03_TestNow" xml:space="preserve">
+<value>Регистрирај се на Facebook</value>
+</data>
+</root>

@@ -1,0 +1,594 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AAA_AppName" xml:space="preserve">
+    <value>8.1 Skärmen växlare</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Om</value>
+  </data>
+  <data name="AllPictures" xml:space="preserve">
+    <value>alla bilder</value>
+  </data>
+  <data name="BuyApp" xml:space="preserve">
+    <value>Köp denna app</value>
+  </data>
+  <data name="ClickSkip" xml:space="preserve">
+    <value>tryck för att hoppa</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>kopia</value>
+  </data>
+  <data name="CopyFolder" xml:space="preserve">
+    <value>Kopiera mappar</value>
+  </data>
+  <data name="CopyImagesTo" xml:space="preserve">
+    <value>Kopiera bilder efter</value>
+  </data>
+  <data name="CopyPictures" xml:space="preserve">
+    <value>Kopiera bilder</value>
+  </data>
+  <data name="CreateNewFolder" xml:space="preserve">
+    <value>Skapa en ny mapp</value>
+  </data>
+  <data name="Current" xml:space="preserve">
+    <value>Aktuellt</value>
+  </data>
+  <data name="Cut" xml:space="preserve">
+    <value>snitt</value>
+  </data>
+  <data name="CutAuto" xml:space="preserve">
+    <value>automatiskt</value>
+  </data>
+  <data name="CutPicture" xml:space="preserve">
+    <value>snittbild</value>
+  </data>
+  <data name="CutPictures" xml:space="preserve">
+    <value>Skär bilder</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Radera</value>
+  </data>
+  <data name="DeleteBar" xml:space="preserve">
+    <value>ta bort</value>
+  </data>
+  <data name="DeleteFolder" xml:space="preserve">
+    <value>Ta bort mapp</value>
+  </data>
+  <data name="DeleteImages" xml:space="preserve">
+    <value>Ta bort bilder</value>
+  </data>
+  <data name="ErrorEnterName" xml:space="preserve">
+    <value>FEL ! Ange namn !</value>
+  </data>
+  <data name="ErrorEnterNewName" xml:space="preserve">
+    <value>FEL ! Skriv in det nya namnet !</value>
+  </data>
+  <data name="ErrorName" xml:space="preserve">
+    <value>FEL ! Namn används redan eller felaktiga tecken !</value>
+  </data>
+  <data name="ExError" xml:space="preserve">
+    <value>ERROR : bakgrundsuppgifterför denna applikation har inaktiverats !</value>
+  </data>
+  <data name="Folder" xml:space="preserve">
+    <value>Fil</value>
+  </data>
+  <data name="GenerateNew" xml:space="preserve">
+    <value>Skapa ny</value>
+  </data>
+  <data name="Instructions" xml:space="preserve">
+    <value>Instruktioner</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Språk</value>
+  </data>
+  <data name="Left" xml:space="preserve">
+    <value>länkar</value>
+  </data>
+  <data name="LikeXtrose" xml:space="preserve">
+    <value>Liksom</value>
+  </data>
+  <data name="LockhelperInfo" xml:space="preserve">
+    <value>Du sa nej , vilket vi inte kan ändra din låsskärmen !</value>
+  </data>
+  <data name="LockScreenChanger" xml:space="preserve">
+    <value>Ändra en bild i bakgrunden</value>
+  </data>
+  <data name="MultipleAdd" xml:space="preserve">
+    <value>mer sattes</value>
+  </data>
+  <data name="NewName" xml:space="preserve">
+    <value>Nytt namn</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>nästa</value>
+  </data>
+  <data name="Notification" xml:space="preserve">
+    <value>Meddelanden</value>
+  </data>
+  <data name="Off" xml:space="preserve">
+    <value>nej</value>
+  </data>
+  <data name="On" xml:space="preserve">
+    <value>ja</value>
+  </data>
+  <data name="OpenFolder" xml:space="preserve">
+    <value>Öppna mappen</value>
+  </data>
+  <data name="OtherApps" xml:space="preserve">
+    <value>Ander xtrose Apps</value>
+  </data>
+  <data name="Picture" xml:space="preserve">
+    <value>Bild</value>
+  </data>
+  <data name="Pictures" xml:space="preserve">
+    <value>Bilder</value>
+  </data>
+  <data name="PleaseWait" xml:space="preserve">
+    <value>Var god vänta .....</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>föregående</value>
+  </data>
+  <data name="PurchaseNote" xml:space="preserve">
+    <value>Tack för att du denna app</value>
+  </data>
+  <data name="Random" xml:space="preserve">
+    <value>slumpvis</value>
+  </data>
+  <data name="RandomFolder" xml:space="preserve">
+    <value>Random Mapp</value>
+  </data>
+  <data name="RandomPicture" xml:space="preserve">
+    <value>Slumpmässig bild</value>
+  </data>
+  <data name="RateApp" xml:space="preserve">
+    <value>Betygsätt App</value>
+  </data>
+  <data name="RenameFolder" xml:space="preserve">
+    <value>Byt namn på mappen</value>
+  </data>
+  <data name="Right" xml:space="preserve">
+    <value>höger</value>
+  </data>
+  <data name="RotateLeft" xml:space="preserve">
+    <value>sväng vänster</value>
+  </data>
+  <data name="RotateRight" xml:space="preserve">
+    <value>sväng höger</value>
+  </data>
+  <data name="SavedPictures" xml:space="preserve">
+    <value>lagrade bilder</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>välj</value>
+  </data>
+  <data name="SelectAll" xml:space="preserve">
+    <value>välj alla</value>
+  </data>
+  <data name="SelectCopy" xml:space="preserve">
+    <value>Markera de bilder som ska kopieras</value>
+  </data>
+  <data name="SelectDelete" xml:space="preserve">
+    <value>Välj bilder för radering</value>
+  </data>
+  <data name="SelectImages" xml:space="preserve">
+    <value>Välj bilder att lägga</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Inställningar</value>
+  </data>
+  <data name="SingleAdd" xml:space="preserve">
+    <value>individuell sattes</value>
+  </data>
+  <data name="SourceTarget" xml:space="preserve">
+    <value>Källa och mål är lika med</value>
+  </data>
+  <data name="Support" xml:space="preserve">
+    <value>Stöd</value>
+  </data>
+  <data name="TaskInfo" xml:space="preserve">
+    <value>Lås skärmen bildbyte</value>
+  </data>
+  <data name="TrialVersion" xml:space="preserve">
+    <value>Testversion</value>
+  </data>
+  <data name="UnselectAll" xml:space="preserve">
+    <value>avmarkera alla</value>
+  </data>
+  <data name="WARNING" xml:space="preserve">
+    <value>VARNING !</value>
+  </data>
+  <data name="Hour" xml:space="preserve">
+    <value>timme</value>
+  </data>
+  <data name="Hours" xml:space="preserve">
+    <value>Timmar</value>
+  </data>
+  <data name="Minute" xml:space="preserve">
+    <value>minut</value>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>minuter</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Trial version gått ut !</value>
+  </data>
+  <data name="TrialNote" xml:space="preserve">
+    <value>Demoversion har gått ut ! Skapa appar kostar en hel del tid . Priset för denna app är inte dyrt . För att ytterligare låsa skärmen för att skapa bilder som du behöver för att köpa denna app . Tack !</value>
+  </data>
+  <data name="MsgNoPicture" xml:space="preserve">
+    <value>Det finns ingen bild på den markerade mappen . Du kommer först öppna bilder mappen och import .</value>
+  </data>
+  <data name="Randomization" xml:space="preserve">
+    <value>Slumpvis</value>
+  </data>
+  <data name="ClickHere" xml:space="preserve">
+    <value>tryck här</value>
+  </data>
+  <data name="LockScreenSettings" xml:space="preserve">
+    <value>Lås skärminställningar</value>
+  </data>
+  <data name="LowBatteryWarning" xml:space="preserve">
+    <value>Batterivarning</value>
+  </data>
+  <data name="NotificationFullyCharged" xml:space="preserve">
+    <value>Underrättelse fulladdat</value>
+  </data>
+  <data name="NotificationIsCharging" xml:space="preserve">
+    <value>ladda Anmälan</value>
+  </data>
+  <data name="NotificationSounds" xml:space="preserve">
+    <value>Varningstoner</value>
+  </data>
+  <data name="PlaySounds" xml:space="preserve">
+    <value>Spela ljud</value>
+  </data>
+  <data name="Special" xml:space="preserve">
+    <value>speciell</value>
+  </data>
+  <data name="Standard" xml:space="preserve">
+    <value>standard</value>
+  </data>
+  <data name="BatteryFullyCharged" xml:space="preserve">
+    <value>Batteriet är fulladdat</value>
+  </data>
+  <data name="BatteryIsCharging" xml:space="preserve">
+    <value>Batteriet är laddat</value>
+  </data>
+  <data name="BatteryLow" xml:space="preserve">
+    <value>Batteriet är svagt</value>
+  </data>
+  <data name="BatteryStatus" xml:space="preserve">
+    <value>Batteristatus</value>
+  </data>
+  <data name="Day" xml:space="preserve">
+    <value>dag</value>
+  </data>
+  <data name="Days" xml:space="preserve">
+    <value>dagar</value>
+  </data>
+  <data name="ThankYouDown" xml:space="preserve">
+    <value>Tack för att du laddar ner</value>
+  </data>
+  <data name="AAA_1" xml:space="preserve">
+    <value>Lås skärmen</value>
+  </data>
+  <data name="AAA_2" xml:space="preserve">
+    <value>batteri</value>
+  </data>
+  <data name="AAA_3" xml:space="preserve">
+    <value>Bakgrund</value>
+  </data>
+  <data name="AAA_4" xml:space="preserve">
+    <value>Wallaper</value>
+  </data>
+  <data name="AAA_5" xml:space="preserve">
+    <value>bild</value>
+  </data>
+  <data name="AAA_AppDescription" xml:space="preserve">
+    <value>Använd detta program för att skapa alternerande bakgrundsbilder.
+Dessutom programmet information om batteristatus display tillåter .
+För detta ändamål finns gott om färdiga stora inställningar .
+Din bakgrundsbild och batteriindikatornuppdateras var 30 minuter .
+
+Helt ny !
+Från GRD3 uppdatera applikationen talas anmälningar .</value>
+  </data>
+  <data name="InstGeneralHeader" xml:space="preserve">
+    <value>Generellt</value>
+  </data>
+  <data name="InstGeneralText" xml:space="preserve">
+    <value>Använd detta program för att skapa alternerande bakgrundsbilder. Dessutom programmet information om batteristatus display tillåter .
+För detta ändamål finns gott om färdiga inställningar. Din bakgrundsbild och batteriindikatornuppdateras var 30 minuter . Observera att i Windows Phone för att köra bakgrundstjänsteren aktiv Internetanslutning krävs .
+Displayen på låsskärmen bygger om systemet för Windows Phone anmälan . Det är alltså bara en maximal visning av 99 % är möjlig .</value>
+  </data>
+  <data name="InstMiscellaneousHeader" xml:space="preserve">
+    <value>andra</value>
+  </data>
+  <data name="InstMiscellaneousText" xml:space="preserve">
+    <value>Bedöm denna applikation bra om du gillar det . Om du har några problem med denna ansökan , vänligen kontakta support ! Frågor och problem har inte förlorat någonting i betyg .
+Tack !</value>
+  </data>
+  <data name="InstPictureHeader" xml:space="preserve">
+    <value>Bilder</value>
+  </data>
+  <data name="InstPictureText" xml:space="preserve">
+    <value>Skapa en mapp , öppna den och import , valfritt antal bilder . När Import Images kan vara en bild linje och skär . Bilden skapas alltid i den maximala upplösningen för din mobil. Du kan skapa för att ändra dina tapeter snabbare mapp .</value>
+  </data>
+  <data name="InstSettingsHeader" xml:space="preserve">
+    <value>Inställningar</value>
+  </data>
+  <data name="InstSettingsText" xml:space="preserve">
+    <value>På sidan av bakgrunden och batteriets statusinställningarkan anpassas . Välj en mapp från de förändrade bilderna laddas . Du kan också välja om bilderna ska laddas i följd eller slumpmässigt bör väljas .
+Indikatorn för batteristatusmåste ställas in i systeminställningarna . I inställningarna för programmet att en länk till det här .
+Du kan välja ytterligare ljud anmälan . De Spezialen toner är talade meddelanden . Observera att denna tysta och meddelanden fungerar först från GDR3 uppdatering .</value>
+  </data>
+  <data name="NoteLanguage" xml:space="preserve">
+    <value>Ändra språk</value>
+  </data>
+  <data name="NoteLanguage2" xml:space="preserve">
+    <value>Starta om programmet</value>
+  </data>
+  <data name="SelectLanguage" xml:space="preserve">
+    <value>Välj ett språk</value>
+  </data>
+  <data name="Z01_BatteryFullyCharged" xml:space="preserve">
+    <value>Fulladdat batteri</value>
+  </data>
+  <data name="Z01_BatteryIsCharging" xml:space="preserve">
+    <value>Batteriet är laddat</value>
+  </data>
+  <data name="Z01_BatteryLow" xml:space="preserve">
+    <value>Svagt batteri</value>
+  </data>
+  <data name="Z01_CompNewSound" xml:space="preserve">
+    <value>Nya ljud aviserings</value>
+  </data>
+  <data name="Z01_Components" xml:space="preserve">
+    <value>komponenter</value>
+  </data>
+  <data name="Z01_Connecting" xml:space="preserve">
+    <value>Anslut med xtrose</value>
+  </data>
+  <data name="Z01_CopySounds" xml:space="preserve">
+    <value>kopieringstoner</value>
+  </data>
+  <data name="Z01_DeleteSounds" xml:space="preserve">
+    <value>Radera noteringar</value>
+  </data>
+  <data name="Z01_EditSounds" xml:space="preserve">
+    <value>redigera ljud</value>
+  </data>
+  <data name="Z01_Installed" xml:space="preserve">
+    <value>installerad</value>
+  </data>
+  <data name="Z01_NewName" xml:space="preserve">
+    <value>Nytt namn</value>
+  </data>
+  <data name="Z01_NoteSounds" xml:space="preserve">
+    <value>meddelandeljud</value>
+  </data>
+  <data name="Z01_Online" xml:space="preserve">
+    <value>nätet</value>
+  </data>
+  <data name="Z01_Play" xml:space="preserve">
+    <value>Spela</value>
+  </data>
+  <data name="Z01_ReneameSounds" xml:space="preserve">
+    <value>Döp ljud</value>
+  </data>
+  <data name="Z01_Save" xml:space="preserve">
+    <value>Spara</value>
+  </data>
+  <data name="Z01_Change" xml:space="preserve">
+    <value>Ändra</value>
+  </data>
+  <data name="Z01_ConnectingNow" xml:space="preserve">
+    <value>Anslut .....</value>
+  </data>
+  <data name="Z01_ConnectionFailed" xml:space="preserve">
+    <value>Anslutning misslyckades</value>
+  </data>
+  <data name="Z01_ConnectionTimeOut" xml:space="preserve">
+    <value>Överskrids eller inte kombinerade tid</value>
+  </data>
+  <data name="Z01_CopySoundInfo" xml:space="preserve">
+    <value>Kopiera dessa ljud och redigera den med redaktören</value>
+  </data>
+  <data name="Z01_CreateSounds" xml:space="preserve">
+    <value>Skapa nya ljud anmälan</value>
+  </data>
+  <data name="Z01_CreateSoundsInfo" xml:space="preserve">
+    <value>Med detta alternativ kopieras befintliga toner . Du kan sedan ändra ljuden till redaktören</value>
+  </data>
+  <data name="Z01_DownloadingSound" xml:space="preserve">
+    <value>Hämta meddelandeljud</value>
+  </data>
+  <data name="Z01_EnterUrl" xml:space="preserve">
+    <value>Skriv in webbadressen till . mp3-fil</value>
+  </data>
+  <data name="Z01_Error" xml:space="preserve">
+    <value>FEL !</value>
+  </data>
+  <data name="Z01_ErrorSounds" xml:space="preserve">
+    <value>är en systemkomponent och kan inte redigeras , döpas om eller raderas .</value>
+  </data>
+  <data name="Z01_InUse" xml:space="preserve">
+    <value>FEL ! Namn används redan eller ogiltiga tecken .</value>
+  </data>
+  <data name="Z01_LogoStart" xml:space="preserve">
+    <value>Visa logotyp vid start</value>
+  </data>
+  <data name="Z01_NoComponentsOnline" xml:space="preserve">
+    <value>Inga komponenter finns</value>
+  </data>
+  <data name="Z01_NoteDeleteSound" xml:space="preserve">
+    <value>Om anmälan låter verkligen vill radera</value>
+  </data>
+  <data name="Z01_RenameSoundsWarning" xml:space="preserve">
+    <value>VARNING ! Om dessa ljud ställs in i inställningarna ingen Benachrichtingungston utfärdas .</value>
+  </data>
+  <data name="Z01_SoundChangeInfo" xml:space="preserve">
+    <value>Tyvärr finns det inget sätt att importera meddelandeljud från telefonen till appen . Därför måste dessa laddas ner från Internet .</value>
+  </data>
+  <data name="Z01_SoundSilent" xml:space="preserve">
+    <value>( Tyst )</value>
+  </data>
+  <data name="Z01_SoundStandard" xml:space="preserve">
+    <value>(standard)</value>
+  </data>
+  <data name="Z01_Warning" xml:space="preserve">
+    <value>VARNING</value>
+  </data>
+  <data name="Z01_Address" xml:space="preserve">
+    <value>Kontakt Adress</value>
+  </data>
+  <data name="Z01_Contact" xml:space="preserve">
+    <value>Kontakt</value>
+  </data>
+  <data name="Z01_OtherApps" xml:space="preserve">
+    <value>Andere xtrose Apps</value>
+  </data>
+  <data name="Z01_InstNoteHeader" xml:space="preserve">
+    <value>meddelandeljud</value>
+  </data>
+  <data name="Z01_InstNoteText" xml:space="preserve">
+    <value>Ljud Custom anmälnings först utfärdas högre än 8.0.10492 från ett operativsystem version .</value>
+  </data>
+  <data name="Z02_OtherXtroseApps" xml:space="preserve">
+    <value>Andra xtrose appar</value>
+  </data>
+  <data name="Z02_RateLater" xml:space="preserve">
+    <value>Senare</value>
+  </data>
+  <data name="Z02_RateNever" xml:space="preserve">
+    <value>aldrig</value>
+  </data>
+  <data name="Z02_RateNow" xml:space="preserve">
+    <value>Betyg</value>
+  </data>
+  <data name="Z02_RateText" xml:space="preserve">
+    <value>Det här programmet verkar tilltala dig .
+För att programmera appar är tidskrävande och svårt .
+En bra recension kan hjälpa oss att sprida den vidare .
+
+Tack så mycket</value>
+  </data>
+</root>

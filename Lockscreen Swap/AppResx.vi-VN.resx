@@ -1,0 +1,594 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AAA_AppName" xml:space="preserve">
+    <value>8.1 Màn hình đổi</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>về</value>
+  </data>
+  <data name="AllPictures" xml:space="preserve">
+    <value>tất cả các hình ảnh</value>
+  </data>
+  <data name="BuyApp" xml:space="preserve">
+    <value>Mua ứng dụng này</value>
+  </data>
+  <data name="ClickSkip" xml:space="preserve">
+    <value>báo chí bỏ qua</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>bản sao</value>
+  </data>
+  <data name="CopyFolder" xml:space="preserve">
+    <value>sao chép thư mục</value>
+  </data>
+  <data name="CopyImagesTo" xml:space="preserve">
+    <value>Bản sao hình ảnh sau</value>
+  </data>
+  <data name="CopyPictures" xml:space="preserve">
+    <value>bản sao hình ảnh</value>
+  </data>
+  <data name="CreateNewFolder" xml:space="preserve">
+    <value>Tạo ra một thư mục mới</value>
+  </data>
+  <data name="Current" xml:space="preserve">
+    <value>hiện tại</value>
+  </data>
+  <data name="Cut" xml:space="preserve">
+    <value>cắt</value>
+  </data>
+  <data name="CutAuto" xml:space="preserve">
+    <value>tự động</value>
+  </data>
+  <data name="CutPicture" xml:space="preserve">
+    <value>hình ảnh cắt</value>
+  </data>
+  <data name="CutPictures" xml:space="preserve">
+    <value>cắt hình ảnh</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>xóa</value>
+  </data>
+  <data name="DeleteBar" xml:space="preserve">
+    <value>xóa</value>
+  </data>
+  <data name="DeleteFolder" xml:space="preserve">
+    <value>xóa thư mục</value>
+  </data>
+  <data name="DeleteImages" xml:space="preserve">
+    <value>xóa hình ảnh</value>
+  </data>
+  <data name="ErrorEnterName" xml:space="preserve">
+    <value>LỖI ! Nhập tên !</value>
+  </data>
+  <data name="ErrorEnterNewName" xml:space="preserve">
+    <value>LỖI ! Nhập vào tên mới !</value>
+  </data>
+  <data name="ErrorName" xml:space="preserve">
+    <value>LỖI ! Tên đã được sử dụng hoặc các ký tự không chính xác !</value>
+  </data>
+  <data name="ExError" xml:space="preserve">
+    <value>LỖI: nhiệm vụ nền cho ứng dụng này đã bị vô hiệu hóa !</value>
+  </data>
+  <data name="Folder" xml:space="preserve">
+    <value>tập tin</value>
+  </data>
+  <data name="GenerateNew" xml:space="preserve">
+    <value>tạo mới</value>
+  </data>
+  <data name="Instructions" xml:space="preserve">
+    <value>hướng dẫn</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>ngôn ngư</value>
+  </data>
+  <data name="Left" xml:space="preserve">
+    <value>liên kết</value>
+  </data>
+  <data name="LikeXtrose" xml:space="preserve">
+    <value>như</value>
+  </data>
+  <data name="LockhelperInfo" xml:space="preserve">
+    <value>Bạn nói không, do đó chúng tôi không thể thay đổi màn hình khóa của bạn!</value>
+  </data>
+  <data name="LockScreenChanger" xml:space="preserve">
+    <value>Thay đổi một hình ảnh ở chế độ nền</value>
+  </data>
+  <data name="MultipleAdd" xml:space="preserve">
+    <value>thêm hơn</value>
+  </data>
+  <data name="NewName" xml:space="preserve">
+    <value>Tên mới</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>tiếp theo</value>
+  </data>
+  <data name="Notification" xml:space="preserve">
+    <value>thông báo</value>
+  </data>
+  <data name="Off" xml:space="preserve">
+    <value>không</value>
+  </data>
+  <data name="On" xml:space="preserve">
+    <value>vâng</value>
+  </data>
+  <data name="OpenFolder" xml:space="preserve">
+    <value>mở thư mục</value>
+  </data>
+  <data name="OtherApps" xml:space="preserve">
+    <value>Ander xtrose Apps</value>
+  </data>
+  <data name="Picture" xml:space="preserve">
+    <value>hình ảnh</value>
+  </data>
+  <data name="Pictures" xml:space="preserve">
+    <value>hình ảnh</value>
+  </data>
+  <data name="PleaseWait" xml:space="preserve">
+    <value>Xin vui lòng chờ đợi .....</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>trước</value>
+  </data>
+  <data name="PurchaseNote" xml:space="preserve">
+    <value>Cảm ơn bạn đã mua ứng dụng này</value>
+  </data>
+  <data name="Random" xml:space="preserve">
+    <value>ngâu nhiên</value>
+  </data>
+  <data name="RandomFolder" xml:space="preserve">
+    <value>Thư mục ngẫu nhiên</value>
+  </data>
+  <data name="RandomPicture" xml:space="preserve">
+    <value>hình ảnh ngẫu nhiên</value>
+  </data>
+  <data name="RateApp" xml:space="preserve">
+    <value>Đánh giá ứng dụng này</value>
+  </data>
+  <data name="RenameFolder" xml:space="preserve">
+    <value>thư mục đổi tên</value>
+  </data>
+  <data name="Right" xml:space="preserve">
+    <value>ngay</value>
+  </data>
+  <data name="RotateLeft" xml:space="preserve">
+    <value>rẽ trái</value>
+  </data>
+  <data name="RotateRight" xml:space="preserve">
+    <value>rẽ phải</value>
+  </data>
+  <data name="SavedPictures" xml:space="preserve">
+    <value>hình ảnh được lưu trữ</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>chọn</value>
+  </data>
+  <data name="SelectAll" xml:space="preserve">
+    <value>chọn tất cả</value>
+  </data>
+  <data name="SelectCopy" xml:space="preserve">
+    <value>Chọn hình ảnh để sao chép</value>
+  </data>
+  <data name="SelectDelete" xml:space="preserve">
+    <value>Chọn hình ảnh để xóa</value>
+  </data>
+  <data name="SelectImages" xml:space="preserve">
+    <value>Chọn hình ảnh để thêm</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>thiết lập</value>
+  </data>
+  <data name="SingleAdd" xml:space="preserve">
+    <value>cá nhân gia tăng</value>
+  </data>
+  <data name="SourceTarget" xml:space="preserve">
+    <value>Nguồn và đích bằng</value>
+  </data>
+  <data name="Support" xml:space="preserve">
+    <value>hỗ trợ</value>
+  </data>
+  <data name="TaskInfo" xml:space="preserve">
+    <value>Khóa màn hình thay đổi hình ảnh</value>
+  </data>
+  <data name="TrialVersion" xml:space="preserve">
+    <value>Phiên bản thử nghiệm</value>
+  </data>
+  <data name="UnselectAll" xml:space="preserve">
+    <value>bỏ chọn tất cả</value>
+  </data>
+  <data name="WARNING" xml:space="preserve">
+    <value>Chú ý !</value>
+  </data>
+  <data name="Hour" xml:space="preserve">
+    <value>giờ</value>
+  </data>
+  <data name="Hours" xml:space="preserve">
+    <value>giờ</value>
+  </data>
+  <data name="Minute" xml:space="preserve">
+    <value>phút</value>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>phút</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Phiên bản dùng thử hết hạn!</value>
+  </data>
+  <data name="TrialNote" xml:space="preserve">
+    <value>Demo phiên bản đã hết hạn! Tạo ra các ứng dụng tốn rất nhiều thời gian . Giá của ứng dụng này là không tốn kém. Để khóa thêm màn hình để tạo ra hình ảnh bạn cần phải mua ứng dụng này. Cảm ơn bạn!</value>
+  </data>
+  <data name="MsgNoPicture" xml:space="preserve">
+    <value>Không có hình ảnh trong thư mục đã chọn . Đầu tiên bạn sẽ Mở thư mục và nhập khẩu hình ảnh.</value>
+  </data>
+  <data name="Randomization" xml:space="preserve">
+    <value>ngâu nhiên</value>
+  </data>
+  <data name="ClickHere" xml:space="preserve">
+    <value>báo chí ở đây</value>
+  </data>
+  <data name="LockScreenSettings" xml:space="preserve">
+    <value>Cài đặt màn hình khóa</value>
+  </data>
+  <data name="LowBatteryWarning" xml:space="preserve">
+    <value>cảnh báo pin</value>
+  </data>
+  <data name="NotificationFullyCharged" xml:space="preserve">
+    <value>Thông báo sạc đầy</value>
+  </data>
+  <data name="NotificationIsCharging" xml:space="preserve">
+    <value>phí thông báo</value>
+  </data>
+  <data name="NotificationSounds" xml:space="preserve">
+    <value>nhạc thông báo</value>
+  </data>
+  <data name="PlaySounds" xml:space="preserve">
+    <value>chơi âm thanh</value>
+  </data>
+  <data name="Special" xml:space="preserve">
+    <value>đặc biệt</value>
+  </data>
+  <data name="Standard" xml:space="preserve">
+    <value>tiêu chuẩn</value>
+  </data>
+  <data name="BatteryFullyCharged" xml:space="preserve">
+    <value>Pin được sạc đầy</value>
+  </data>
+  <data name="BatteryIsCharging" xml:space="preserve">
+    <value>Pin được sạc</value>
+  </data>
+  <data name="BatteryLow" xml:space="preserve">
+    <value>Pin yếu</value>
+  </data>
+  <data name="BatteryStatus" xml:space="preserve">
+    <value>Tình trạng pin</value>
+  </data>
+  <data name="Day" xml:space="preserve">
+    <value>ngày</value>
+  </data>
+  <data name="Days" xml:space="preserve">
+    <value>ngày</value>
+  </data>
+  <data name="ThankYouDown" xml:space="preserve">
+    <value>Cảm ơn bạn đã tải về</value>
+  </data>
+  <data name="AAA_1" xml:space="preserve">
+    <value>khóa màn hình</value>
+  </data>
+  <data name="AAA_2" xml:space="preserve">
+    <value>pin</value>
+  </data>
+  <data name="AAA_3" xml:space="preserve">
+    <value>Hình nền</value>
+  </data>
+  <data name="AAA_4" xml:space="preserve">
+    <value>Wallaper</value>
+  </data>
+  <data name="AAA_5" xml:space="preserve">
+    <value>hình ảnh</value>
+  </data>
+  <data name="AAA_AppDescription" xml:space="preserve">
+    <value>Sử dụng ứng dụng này để tạo xen kẽ hình ảnh nền.
+Ngoài ra, các thông tin về ứng dụng màn hình hiển thị tình trạng pin của bạn cho phép .
+Cho mục đích này rất nhiều các thiết lập tuyệt vời sẵn sàng .
+Hình nền của bạn và chỉ báo pin của bạn được cập nhật mỗi 30 phút.
+
+Thương hiệu mới !
+Từ bản cập nhật GRD3 ứng dụng được nói đến thông báo.</value>
+  </data>
+  <data name="InstGeneralHeader" xml:space="preserve">
+    <value>nói chung</value>
+  </data>
+  <data name="InstGeneralText" xml:space="preserve">
+    <value>Sử dụng ứng dụng này để tạo xen kẽ hình ảnh nền. Ngoài ra, các thông tin về ứng dụng màn hình hiển thị tình trạng pin của bạn cho phép .
+Cho mục đích này rất nhiều các thiết lập đã sẵn sàng. Hình nền của bạn và chỉ báo pin của bạn được cập nhật mỗi 30 phút. Xin lưu ý rằng trong Windows Phone để chạy các dịch vụ nền kết nối internet là bắt buộc.
+Màn hình hiển thị trên màn hình khóa được dựa trên hệ thống thông báo của Windows Phone . Do đó, nó chỉ là một màn hình hiển thị tối đa 99% là có thể.</value>
+  </data>
+  <data name="InstMiscellaneousHeader" xml:space="preserve">
+    <value>những người khác</value>
+  </data>
+  <data name="InstMiscellaneousText" xml:space="preserve">
+    <value>Vui lòng đánh giá ứng dụng này tốt nếu bạn thích nó . Nếu bạn có bất kỳ vấn đề với ứng dụng này , sau đó xin vui lòng hỗ trợ cảm ứng ! Câu hỏi và vấn đề này đã không bị mất bất cứ điều gì trong xếp hạng .
+Cảm ơn bạn!</value>
+  </data>
+  <data name="InstPictureHeader" xml:space="preserve">
+    <value>hình ảnh</value>
+  </data>
+  <data name="InstPictureText" xml:space="preserve">
+    <value>Tạo một thư mục , mở nó và nhập khẩu, bất kỳ số lượng hình ảnh. Khi hình ảnh nhập khẩu có thể được bất kỳ hình ảnh phù hợp và cắt . Hình ảnh luôn luôn tạo ra ở độ phân giải tối đa cho điện thoại di động của bạn. Bạn có thể tạo thay đổi hình nền của bạn một cách nhanh chóng hơn thư mục .</value>
+  </data>
+  <data name="InstSettingsHeader" xml:space="preserve">
+    <value>thiết lập</value>
+  </data>
+  <data name="InstSettingsText" xml:space="preserve">
+    <value>Trên trang thiết lập của nền và chỉ báo tình trạng pin có thể được tùy chỉnh. Chọn một thư mục từ những hình ảnh thay đổi được nạp. Bạn cũng có thể chọn vị trí của hình ảnh nên được nạp theo tuần tự hoặc ngẫu nhiên một nên được lựa chọn .
+Các chỉ báo tình trạng pin phải được đặt trong các thiết lập hệ thống . Trong các thiết lập của ứng dụng có sẵn một liên kết cho việc này.
+Bạn có thể chọn âm thanh thông báo bổ sung. Các tông màu Spezialen là những thông báo văn nói . Xin lưu ý rằng điều này im lặng và thông báo công việc đầu tiên của bản cập nhật GDR3 .</value>
+  </data>
+  <data name="NoteLanguage" xml:space="preserve">
+    <value>thay đổi ngôn ngữ</value>
+  </data>
+  <data name="NoteLanguage2" xml:space="preserve">
+    <value>Khởi động lại ứng dụng</value>
+  </data>
+  <data name="SelectLanguage" xml:space="preserve">
+    <value>chọn một ngôn ngữ</value>
+  </data>
+  <data name="Z01_BatteryFullyCharged" xml:space="preserve">
+    <value>Pin sạc đầy</value>
+  </data>
+  <data name="Z01_BatteryIsCharging" xml:space="preserve">
+    <value>Pin được sạc</value>
+  </data>
+  <data name="Z01_BatteryLow" xml:space="preserve">
+    <value>Pin yếu</value>
+  </data>
+  <data name="Z01_CompNewSound" xml:space="preserve">
+    <value>Âm thanh thông báo mới</value>
+  </data>
+  <data name="Z01_Components" xml:space="preserve">
+    <value>thành phần</value>
+  </data>
+  <data name="Z01_Connecting" xml:space="preserve">
+    <value>Kết nối với xtrose</value>
+  </data>
+  <data name="Z01_CopySounds" xml:space="preserve">
+    <value>âm bản sao</value>
+  </data>
+  <data name="Z01_DeleteSounds" xml:space="preserve">
+    <value>xóa các ghi chú</value>
+  </data>
+  <data name="Z01_EditSounds" xml:space="preserve">
+    <value>chỉnh sửa âm thanh</value>
+  </data>
+  <data name="Z01_Installed" xml:space="preserve">
+    <value>cài đặt</value>
+  </data>
+  <data name="Z01_NewName" xml:space="preserve">
+    <value>tên mới</value>
+  </data>
+  <data name="Z01_NoteSounds" xml:space="preserve">
+    <value>âm thanh thông báo</value>
+  </data>
+  <data name="Z01_Online" xml:space="preserve">
+    <value>trực tuyến</value>
+  </data>
+  <data name="Z01_Play" xml:space="preserve">
+    <value>chơi</value>
+  </data>
+  <data name="Z01_ReneameSounds" xml:space="preserve">
+    <value>đổi tên âm thanh</value>
+  </data>
+  <data name="Z01_Save" xml:space="preserve">
+    <value>tiết kiệm</value>
+  </data>
+  <data name="Z01_Change" xml:space="preserve">
+    <value>thay đổi</value>
+  </data>
+  <data name="Z01_ConnectingNow" xml:space="preserve">
+    <value>Kết nối .....</value>
+  </data>
+  <data name="Z01_ConnectionFailed" xml:space="preserve">
+    <value>Không kết nối</value>
+  </data>
+  <data name="Z01_ConnectionTimeOut" xml:space="preserve">
+    <value>Thời gian vượt quá hoặc không kết hợp</value>
+  </data>
+  <data name="Z01_CopySoundInfo" xml:space="preserve">
+    <value>Sao chép các âm thanh và chỉnh sửa nó với các biên tập viên</value>
+  </data>
+  <data name="Z01_CreateSounds" xml:space="preserve">
+    <value>Tạo ra âm thanh thông báo mới</value>
+  </data>
+  <data name="Z01_CreateSoundsInfo" xml:space="preserve">
+    <value>Tùy chọn này bản nhạc hiện tại. Sau đó bạn có thể thay đổi âm thanh để các biên tập viên</value>
+  </data>
+  <data name="Z01_DownloadingSound" xml:space="preserve">
+    <value>tải về âm thanh thông báo</value>
+  </data>
+  <data name="Z01_EnterUrl" xml:space="preserve">
+    <value>Nhập địa chỉ của tập tin mp3 .</value>
+  </data>
+  <data name="Z01_Error" xml:space="preserve">
+    <value>LỖI !</value>
+  </data>
+  <data name="Z01_ErrorSounds" xml:space="preserve">
+    <value>là một thành phần hệ thống và không thể được chỉnh sửa, đổi tên, hoặc bị xóa.</value>
+  </data>
+  <data name="Z01_InUse" xml:space="preserve">
+    <value>LỖI ! Tên đã được sử dụng hoặc các ký tự không hợp lệ.</value>
+  </data>
+  <data name="Z01_LogoStart" xml:space="preserve">
+    <value>Hiển thị biểu trưng lúc khởi động</value>
+  </data>
+  <data name="Z01_NoComponentsOnline" xml:space="preserve">
+    <value>Không có thành phần có mặt</value>
+  </data>
+  <data name="Z01_NoteDeleteSound" xml:space="preserve">
+    <value>Nếu thông báo âm thanh thực sự muốn xóa</value>
+  </data>
+  <data name="Z01_RenameSoundsWarning" xml:space="preserve">
+    <value>Chú ý ! Nếu những âm thanh này được thiết lập trong các thiết lập không Benachrichtingungston được ban hành.</value>
+  </data>
+  <data name="Z01_SoundChangeInfo" xml:space="preserve">
+    <value>Thật không may, không có cách nào để nhập khẩu âm thanh thông báo từ điện thoại đến các ứng dụng. Vì vậy , chúng phải được tải về từ Internet .</value>
+  </data>
+  <data name="Z01_SoundSilent" xml:space="preserve">
+    <value>( không ồn ào )</value>
+  </data>
+  <data name="Z01_SoundStandard" xml:space="preserve">
+    <value>(tiêu chuẩn)</value>
+  </data>
+  <data name="Z01_Warning" xml:space="preserve">
+    <value>CẢNH BÁO</value>
+  </data>
+  <data name="Z01_Address" xml:space="preserve">
+    <value>Địa chỉ liên hệ</value>
+  </data>
+  <data name="Z01_Contact" xml:space="preserve">
+    <value>Liên hệ</value>
+  </data>
+  <data name="Z01_OtherApps" xml:space="preserve">
+    <value>Andere xtrose Apps</value>
+  </data>
+  <data name="Z01_InstNoteHeader" xml:space="preserve">
+    <value>âm thanh thông báo</value>
+  </data>
+  <data name="Z01_InstNoteText" xml:space="preserve">
+    <value>Âm thanh tùy chỉnh thông báo được phát hành lần đầu cao hơn 8.0.10492 từ một phiên bản hệ điều hành.</value>
+  </data>
+  <data name="Z02_OtherXtroseApps" xml:space="preserve">
+    <value>Ứng dụng xtrose khác</value>
+  </data>
+  <data name="Z02_RateLater" xml:space="preserve">
+    <value>sau</value>
+  </data>
+  <data name="Z02_RateNever" xml:space="preserve">
+    <value>không bao giờ</value>
+  </data>
+  <data name="Z02_RateNow" xml:space="preserve">
+    <value>tỷ lệ</value>
+  </data>
+  <data name="Z02_RateText" xml:space="preserve">
+    <value>Ứng dụng này có vẻ hấp dẫn đối với bạn .
+Để chương trình ứng dụng là tốn thời gian và khó khăn.
+Một đánh giá tốt có thể giúp chúng ta nên mở rộng hơn nữa .
+
+Cảm ơn bạn rất nhiều</value>
+  </data>
+</root>

@@ -1,0 +1,617 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AAA_AppName" xml:space="preserve">
+    <value>8.1 스크린 체인저</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>약</value>
+  </data>
+  <data name="AllPictures" xml:space="preserve">
+    <value>모든 사진</value>
+  </data>
+  <data name="BuyApp" xml:space="preserve">
+    <value>이 응용 프로그램을 구매</value>
+  </data>
+  <data name="ClickSkip" xml:space="preserve">
+    <value>건너 뛰려면</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>부</value>
+  </data>
+  <data name="CopyFolder" xml:space="preserve">
+    <value>폴더 복사</value>
+  </data>
+  <data name="CopyImagesTo" xml:space="preserve">
+    <value>이미지 복사 후</value>
+  </data>
+  <data name="CopyPictures" xml:space="preserve">
+    <value>복사 이미지</value>
+  </data>
+  <data name="CreateNewFolder" xml:space="preserve">
+    <value>새 폴더를 만듭니다</value>
+  </data>
+  <data name="Current" xml:space="preserve">
+    <value>현재</value>
+  </data>
+  <data name="Cut" xml:space="preserve">
+    <value>절단</value>
+  </data>
+  <data name="CutAuto" xml:space="preserve">
+    <value>자동적으로</value>
+  </data>
+  <data name="CutPicture" xml:space="preserve">
+    <value>컷 이미지</value>
+  </data>
+  <data name="CutPictures" xml:space="preserve">
+    <value>사진을 잘라</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>삭제</value>
+  </data>
+  <data name="DeleteBar" xml:space="preserve">
+    <value>삭제</value>
+  </data>
+  <data name="DeleteFolder" xml:space="preserve">
+    <value>폴더 를 삭제</value>
+  </data>
+  <data name="DeleteImages" xml:space="preserve">
+    <value>이미지를 삭제</value>
+  </data>
+  <data name="ErrorEnterName" xml:space="preserve">
+    <value>오류! 이름을 입력하세요 !</value>
+  </data>
+  <data name="ErrorEnterNewName" xml:space="preserve">
+    <value>오류! 새 이름을 입력합니다 !</value>
+  </data>
+  <data name="ErrorName" xml:space="preserve">
+    <value>오류! 이름은 이미 사용 하거나 잘못된 문자가 있습니다 !</value>
+  </data>
+  <data name="ExError" xml:space="preserve">
+    <value>오류 : 이 응용 프로그램 에 대한 백그라운드 작업 이 비활성화되었습니다 !</value>
+  </data>
+  <data name="Folder" xml:space="preserve">
+    <value>파일</value>
+  </data>
+  <data name="GenerateNew" xml:space="preserve">
+    <value>새로 만들기</value>
+  </data>
+  <data name="Instructions" xml:space="preserve">
+    <value>명령</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>언어</value>
+  </data>
+  <data name="Left" xml:space="preserve">
+    <value>링크</value>
+  </data>
+  <data name="LikeXtrose" xml:space="preserve">
+    <value>같은</value>
+  </data>
+  <data name="LockhelperInfo" xml:space="preserve">
+    <value>당신은 없는 , 따라서 우리는 당신의 잠금 화면 을 변경할 수 없습니다 했다!</value>
+  </data>
+  <data name="LockScreenChanger" xml:space="preserve">
+    <value>배경이미지 변경</value>
+  </data>
+  <data name="MultipleAdd" xml:space="preserve">
+    <value>더 추가</value>
+  </data>
+  <data name="NewName" xml:space="preserve">
+    <value>새 이름</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>다음</value>
+  </data>
+  <data name="Notification" xml:space="preserve">
+    <value>공고</value>
+  </data>
+  <data name="Off" xml:space="preserve">
+    <value>아니</value>
+  </data>
+  <data name="On" xml:space="preserve">
+    <value>예</value>
+  </data>
+  <data name="OpenFolder" xml:space="preserve">
+    <value>폴더 열기</value>
+  </data>
+  <data name="OtherApps" xml:space="preserve">
+    <value>안 데르 는 애플 리케이션 을 xtrose</value>
+  </data>
+  <data name="Picture" xml:space="preserve">
+    <value>영상</value>
+  </data>
+  <data name="Pictures" xml:space="preserve">
+    <value>사진</value>
+  </data>
+  <data name="PleaseWait" xml:space="preserve">
+    <value>기다려주십시오 .....</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>이전</value>
+  </data>
+  <data name="PurchaseNote" xml:space="preserve">
+    <value>이 응용 프로그램을 구입하여 주셔서 감사합니다</value>
+  </data>
+  <data name="Random" xml:space="preserve">
+    <value>임의</value>
+  </data>
+  <data name="RandomFolder" xml:space="preserve">
+    <value>임의의 폴더</value>
+  </data>
+  <data name="RandomPicture" xml:space="preserve">
+    <value>무작위 이미지</value>
+  </data>
+  <data name="RateApp" xml:space="preserve">
+    <value>이 앱 에게 평가하기</value>
+  </data>
+  <data name="RenameFolder" xml:space="preserve">
+    <value>폴더 의 이름을 바꿉니다</value>
+  </data>
+  <data name="Right" xml:space="preserve">
+    <value>권리</value>
+  </data>
+  <data name="RotateLeft" xml:space="preserve">
+    <value>좌회전</value>
+  </data>
+  <data name="RotateRight" xml:space="preserve">
+    <value>우회전</value>
+  </data>
+  <data name="SavedPictures" xml:space="preserve">
+    <value>저장된 이미지</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>선택</value>
+  </data>
+  <data name="SelectAll" xml:space="preserve">
+    <value>모두 선택</value>
+  </data>
+  <data name="SelectCopy" xml:space="preserve">
+    <value>복사 할 이미지를 선택</value>
+  </data>
+  <data name="SelectDelete" xml:space="preserve">
+    <value>삭제 이미지를 선택</value>
+  </data>
+  <data name="SelectImages" xml:space="preserve">
+    <value>추가 할 이미지를 선택</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>설정</value>
+  </data>
+  <data name="SingleAdd" xml:space="preserve">
+    <value>추가 개별</value>
+  </data>
+  <data name="SourceTarget" xml:space="preserve">
+    <value>소스 및 대상 은 동일하다</value>
+  </data>
+  <data name="Support" xml:space="preserve">
+    <value>지원</value>
+  </data>
+  <data name="TaskInfo" xml:space="preserve">
+    <value>잠금 화면 이미지 변경</value>
+  </data>
+  <data name="TrialVersion" xml:space="preserve">
+    <value>테스트 버전</value>
+  </data>
+  <data name="UnselectAll" xml:space="preserve">
+    <value>모든 선택을 해제</value>
+  </data>
+  <data name="WARNING" xml:space="preserve">
+    <value>경고!</value>
+  </data>
+  <data name="Hour" xml:space="preserve">
+    <value>시간</value>
+  </data>
+  <data name="Hours" xml:space="preserve">
+    <value>시간</value>
+  </data>
+  <data name="Minute" xml:space="preserve">
+    <value>분</value>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>분</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>평가판 이 만료 !</value>
+  </data>
+  <data name="TrialNote" xml:space="preserve">
+    <value>데모 버전 이 만료되었습니다 ! 애플 리케이션을 만들 시간이 많이 듭니다. 이 응용 프로그램 의 가격은 비싸지 않다 . 추가로 이 응용 프로그램을 살 필요가 이미지를 만드는 화면을 잠급니다. 감사합니다!</value>
+  </data>
+  <data name="MsgNoPicture" xml:space="preserve">
+    <value>선택한 폴더 에있는 이미지가 없습니다. 먼저 폴더를 가져 오기 이미지를 엽니 다.</value>
+  </data>
+  <data name="Randomization" xml:space="preserve">
+    <value>임의</value>
+  </data>
+  <data name="ClickHere" xml:space="preserve">
+    <value>여기를 눌러</value>
+  </data>
+  <data name="LockScreenSettings" xml:space="preserve">
+    <value>잠금 화면 설정</value>
+  </data>
+  <data name="LowBatteryWarning" xml:space="preserve">
+    <value>배터리 경고</value>
+  </data>
+  <data name="NotificationFullyCharged" xml:space="preserve">
+    <value>알림 충전</value>
+  </data>
+  <data name="NotificationIsCharging" xml:space="preserve">
+    <value>알림 충전</value>
+  </data>
+  <data name="NotificationSounds" xml:space="preserve">
+    <value>알림 톤</value>
+  </data>
+  <data name="PlaySounds" xml:space="preserve">
+    <value>소리 재생</value>
+  </data>
+  <data name="Special" xml:space="preserve">
+    <value>특별한</value>
+  </data>
+  <data name="Standard" xml:space="preserve">
+    <value>표준</value>
+  </data>
+  <data name="BatteryFullyCharged" xml:space="preserve">
+    <value>배터리 가 완전히 충전 된 것입니다</value>
+  </data>
+  <data name="BatteryIsCharging" xml:space="preserve">
+    <value>배터리가 충전 됩니다</value>
+  </data>
+  <data name="BatteryLow" xml:space="preserve">
+    <value>배터리 가 부족합니다</value>
+  </data>
+  <data name="BatteryStatus" xml:space="preserve">
+    <value>배터리 상태</value>
+  </data>
+  <data name="Day" xml:space="preserve">
+    <value>일</value>
+  </data>
+  <data name="Days" xml:space="preserve">
+    <value>일</value>
+  </data>
+  <data name="ThankYouDown" xml:space="preserve">
+    <value>다운로드 해 주셔서 감사합니다</value>
+  </data>
+  <data name="AAA_1" xml:space="preserve">
+    <value>잠금 화면</value>
+  </data>
+  <data name="AAA_2" xml:space="preserve">
+    <value>배터리</value>
+  </data>
+  <data name="AAA_3" xml:space="preserve">
+    <value>벽지</value>
+  </data>
+  <data name="AAA_4" xml:space="preserve">
+    <value>Wallaper</value>
+  </data>
+  <data name="AAA_5" xml:space="preserve">
+    <value>영상</value>
+  </data>
+  <data name="AAA_AppDescription" xml:space="preserve">
+    <value>교대 배경 이미지를 만들려면이 응용 프로그램을 사용합니다.
+또한 , 배터리 상태 표시 에 대한 응용 프로그램 정보가 있습니다.
+이 목적을 위해 준비가 큰 설정 이 많이 있습니다 .
+배경 이미지 및 배터리 표시기는 30 분마다 업데이트됩니다.
+
+아주 새로운!
+GRD3 업데이트 에서 응용 프로그램이 알림을 언급 하고 있습니다.</value>
+  </data>
+  <data name="InstGeneralHeader" xml:space="preserve">
+    <value>일반적으로</value>
+  </data>
+  <data name="InstGeneralText" xml:space="preserve">
+    <value>교대 배경 이미지를 만들려면이 응용 프로그램을 사용합니다. 또한 , 배터리 상태 표시 에 대한 응용 프로그램 정보가 있습니다.
+이 목적을 위해 준비 설정 이 많이 있습니다 . 배경 이미지 및 배터리 표시기는 30 분마다 업데이트됩니다. 인터넷 연결 이 필요한 배경 서비스를 실행 하기 위해 윈도우 전화 에 주의하시기 바랍니다.
+잠금 화면 에디스플레이 윈도우 전화 의알림 시스템 에 기초한다. 그것은 단지 99 % 의최대 표시 가능 하므로 이다.</value>
+  </data>
+  <data name="InstMiscellaneousHeader" xml:space="preserve">
+    <value>기타</value>
+  </data>
+  <data name="InstMiscellaneousText" xml:space="preserve">
+    <value>당신이 그것을 좋아하는 경우 이 응용 프로그램 의 좋은 평가하십시오 . 이 응용 프로그램 에 문제 가있는 경우 , 다음 터치 지원 에 넣어주세요 ! 질문 및 문제가 시청률 에 아무것도 손실 하지 않았습니다.
+감사합니다!</value>
+  </data>
+  <data name="InstPictureHeader" xml:space="preserve">
+    <value>사진</value>
+  </data>
+  <data name="InstPictureText" xml:space="preserve">
+    <value>폴더를 생성 을 열고 가져 오기 , 이미지의 숫자 . 가져 오기 이미지 정렬 및 절단 모든 이미지 될 수 있습니다 때 . 이미지는 항상 휴대 전화 의 최대 해상도로 만들어집니다. 당신은 더 빨리 폴더 당신의 바탕 화면 을 변경하려면 만들 수 있습니다.</value>
+  </data>
+  <data name="InstSettingsHeader" xml:space="preserve">
+    <value>설정</value>
+  </data>
+  <data name="InstSettingsText" xml:space="preserve">
+    <value>배경과 배터리 상태 표시등 의 설정 페이지에서 사용자 정의 할 수 있습니다. 변화하는 이미지 에서 폴더를 선택 이로드됩니다 . 또한 이미지가 순차적으로 로드해야 하거나 무작위로 하나를 선택해야합니다 여부를 선택할 수 있습니다.
+배터리 상태 표시등은 시스템 설정에서 설정해야합니다. 응용 프로그램의 설정에서 사용 가능한 이 에 대한 링크입니다.
+당신은 추가 알림 사운드 를 선택할 수 있습니다. Spezialen 톤이 음성 알림 입니다. 이 조용하고 알림GDR3 업데이트에서 첫 번째 작업을 양해 바랍니다.</value>
+  </data>
+  <data name="NoteLanguage" xml:space="preserve">
+    <value>언어 변경</value>
+  </data>
+  <data name="NoteLanguage2" xml:space="preserve">
+    <value>응용 프로그램을 다시 시작</value>
+  </data>
+  <data name="SelectLanguage" xml:space="preserve">
+    <value>언어를 선택</value>
+  </data>
+  <data name="Z01_BatteryFullyCharged" xml:space="preserve">
+    <value>완전히 충전 된 배터리</value>
+  </data>
+  <data name="Z01_BatteryIsCharging" xml:space="preserve">
+    <value>배터리가 충전 됩니다</value>
+  </data>
+  <data name="Z01_BatteryLow" xml:space="preserve">
+    <value>배터리 부족</value>
+  </data>
+  <data name="Z01_CompNewSound" xml:space="preserve">
+    <value>새로운 알림 소리</value>
+  </data>
+  <data name="Z01_Components" xml:space="preserve">
+    <value>구성 요소들</value>
+  </data>
+  <data name="Z01_Connecting" xml:space="preserve">
+    <value>xtrose 와 연결</value>
+  </data>
+  <data name="Z01_CopySounds" xml:space="preserve">
+    <value>복사 톤</value>
+  </data>
+  <data name="Z01_DeleteSounds" xml:space="preserve">
+    <value>메모 삭제</value>
+  </data>
+  <data name="Z01_EditSounds" xml:space="preserve">
+    <value>편집 소리</value>
+  </data>
+  <data name="Z01_Installed" xml:space="preserve">
+    <value>설치</value>
+  </data>
+  <data name="Z01_NewName" xml:space="preserve">
+    <value>새로운 이름</value>
+  </data>
+  <data name="Z01_NoteSounds" xml:space="preserve">
+    <value>알림 소리</value>
+  </data>
+  <data name="Z01_Online" xml:space="preserve">
+    <value>온라인으로</value>
+  </data>
+  <data name="Z01_Play" xml:space="preserve">
+    <value>플레이</value>
+  </data>
+  <data name="Z01_ReneameSounds" xml:space="preserve">
+    <value>소리를 이름 바꾸기</value>
+  </data>
+  <data name="Z01_Save" xml:space="preserve">
+    <value>저장</value>
+  </data>
+  <data name="Z01_Change" xml:space="preserve">
+    <value>변경</value>
+  </data>
+  <data name="Z01_ConnectingNow" xml:space="preserve">
+    <value>연결 .....</value>
+  </data>
+  <data name="Z01_ConnectionFailed" xml:space="preserve">
+    <value>연결 실패</value>
+  </data>
+  <data name="Z01_ConnectionTimeOut" xml:space="preserve">
+    <value>결합 초과 여부를 시간</value>
+  </data>
+  <data name="Z01_CopySoundInfo" xml:space="preserve">
+    <value>이러한 소리를 복사하여 편집기로 편집</value>
+  </data>
+  <data name="Z01_CreateSounds" xml:space="preserve">
+    <value>새로운 알림 소리 를 만듭니다</value>
+  </data>
+  <data name="Z01_CreateSoundsInfo" xml:space="preserve">
+    <value>이 옵션 의 사본 톤을 기존 . 그런 다음 편집기로 소리를 변경할 수 있습니다</value>
+  </data>
+  <data name="Z01_DownloadingSound" xml:space="preserve">
+    <value>알림 소리를 다운로드</value>
+  </data>
+  <data name="Z01_EnterUrl" xml:space="preserve">
+    <value>. MP3 파일 의 URL을 입력</value>
+  </data>
+  <data name="Z01_Error" xml:space="preserve">
+    <value>오류!</value>
+  </data>
+  <data name="Z01_ErrorSounds" xml:space="preserve">
+    <value>시스템 구성 요소 이며, 이름 변경 또는 삭제 , 편집 할 수 없습니다.</value>
+  </data>
+  <data name="Z01_InUse" xml:space="preserve">
+    <value>오류! 이름은 이미 사용 하거나 잘못된 문자가 있습니다.</value>
+  </data>
+  <data name="Z01_LogoStart" xml:space="preserve">
+    <value>시작시 로고 보기</value>
+  </data>
+  <data name="Z01_NoComponentsOnline" xml:space="preserve">
+    <value>어떤 구성 요소가 존재하지 않는</value>
+  </data>
+  <data name="Z01_NoteDeleteSound" xml:space="preserve">
+    <value>알림 정말 삭제할 소리가 나는 경우</value>
+  </data>
+  <data name="Z01_RenameSoundsWarning" xml:space="preserve">
+    <value>경고! 이 소리 는 설정에서 설정되어있는 경우 에는 Benachrichtingungston 가 발생하지 않습니다 .</value>
+  </data>
+  <data name="Z01_SoundChangeInfo" xml:space="preserve">
+    <value>불행하게도, 알림 응용 프로그램 을 휴대 전화 에서 소리를 가져올 수있는 방법은 없습니다. 따라서 이러한 인터넷에서 다운로드해야합니다.</value>
+  </data>
+  <data name="Z01_SoundSilent" xml:space="preserve">
+    <value>( 무소음 )</value>
+  </data>
+  <data name="Z01_SoundStandard" xml:space="preserve">
+    <value>(표준)</value>
+  </data>
+  <data name="Z01_Warning" xml:space="preserve">
+    <value>경고</value>
+  </data>
+  <data name="Z01_Address" xml:space="preserve">
+    <value>연락처 주소</value>
+  </data>
+  <data name="Z01_Contact" xml:space="preserve">
+    <value>접촉</value>
+  </data>
+  <data name="Z01_OtherApps" xml:space="preserve">
+    <value>Andere 는 애플 리케이션 을 xtrose</value>
+  </data>
+  <data name="Z01_InstNoteHeader" xml:space="preserve">
+    <value>알림 소리</value>
+  </data>
+  <data name="Z01_InstNoteText" xml:space="preserve">
+    <value>사용자 정의 알림 소리 는 먼저 운영 체제 버전 에서 보다 높은 8.0.10492 을 발행합니다.</value>
+  </data>
+  <data name="Z02_OtherXtroseApps" xml:space="preserve">
+    <value>다른 xtrose 앱</value>
+  </data>
+  <data name="Z02_RateLater" xml:space="preserve">
+    <value>후</value>
+  </data>
+  <data name="Z02_RateNever" xml:space="preserve">
+    <value>어머 놀랐다</value>
+  </data>
+  <data name="Z02_RateNow" xml:space="preserve">
+    <value>율</value>
+  </data>
+  <data name="Z02_RateText" xml:space="preserve">
+    <value>이 응용 프로그램은 당신에게 호소하는 것 같다.
+응용 프로그램을 프로그래밍 하는 것은 시간 이 많이 걸리고 어렵습니다.
+좋은 평가는 우리가 더 이상 그것을 확산 하는 데 도움이 될 수 있습니다.
+
+대단히 감사합니다</value>
+  </data>
+  
+  
+  <data name="Z03_10_0_Screen_Changer" xml:space="preserve">
+<value>10.0 스크린 체인저</value>
+</data>
+  <data name="Z03_T1" xml:space="preserve">
+<value>, 우리는 완전히 새로운 애플 리 케이 션을 개발 했습니다!</value>
+</data>
+  <data name="Z03_T2" xml:space="preserve">
+<value>윈도 10에 적응.</value>
+</data>
+  <data name="Z03_T3" xml:space="preserve">
+<value>높은 해상도  디스플레이 크기에 적응.</value>
+</data>
+  <data name="Z03_T6" xml:space="preserve">
+<value>사용자 정보에 대 한 필드를 .</value>
+</data>
+  <data name="Z03_T7" xml:space="preserve">
+<value>더 많은 새로운 가능성</value>
+</data>
+  <data name="Z03_TestNow" xml:space="preserve">
+<value>지금 테스트</value>
+</data>
+</root>

@@ -1,0 +1,594 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AAA_AppName" xml:space="preserve">
+    <value>8.1 Ekran değiştirici</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>hakkında</value>
+  </data>
+  <data name="AllPictures" xml:space="preserve">
+    <value>tüm resimler</value>
+  </data>
+  <data name="BuyApp" xml:space="preserve">
+    <value>Bu uygulamayı satın almak</value>
+  </data>
+  <data name="ClickSkip" xml:space="preserve">
+    <value>atlamak için basın</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>kopya</value>
+  </data>
+  <data name="CopyFolder" xml:space="preserve">
+    <value>kopya klasörler</value>
+  </data>
+  <data name="CopyImagesTo" xml:space="preserve">
+    <value>Kopya görüntüler sonrası</value>
+  </data>
+  <data name="CopyPictures" xml:space="preserve">
+    <value>kopya görüntüler</value>
+  </data>
+  <data name="CreateNewFolder" xml:space="preserve">
+    <value>Yeni bir klasör oluşturma</value>
+  </data>
+  <data name="Current" xml:space="preserve">
+    <value>akım</value>
+  </data>
+  <data name="Cut" xml:space="preserve">
+    <value>kesim</value>
+  </data>
+  <data name="CutAuto" xml:space="preserve">
+    <value>otomatik olarak</value>
+  </data>
+  <data name="CutPicture" xml:space="preserve">
+    <value>görüntü kesmek</value>
+  </data>
+  <data name="CutPictures" xml:space="preserve">
+    <value>resim kesmek</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>silmek</value>
+  </data>
+  <data name="DeleteBar" xml:space="preserve">
+    <value>silmek</value>
+  </data>
+  <data name="DeleteFolder" xml:space="preserve">
+    <value>Klasörü Sil</value>
+  </data>
+  <data name="DeleteImages" xml:space="preserve">
+    <value>görüntüleri silin</value>
+  </data>
+  <data name="ErrorEnterName" xml:space="preserve">
+    <value>HATA ! Adını girin!</value>
+  </data>
+  <data name="ErrorEnterNewName" xml:space="preserve">
+    <value>HATA ! Yeni adı girin !</value>
+  </data>
+  <data name="ErrorName" xml:space="preserve">
+    <value>HATA ! Adı zaten kullanılıyor veya yanlış karakterler olduğunu!</value>
+  </data>
+  <data name="ExError" xml:space="preserve">
+    <value>HATA : Bu ​​uygulama için Arka plan görevleri devre dışı bırakıldı !</value>
+  </data>
+  <data name="Folder" xml:space="preserve">
+    <value>dosya</value>
+  </data>
+  <data name="GenerateNew" xml:space="preserve">
+    <value>Yeni Oluştur</value>
+  </data>
+  <data name="Instructions" xml:space="preserve">
+    <value>talimatlar</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>dil</value>
+  </data>
+  <data name="Left" xml:space="preserve">
+    <value>bağlantılar</value>
+  </data>
+  <data name="LikeXtrose" xml:space="preserve">
+    <value>gibi</value>
+  </data>
+  <data name="LockhelperInfo" xml:space="preserve">
+    <value>Sen , böylece biz kilit ekranı değiştiremezsiniz dedi !</value>
+  </data>
+  <data name="LockScreenChanger" xml:space="preserve">
+    <value>Arka planda bir görüntüyü değiştirmek</value>
+  </data>
+  <data name="MultipleAdd" xml:space="preserve">
+    <value>daha ekledi</value>
+  </data>
+  <data name="NewName" xml:space="preserve">
+    <value>yeni Adı</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>sonraki</value>
+  </data>
+  <data name="Notification" xml:space="preserve">
+    <value>tebliğ</value>
+  </data>
+  <data name="Off" xml:space="preserve">
+    <value>hayır</value>
+  </data>
+  <data name="On" xml:space="preserve">
+    <value>evet</value>
+  </data>
+  <data name="OpenFolder" xml:space="preserve">
+    <value>klasörü aç</value>
+  </data>
+  <data name="OtherApps" xml:space="preserve">
+    <value>Ander Apps xtrose</value>
+  </data>
+  <data name="Picture" xml:space="preserve">
+    <value>görüntü</value>
+  </data>
+  <data name="Pictures" xml:space="preserve">
+    <value>Resimler</value>
+  </data>
+  <data name="PleaseWait" xml:space="preserve">
+    <value>Lütfen bekleyin .....</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>önceki</value>
+  </data>
+  <data name="PurchaseNote" xml:space="preserve">
+    <value>Bu uygulamayı satın aldığınız için teşekkür ederiz</value>
+  </data>
+  <data name="Random" xml:space="preserve">
+    <value>rasgele</value>
+  </data>
+  <data name="RandomFolder" xml:space="preserve">
+    <value>Rastgele Klasör</value>
+  </data>
+  <data name="RandomPicture" xml:space="preserve">
+    <value>Rastgele resim</value>
+  </data>
+  <data name="RateApp" xml:space="preserve">
+    <value>Bu App değerlendir</value>
+  </data>
+  <data name="RenameFolder" xml:space="preserve">
+    <value>klasörünü yeniden adlandırma</value>
+  </data>
+  <data name="Right" xml:space="preserve">
+    <value>sağ</value>
+  </data>
+  <data name="RotateLeft" xml:space="preserve">
+    <value>sola dönmek</value>
+  </data>
+  <data name="RotateRight" xml:space="preserve">
+    <value>sağa dönmek</value>
+  </data>
+  <data name="SavedPictures" xml:space="preserve">
+    <value>saklanan görüntüleri</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>seçmek</value>
+  </data>
+  <data name="SelectAll" xml:space="preserve">
+    <value>tümünü seç</value>
+  </data>
+  <data name="SelectCopy" xml:space="preserve">
+    <value>Kopyalamak içingörüntüleri seçin</value>
+  </data>
+  <data name="SelectDelete" xml:space="preserve">
+    <value>Silmek için görüntüleri seçin</value>
+  </data>
+  <data name="SelectImages" xml:space="preserve">
+    <value>Eklemek için görüntüleri seçin</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Ayarlar</value>
+  </data>
+  <data name="SingleAdd" xml:space="preserve">
+    <value>eklendi bireysel</value>
+  </data>
+  <data name="SourceTarget" xml:space="preserve">
+    <value>Kaynak ve hedef eşittir</value>
+  </data>
+  <data name="Support" xml:space="preserve">
+    <value>destek</value>
+  </data>
+  <data name="TaskInfo" xml:space="preserve">
+    <value>Kilit ekranı görüntü değiştirme</value>
+  </data>
+  <data name="TrialVersion" xml:space="preserve">
+    <value>testi Sürüm</value>
+  </data>
+  <data name="UnselectAll" xml:space="preserve">
+    <value>tüm seçimleri kaldırmak</value>
+  </data>
+  <data name="WARNING" xml:space="preserve">
+    <value>UYARI !</value>
+  </data>
+  <data name="Hour" xml:space="preserve">
+    <value>saat</value>
+  </data>
+  <data name="Hours" xml:space="preserve">
+    <value>saatleri</value>
+  </data>
+  <data name="Minute" xml:space="preserve">
+    <value>dakika</value>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>dakika</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Deneme sürümü süresi doldu !</value>
+  </data>
+  <data name="TrialNote" xml:space="preserve">
+    <value>Demo sürümü süresi doldu ! Uygulamaları oluşturmak çok zaman maliyeti. Bu appfiyatı pahalı değil. Ayrıca bu uygulamayı satın almak için gereken görüntüler oluşturmak için ekranı kilitlemek için . Teşekkür ederiz !</value>
+  </data>
+  <data name="MsgNoPicture" xml:space="preserve">
+    <value>Seçilen klasörde hiçbir görüntü yok . Önceklasör ve ithalat görüntüleri açın olacaktır .</value>
+  </data>
+  <data name="Randomization" xml:space="preserve">
+    <value>rasgele</value>
+  </data>
+  <data name="ClickHere" xml:space="preserve">
+    <value>burada basın</value>
+  </data>
+  <data name="LockScreenSettings" xml:space="preserve">
+    <value>Kilit ekranı ayarları</value>
+  </data>
+  <data name="LowBatteryWarning" xml:space="preserve">
+    <value>pil uyarısı</value>
+  </data>
+  <data name="NotificationFullyCharged" xml:space="preserve">
+    <value>Bildirim tam şarjlı</value>
+  </data>
+  <data name="NotificationIsCharging" xml:space="preserve">
+    <value>Bildirim şarj</value>
+  </data>
+  <data name="NotificationSounds" xml:space="preserve">
+    <value>bildirim sesleri</value>
+  </data>
+  <data name="PlaySounds" xml:space="preserve">
+    <value>sesleri oynatmak</value>
+  </data>
+  <data name="Special" xml:space="preserve">
+    <value>özel</value>
+  </data>
+  <data name="Standard" xml:space="preserve">
+    <value>standart</value>
+  </data>
+  <data name="BatteryFullyCharged" xml:space="preserve">
+    <value>Pil tam şarjlı</value>
+  </data>
+  <data name="BatteryIsCharging" xml:space="preserve">
+    <value>Pil şarj edilir</value>
+  </data>
+  <data name="BatteryLow" xml:space="preserve">
+    <value>Pil düşük</value>
+  </data>
+  <data name="BatteryStatus" xml:space="preserve">
+    <value>pil Durumu</value>
+  </data>
+  <data name="Day" xml:space="preserve">
+    <value>gün</value>
+  </data>
+  <data name="Days" xml:space="preserve">
+    <value>günler</value>
+  </data>
+  <data name="ThankYouDown" xml:space="preserve">
+    <value>Indirdiğiniz için teşekkür ederiz</value>
+  </data>
+  <data name="AAA_1" xml:space="preserve">
+    <value>kilit ekranı</value>
+  </data>
+  <data name="AAA_2" xml:space="preserve">
+    <value>pil</value>
+  </data>
+  <data name="AAA_3" xml:space="preserve">
+    <value>Duvar Kağıdı</value>
+  </data>
+  <data name="AAA_4" xml:space="preserve">
+    <value>Wallaper</value>
+  </data>
+  <data name="AAA_5" xml:space="preserve">
+    <value>görüntü</value>
+  </data>
+  <data name="AAA_AppDescription" xml:space="preserve">
+    <value>Alternatif arka plan görüntüleri oluşturmak için bu uygulamayı kullanabilirsiniz .
+Ayrıca, pil durum göstergesi hakkındabaşvuru bilgileri sağlar .
+Bu amaçla hazır harika ortamlarda bol .
+Sizin arka plan görüntüsü ve pil göstergesi her 30 dakikada bir güncellenir .
+
+Yepyeni !
+GRD3 güncelleştirmeninuygulama bildirimleri konuşulur .</value>
+  </data>
+  <data name="InstGeneralHeader" xml:space="preserve">
+    <value>genellikle</value>
+  </data>
+  <data name="InstGeneralText" xml:space="preserve">
+    <value>Alternatif arka plan görüntüleri oluşturmak için bu uygulamayı kullanabilirsiniz . Ayrıca, pil durum göstergesi hakkındabaşvuru bilgileri sağlar .
+Bu amaçla hazır ayarları bol vardır. Sizin arka plan görüntüsü ve pil göstergesi her 30 dakikada bir güncellenir . Etkin bir internet bağlantısı gereklidir arka plan hizmetlerini çalıştırmak için Windows Phone unutmayın .
+Kilit ekranındaekran Windows Phonebildirim sistemine dayanmaktadır . Sadece % 99 maksimum görüntü mümkündür taşımaktadır.</value>
+  </data>
+  <data name="InstMiscellaneousHeader" xml:space="preserve">
+    <value>Diğerleri</value>
+  </data>
+  <data name="InstMiscellaneousText" xml:space="preserve">
+    <value>Eğer isterseniz bu uygulama iyi değerlendirirsiniz Lütfen . Eğer bu uygulama ile herhangi bir sorun varsa , o zaman touch desteği olsun lütfen ! Sorular ve sorunlarreytinglerde şey kaybetmiş değil .
+Teşekkür ederiz !</value>
+  </data>
+  <data name="InstPictureHeader" xml:space="preserve">
+    <value>Resimler</value>
+  </data>
+  <data name="InstPictureText" xml:space="preserve">
+    <value>, Bir klasör oluşturun açın ve ithalat , görüntülerin herhangi bir sayı . Import Images hizalanmış ve kesilen herhangi bir görüntü olabilir zaman . Görüntü her zaman cep içinmaksimum çözünürlükte oluşturulur . Sen daha hızlı klasör duvar kağıtları değiştirmek için oluşturabilirsiniz .</value>
+  </data>
+  <data name="InstSettingsHeader" xml:space="preserve">
+    <value>Ayarlar</value>
+  </data>
+  <data name="InstSettingsText" xml:space="preserve">
+    <value>Arka plan vepil durumu göstergesiayarları sayfasında özelleştirilebilir. Değişen görüntüler bir klasör seçin yüklenir . Ayrıcagörüntüleri sıralı yüklenmesi gerektiğini ya da rastgele bir seçilmelidir seçebilirsiniz .
+Pil durumu göstergesisistem ayarlarında ayarlanmış olmalıdır . Uygulamanınayarlarında mevcut bunun için bir bağlantıdır.
+Ek bildirim sesleri seçebilirsiniz . Spezialen sesleri konuşulan bildirimleri bulunmaktadır. Bu sessiz ve bildirimlerGDR3 güncelleştirmenin birinci çalışmak unutmayın .</value>
+  </data>
+  <data name="NoteLanguage" xml:space="preserve">
+    <value>Dili Değiştir</value>
+  </data>
+  <data name="NoteLanguage2" xml:space="preserve">
+    <value>Uygulamayı yeniden başlatın</value>
+  </data>
+  <data name="SelectLanguage" xml:space="preserve">
+    <value>bir dil seçin</value>
+  </data>
+  <data name="Z01_BatteryFullyCharged" xml:space="preserve">
+    <value>Tamamen şarj edilmiş bir batarya</value>
+  </data>
+  <data name="Z01_BatteryIsCharging" xml:space="preserve">
+    <value>Pil şarj edilir</value>
+  </data>
+  <data name="Z01_BatteryLow" xml:space="preserve">
+    <value>düşük Pil</value>
+  </data>
+  <data name="Z01_CompNewSound" xml:space="preserve">
+    <value>Yeni bildirim sesleri</value>
+  </data>
+  <data name="Z01_Components" xml:space="preserve">
+    <value>bileşenleri</value>
+  </data>
+  <data name="Z01_Connecting" xml:space="preserve">
+    <value>Xtrose ile iletişime</value>
+  </data>
+  <data name="Z01_CopySounds" xml:space="preserve">
+    <value>kopya sesleri</value>
+  </data>
+  <data name="Z01_DeleteSounds" xml:space="preserve">
+    <value>notları sil</value>
+  </data>
+  <data name="Z01_EditSounds" xml:space="preserve">
+    <value>Düzenle sesler</value>
+  </data>
+  <data name="Z01_Installed" xml:space="preserve">
+    <value>yüklü</value>
+  </data>
+  <data name="Z01_NewName" xml:space="preserve">
+    <value>yeni isim</value>
+  </data>
+  <data name="Z01_NoteSounds" xml:space="preserve">
+    <value>bildirim sesleri</value>
+  </data>
+  <data name="Z01_Online" xml:space="preserve">
+    <value>Online</value>
+  </data>
+  <data name="Z01_Play" xml:space="preserve">
+    <value>Oynat</value>
+  </data>
+  <data name="Z01_ReneameSounds" xml:space="preserve">
+    <value>sesleri yeniden adlandırma</value>
+  </data>
+  <data name="Z01_Save" xml:space="preserve">
+    <value>kurtarmak</value>
+  </data>
+  <data name="Z01_Change" xml:space="preserve">
+    <value>değişen</value>
+  </data>
+  <data name="Z01_ConnectingNow" xml:space="preserve">
+    <value>Bağlayın .....</value>
+  </data>
+  <data name="Z01_ConnectionFailed" xml:space="preserve">
+    <value>bağlantı Başarısız</value>
+  </data>
+  <data name="Z01_ConnectionTimeOut" xml:space="preserve">
+    <value>Kombine aşılması veya zaman değil</value>
+  </data>
+  <data name="Z01_CopySoundInfo" xml:space="preserve">
+    <value>Bu sesleri kopyalayın veeditörü ile düzenleyebilirsiniz</value>
+  </data>
+  <data name="Z01_CreateSounds" xml:space="preserve">
+    <value>Yeni bildirim sesleri oluşturun</value>
+  </data>
+  <data name="Z01_CreateSoundsInfo" xml:space="preserve">
+    <value>Bu seçenek, kopyalar sesleri mevcut . Daha sonraEditorsesleri değiştirebilirsiniz</value>
+  </data>
+  <data name="Z01_DownloadingSound" xml:space="preserve">
+    <value>bildirim sesi indir</value>
+  </data>
+  <data name="Z01_EnterUrl" xml:space="preserve">
+    <value>. mp3 dosyasınınurl girin</value>
+  </data>
+  <data name="Z01_Error" xml:space="preserve">
+    <value>HATA !</value>
+  </data>
+  <data name="Z01_ErrorSounds" xml:space="preserve">
+    <value>bir sistem bileşenidir ve yeniden adlandırılmış veya silinmiş , düzenlenemez .</value>
+  </data>
+  <data name="Z01_InUse" xml:space="preserve">
+    <value>HATA ! Adı zaten kullanılıyor ya da geçersiz karakterler edilir .</value>
+  </data>
+  <data name="Z01_LogoStart" xml:space="preserve">
+    <value>Açılışta logo göster</value>
+  </data>
+  <data name="Z01_NoComponentsOnline" xml:space="preserve">
+    <value>Hiçbir parça mevcut</value>
+  </data>
+  <data name="Z01_NoteDeleteSound" xml:space="preserve">
+    <value>Bildirim gerçekten silmek istiyorsanız geliyorsa</value>
+  </data>
+  <data name="Z01_RenameSoundsWarning" xml:space="preserve">
+    <value>UYARI ! Bu seslerayarlarında ayarlanmış ise hiçbir Benachrichtingungston verilir .</value>
+  </data>
+  <data name="Z01_SoundChangeInfo" xml:space="preserve">
+    <value>Ne yazık ki , bildirimuygulaması içintelefondan sesleri almak için hiçbir yolu yoktur . Bu nedenle, buinternetten indirilen gerekir .</value>
+  </data>
+  <data name="Z01_SoundSilent" xml:space="preserve">
+    <value>( Gürültüsüz )</value>
+  </data>
+  <data name="Z01_SoundStandard" xml:space="preserve">
+    <value>(standart )</value>
+  </data>
+  <data name="Z01_Warning" xml:space="preserve">
+    <value>UYARI</value>
+  </data>
+  <data name="Z01_Address" xml:space="preserve">
+    <value>İletişim Adresi</value>
+  </data>
+  <data name="Z01_Contact" xml:space="preserve">
+    <value>temas</value>
+  </data>
+  <data name="Z01_OtherApps" xml:space="preserve">
+    <value>Andere Apps xtrose</value>
+  </data>
+  <data name="Z01_InstNoteHeader" xml:space="preserve">
+    <value>bildirim sesleri</value>
+  </data>
+  <data name="Z01_InstNoteText" xml:space="preserve">
+    <value>Özel bildirim sesleri önce bir işletim sistemi sürümünden daha yüksek 8.0.10492 verilir .</value>
+  </data>
+  <data name="Z02_OtherXtroseApps" xml:space="preserve">
+    <value>Diğer xtrose uygulamalar</value>
+  </data>
+  <data name="Z02_RateLater" xml:space="preserve">
+    <value>sonra</value>
+  </data>
+  <data name="Z02_RateNever" xml:space="preserve">
+    <value>asla</value>
+  </data>
+  <data name="Z02_RateNow" xml:space="preserve">
+    <value>oran</value>
+  </data>
+  <data name="Z02_RateText" xml:space="preserve">
+    <value>Bu uygulama size hitap görünüyor .
+Uygulamalar programlamak için zaman alıcı ve zordur .
+İyi bir inceleme bize daha da yayılmasına yardımcı olabilir .
+
+Thank you very much</value>
+  </data>
+</root>

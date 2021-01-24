@@ -1,0 +1,617 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AAA_AppName" xml:space="preserve">
+    <value>8.1 画面チェンジャー</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>約</value>
+  </data>
+  <data name="AllPictures" xml:space="preserve">
+    <value>全ての写真</value>
+  </data>
+  <data name="BuyApp" xml:space="preserve">
+    <value>このアプリを購入</value>
+  </data>
+  <data name="ClickSkip" xml:space="preserve">
+    <value>スキップするキーを押し</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>コピー</value>
+  </data>
+  <data name="CopyFolder" xml:space="preserve">
+    <value>コピーフォルダ</value>
+  </data>
+  <data name="CopyImagesTo" xml:space="preserve">
+    <value>後に画像をコピーする</value>
+  </data>
+  <data name="CopyPictures" xml:space="preserve">
+    <value>コピー·イメージ</value>
+  </data>
+  <data name="CreateNewFolder" xml:space="preserve">
+    <value>新しいフォルダーを作成する</value>
+  </data>
+  <data name="Current" xml:space="preserve">
+    <value>現在の</value>
+  </data>
+  <data name="Cut" xml:space="preserve">
+    <value>カット</value>
+  </data>
+  <data name="CutAuto" xml:space="preserve">
+    <value>自動的に</value>
+  </data>
+  <data name="CutPicture" xml:space="preserve">
+    <value>カット画像</value>
+  </data>
+  <data name="CutPictures" xml:space="preserve">
+    <value>写真をカット</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="DeleteBar" xml:space="preserve">
+    <value>削除する</value>
+  </data>
+  <data name="DeleteFolder" xml:space="preserve">
+    <value>フォルダーを削除する</value>
+  </data>
+  <data name="DeleteImages" xml:space="preserve">
+    <value>画像を削除</value>
+  </data>
+  <data name="ErrorEnterName" xml:space="preserve">
+    <value>エラー！名前を入力してください！</value>
+  </data>
+  <data name="ErrorEnterNewName" xml:space="preserve">
+    <value>エラー！新しい名前を入力してください！</value>
+  </data>
+  <data name="ErrorName" xml:space="preserve">
+    <value>エラー！名前はすでに使用または不正な文字です！</value>
+  </data>
+  <data name="ExError" xml:space="preserve">
+    <value>エラー：このアプリのバックグラウンド·タスクは無効になりました！</value>
+  </data>
+  <data name="Folder" xml:space="preserve">
+    <value>ファイル</value>
+  </data>
+  <data name="GenerateNew" xml:space="preserve">
+    <value>新規作成</value>
+  </data>
+  <data name="Instructions" xml:space="preserve">
+    <value>説明書</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>言語</value>
+  </data>
+  <data name="Left" xml:space="preserve">
+    <value>リンク</value>
+  </data>
+  <data name="LikeXtrose" xml:space="preserve">
+    <value>のような</value>
+  </data>
+  <data name="LockhelperInfo" xml:space="preserve">
+    <value>あなたは、このように私達があなたのロック画面を変更することはできません、ノーと言った！</value>
+  </data>
+  <data name="LockScreenChanger" xml:space="preserve">
+    <value>背景画像を変更する</value>
+  </data>
+  <data name="MultipleAdd" xml:space="preserve">
+    <value>より追加された</value>
+  </data>
+  <data name="NewName" xml:space="preserve">
+    <value>新しい名前</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>次</value>
+  </data>
+  <data name="Notification" xml:space="preserve">
+    <value>通知</value>
+  </data>
+  <data name="Off" xml:space="preserve">
+    <value>いいえ</value>
+  </data>
+  <data name="On" xml:space="preserve">
+    <value>はい</value>
+  </data>
+  <data name="OpenFolder" xml:space="preserve">
+    <value>開いたフォルダ</value>
+  </data>
+  <data name="OtherApps" xml:space="preserve">
+    <value>アンデルはアプリをxtrose</value>
+  </data>
+  <data name="Picture" xml:space="preserve">
+    <value>画像</value>
+  </data>
+  <data name="Pictures" xml:space="preserve">
+    <value>写真</value>
+  </data>
+  <data name="PleaseWait" xml:space="preserve">
+    <value>しばらくお待ちください.....</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>前</value>
+  </data>
+  <data name="PurchaseNote" xml:space="preserve">
+    <value>このアプリをお買い上げいただき、まことにありがとうございます</value>
+  </data>
+  <data name="Random" xml:space="preserve">
+    <value>ランダム</value>
+  </data>
+  <data name="RandomFolder" xml:space="preserve">
+    <value>ランダムフォルダ</value>
+  </data>
+  <data name="RandomPicture" xml:space="preserve">
+    <value>画像をランダムに</value>
+  </data>
+  <data name="RateApp" xml:space="preserve">
+    <value>このアプリを評価</value>
+  </data>
+  <data name="RenameFolder" xml:space="preserve">
+    <value>フォルダー名を変更する</value>
+  </data>
+  <data name="Right" xml:space="preserve">
+    <value>右</value>
+  </data>
+  <data name="RotateLeft" xml:space="preserve">
+    <value>左に回し</value>
+  </data>
+  <data name="RotateRight" xml:space="preserve">
+    <value>右折</value>
+  </data>
+  <data name="SavedPictures" xml:space="preserve">
+    <value>保存された画像</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>選択する</value>
+  </data>
+  <data name="SelectAll" xml:space="preserve">
+    <value>すべて選択</value>
+  </data>
+  <data name="SelectCopy" xml:space="preserve">
+    <value>コピーする画像を選択</value>
+  </data>
+  <data name="SelectDelete" xml:space="preserve">
+    <value>削除対象の画像を選択</value>
+  </data>
+  <data name="SelectImages" xml:space="preserve">
+    <value>追加する画像を選択</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>[設定]</value>
+  </data>
+  <data name="SingleAdd" xml:space="preserve">
+    <value>追加された個々の</value>
+  </data>
+  <data name="SourceTarget" xml:space="preserve">
+    <value>ソースとターゲットは、に等しく、</value>
+  </data>
+  <data name="Support" xml:space="preserve">
+    <value>サポート</value>
+  </data>
+  <data name="TaskInfo" xml:space="preserve">
+    <value>ロック画面の変更</value>
+  </data>
+  <data name="TrialVersion" xml:space="preserve">
+    <value>テストバージョン</value>
+  </data>
+  <data name="UnselectAll" xml:space="preserve">
+    <value>すべての選択を解除</value>
+  </data>
+  <data name="WARNING" xml:space="preserve">
+    <value>警告！</value>
+  </data>
+  <data name="Hour" xml:space="preserve">
+    <value>時間</value>
+  </data>
+  <data name="Hours" xml:space="preserve">
+    <value>営業時間</value>
+  </data>
+  <data name="Minute" xml:space="preserve">
+    <value>分</value>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>分</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>試用版の有効期限が切れ！</value>
+  </data>
+  <data name="TrialNote" xml:space="preserve">
+    <value>デモ版の有効期限が切れています！アプリケーションを作成し、多くの時間がかかります。このアプリの価格は高価ではありません。さらにこのアプリを購入する必要がイメージを作成するには、画面をロックします。ありがとうございました！</value>
+  </data>
+  <data name="MsgNoPicture" xml:space="preserve">
+    <value>選択したフォルダ内の画像がありません。あなたが最初のフォルダとインポートの画像を開きます。</value>
+  </data>
+  <data name="Randomization" xml:space="preserve">
+    <value>ランダム</value>
+  </data>
+  <data name="ClickHere" xml:space="preserve">
+    <value>ここを押し</value>
+  </data>
+  <data name="LockScreenSettings" xml:space="preserve">
+    <value>ロック画面の設定</value>
+  </data>
+  <data name="LowBatteryWarning" xml:space="preserve">
+    <value>バッテリ警告</value>
+  </data>
+  <data name="NotificationFullyCharged" xml:space="preserve">
+    <value>通知完全に充電</value>
+  </data>
+  <data name="NotificationIsCharging" xml:space="preserve">
+    <value>料金通知</value>
+  </data>
+  <data name="NotificationSounds" xml:space="preserve">
+    <value>通知音</value>
+  </data>
+  <data name="PlaySounds" xml:space="preserve">
+    <value>音を鳴らす</value>
+  </data>
+  <data name="Special" xml:space="preserve">
+    <value>特別</value>
+  </data>
+  <data name="Standard" xml:space="preserve">
+    <value>標準</value>
+  </data>
+  <data name="BatteryFullyCharged" xml:space="preserve">
+    <value>バッテリーが完全に充電されている</value>
+  </data>
+  <data name="BatteryIsCharging" xml:space="preserve">
+    <value>バッテリーが充電され、</value>
+  </data>
+  <data name="BatteryLow" xml:space="preserve">
+    <value>バッテリが低い</value>
+  </data>
+  <data name="BatteryStatus" xml:space="preserve">
+    <value>バッテリーの状態</value>
+  </data>
+  <data name="Day" xml:space="preserve">
+    <value>日</value>
+  </data>
+  <data name="Days" xml:space="preserve">
+    <value>日</value>
+  </data>
+  <data name="ThankYouDown" xml:space="preserve">
+    <value>ダウンロードしていただき、ありがとうございます</value>
+  </data>
+  <data name="AAA_1" xml:space="preserve">
+    <value>ロック画面</value>
+  </data>
+  <data name="AAA_2" xml:space="preserve">
+    <value>バッテリー</value>
+  </data>
+  <data name="AAA_3" xml:space="preserve">
+    <value>壁紙</value>
+  </data>
+  <data name="AAA_4" xml:space="preserve">
+    <value>Wallaper</value>
+  </data>
+  <data name="AAA_5" xml:space="preserve">
+    <value>画像</value>
+  </data>
+  <data name="AAA_AppDescription" xml:space="preserve">
+    <value>交互に背景画像を作成するには、このアプリケーションを使用します。
+また、バッテリーの状態表示に関するアプリケーション情報は、可能です。
+この目的のために準備ができて非常に設定がたくさんあります。
+あなたの背景画像と、バッテリーインジケーターが30分ごとに更新されます。
+
+ブランドNEW！
+GRD3からアプリケーションを更新通知の話されている。</value>
+  </data>
+  <data name="InstGeneralHeader" xml:space="preserve">
+    <value>一般に</value>
+  </data>
+  <data name="InstGeneralText" xml:space="preserve">
+    <value>交互に背景画像を作成するには、このアプリケーションを使用します。また、バッテリーの状態表示に関するアプリケーション情報は、可能です。
+この目的のために準備ができて設定がたくさんあります。あなたの背景画像と、バッテリーインジケーターが30分ごとに更新されます。 Windowsの携帯電話でインターネットに接続が必要なバックグラウンドサービスを実行することに注意してください。
+ロック画面上の表示は、 Windowsの携帯電話の通知システムに基づいています。それだけで99パーセントの最大表示が可能なことである。</value>
+  </data>
+  <data name="InstMiscellaneousHeader" xml:space="preserve">
+    <value>他人</value>
+  </data>
+  <data name="InstMiscellaneousText" xml:space="preserve">
+    <value>あなたがそれを好めば、このアプリケーションの優れたを評価してください。あなたはこのアプリケーションで問題が発生した場合は、タッチのサポートを取ってください！質問や問題が格付けには何も失っていない。
+ありがとうございました！</value>
+  </data>
+  <data name="InstPictureHeader" xml:space="preserve">
+    <value>写真</value>
+  </data>
+  <data name="InstPictureText" xml:space="preserve">
+    <value>、任意の数の画像をフォルダを作成し、それを開くとインポート。インポート画像は任意の画像を位置合わせしてカットすることができます。イメージは常にあなたの携帯電話の最大解像度で作成されます。あなたは、より迅速にフォルダあなたの壁紙を変更するために作成することができます。</value>
+  </data>
+  <data name="InstSettingsHeader" xml:space="preserve">
+    <value>[設定]</value>
+  </data>
+  <data name="InstSettingsText" xml:space="preserve">
+    <value>背景とバッテリー残量インジケーターの設定ページでカスタマイズすることができます。変化する画像のフォルダを選択しますがロードされます。また、画像を連続的にロードする必要があり、ランダム1を選択すべきかどうかを選択できます。
+バッテリステータスインジケータはシステム設定で設定しなければなりません。アプリケーションの設定で利用できるが、このためのリンクです。
+追加の通知音を選択することができます。 Spezialenトーン話す通知です。この静かで通知がGDR3 Updateから最初の仕事がありますのでご注意ください。</value>
+  </data>
+  <data name="NoteLanguage" xml:space="preserve">
+    <value>言語を変更</value>
+  </data>
+  <data name="NoteLanguage2" xml:space="preserve">
+    <value>アプリケーションを再起動</value>
+  </data>
+  <data name="SelectLanguage" xml:space="preserve">
+    <value>言語を選択</value>
+  </data>
+  <data name="Z01_BatteryFullyCharged" xml:space="preserve">
+    <value>完全に充電されたバッテリー</value>
+  </data>
+  <data name="Z01_BatteryIsCharging" xml:space="preserve">
+    <value>バッテリーが充電され、</value>
+  </data>
+  <data name="Z01_BatteryLow" xml:space="preserve">
+    <value>ローバッテリ</value>
+  </data>
+  <data name="Z01_CompNewSound" xml:space="preserve">
+    <value>新しい通知音</value>
+  </data>
+  <data name="Z01_Components" xml:space="preserve">
+    <value>コンポーネント</value>
+  </data>
+  <data name="Z01_Connecting" xml:space="preserve">
+    <value>xtroseと接続</value>
+  </data>
+  <data name="Z01_CopySounds" xml:space="preserve">
+    <value>コピートーン</value>
+  </data>
+  <data name="Z01_DeleteSounds" xml:space="preserve">
+    <value>ノートを削除する</value>
+  </data>
+  <data name="Z01_EditSounds" xml:space="preserve">
+    <value>編集サウンド</value>
+  </data>
+  <data name="Z01_Installed" xml:space="preserve">
+    <value>インストール</value>
+  </data>
+  <data name="Z01_NewName" xml:space="preserve">
+    <value>新名称</value>
+  </data>
+  <data name="Z01_NoteSounds" xml:space="preserve">
+    <value>通知音</value>
+  </data>
+  <data name="Z01_Online" xml:space="preserve">
+    <value>オンライン</value>
+  </data>
+  <data name="Z01_Play" xml:space="preserve">
+    <value>プレイ</value>
+  </data>
+  <data name="Z01_ReneameSounds" xml:space="preserve">
+    <value>音の名前を変更</value>
+  </data>
+  <data name="Z01_Save" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="Z01_Change" xml:space="preserve">
+    <value>変化</value>
+  </data>
+  <data name="Z01_ConnectingNow" xml:space="preserve">
+    <value>接続.....</value>
+  </data>
+  <data name="Z01_ConnectionFailed" xml:space="preserve">
+    <value>接続に失敗しました</value>
+  </data>
+  <data name="Z01_ConnectionTimeOut" xml:space="preserve">
+    <value>超過または時刻を合わせていない</value>
+  </data>
+  <data name="Z01_CopySoundInfo" xml:space="preserve">
+    <value>これらの音をコピーして、エディタで編集</value>
+  </data>
+  <data name="Z01_CreateSounds" xml:space="preserve">
+    <value>新しい通知音を作成します。</value>
+  </data>
+  <data name="Z01_CreateSoundsInfo" xml:space="preserve">
+    <value>このオプションは、コピーはトーンを既存の。その後、エディタにサウンドを変更することができます</value>
+  </data>
+  <data name="Z01_DownloadingSound" xml:space="preserve">
+    <value>ダウンロード通知音</value>
+  </data>
+  <data name="Z01_EnterUrl" xml:space="preserve">
+    <value>。 MP3ファイルのURLを入力してください</value>
+  </data>
+  <data name="Z01_Error" xml:space="preserve">
+    <value>エラー！</value>
+  </data>
+  <data name="Z01_ErrorSounds" xml:space="preserve">
+    <value>システムコンポーネントであり、名前の変更、または削除、編集することはできません。</value>
+  </data>
+  <data name="Z01_InUse" xml:space="preserve">
+    <value>エラー！名前はすでに使用され、または無効な文字です。</value>
+  </data>
+  <data name="Z01_LogoStart" xml:space="preserve">
+    <value>起動時にロゴを表示する</value>
+  </data>
+  <data name="Z01_NoComponentsOnline" xml:space="preserve">
+    <value>いいえコンポーネントが存在しない</value>
+  </data>
+  <data name="Z01_NoteDeleteSound" xml:space="preserve">
+    <value>通知は、本当に削除したい聞こえるなら</value>
+  </data>
+  <data name="Z01_RenameSoundsWarning" xml:space="preserve">
+    <value>警告！これらの音は設定で設定されている場合は、[いいえBenachrichtingungstonは発行されません。</value>
+  </data>
+  <data name="Z01_SoundChangeInfo" xml:space="preserve">
+    <value>残念ながら、アプリケーションに携帯電話からの通知音をインポートする方法はありません。したがって、これらは、インターネットからダウンロードする必要があります。</value>
+  </data>
+  <data name="Z01_SoundSilent" xml:space="preserve">
+    <value>（ノイズレス）</value>
+  </data>
+  <data name="Z01_SoundStandard" xml:space="preserve">
+    <value>（標準）</value>
+  </data>
+  <data name="Z01_Warning" xml:space="preserve">
+    <value>警告</value>
+  </data>
+  <data name="Z01_Address" xml:space="preserve">
+    <value>連絡先</value>
+  </data>
+  <data name="Z01_Contact" xml:space="preserve">
+    <value>連絡</value>
+  </data>
+  <data name="Z01_OtherApps" xml:space="preserve">
+    <value>他の电子はアプリをxtrose</value>
+  </data>
+  <data name="Z01_InstNoteHeader" xml:space="preserve">
+    <value>通知音</value>
+  </data>
+  <data name="Z01_InstNoteText" xml:space="preserve">
+    <value>カスタム通知音が最初にオペレーティングシステムのバージョンからより高い8.0.10492が発行されます。</value>
+  </data>
+  <data name="Z02_OtherXtroseApps" xml:space="preserve">
+    <value>その他xtroseアプリ</value>
+  </data>
+  <data name="Z02_RateLater" xml:space="preserve">
+    <value>後で</value>
+  </data>
+  <data name="Z02_RateNever" xml:space="preserve">
+    <value>決して</value>
+  </data>
+  <data name="Z02_RateNow" xml:space="preserve">
+    <value>率</value>
+  </data>
+  <data name="Z02_RateText" xml:space="preserve">
+    <value>このアプリケーションは、あなたにアピールするようだ。
+アプリケーションをプログラムすることは、時間がかかり、困難である。
+良いレビューは、私たちはさらにそれを広めるのに役立ちます。
+
+どうもありがとうございました</value>
+  </data>
+  
+  
+  <data name="Z03_10_0_Screen_Changer" xml:space="preserve">
+<value>10.0 スクリーンチェンジャー</value>
+</data>
+  <data name="Z03_T1" xml:space="preserve">
+<value>を我々は完全に新しいアプリケーションを開発しました！</value>
+</data>
+  <data name="Z03_T2" xml:space="preserve">
+<value>Windowsの10日に適応</value>
+</data>
+  <data name="Z03_T3" xml:space="preserve">
+<value>より高い解像度。画面サイズに適合。</value>
+</data>
+  <data name="Z03_T6" xml:space="preserve">
+<value>フィールドのユーザ情報のため。</value>
+</data>
+  <data name="Z03_T7" xml:space="preserve">
+<value>は、他にも多くの新しいオプション。</value>
+</data>
+  <data name="Z03_TestNow" xml:space="preserve">
+<value>にサインアップ</value>
+</data>
+</root>

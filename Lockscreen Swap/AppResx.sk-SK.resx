@@ -1,0 +1,616 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AAA_AppName" xml:space="preserve">
+    <value>8.1 Displej meniča</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>O</value>
+  </data>
+  <data name="AllPictures" xml:space="preserve">
+    <value>všetky obrázky</value>
+  </data>
+  <data name="BuyApp" xml:space="preserve">
+    <value>Predám túto aplikáciu</value>
+  </data>
+  <data name="ClickSkip" xml:space="preserve">
+    <value>stlačením preskočíte</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>kópie</value>
+  </data>
+  <data name="CopyFolder" xml:space="preserve">
+    <value>kopírovanie zložky</value>
+  </data>
+  <data name="CopyImagesTo" xml:space="preserve">
+    <value>Kopírovanie súborov po</value>
+  </data>
+  <data name="CopyPictures" xml:space="preserve">
+    <value>kopírovanie obrázkov</value>
+  </data>
+  <data name="CreateNewFolder" xml:space="preserve">
+    <value>Vytvorenie novej zložky</value>
+  </data>
+  <data name="Current" xml:space="preserve">
+    <value>prúd</value>
+  </data>
+  <data name="Cut" xml:space="preserve">
+    <value>strih</value>
+  </data>
+  <data name="CutAuto" xml:space="preserve">
+    <value>automaticky</value>
+  </data>
+  <data name="CutPicture" xml:space="preserve">
+    <value>cut obrázok</value>
+  </data>
+  <data name="CutPictures" xml:space="preserve">
+    <value>Vystrihnúť obrázky</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>vymazať</value>
+  </data>
+  <data name="DeleteBar" xml:space="preserve">
+    <value>vymazať</value>
+  </data>
+  <data name="DeleteFolder" xml:space="preserve">
+    <value>zmazať zložku</value>
+  </data>
+  <data name="DeleteImages" xml:space="preserve">
+    <value>vymažte obrázky</value>
+  </data>
+  <data name="ErrorEnterName" xml:space="preserve">
+    <value>CHYBA ! Zadajte meno !</value>
+  </data>
+  <data name="ErrorEnterNewName" xml:space="preserve">
+    <value>CHYBA ! Zadajte nový názov !</value>
+  </data>
+  <data name="ErrorName" xml:space="preserve">
+    <value>CHYBA ! Názov sa už používa alebo nesprávne znaky !</value>
+  </data>
+  <data name="ExError" xml:space="preserve">
+    <value>ERROR : Pozadie úlohy pre túto aplikáciu bola zakázaná !</value>
+  </data>
+  <data name="Folder" xml:space="preserve">
+    <value>súbor</value>
+  </data>
+  <data name="GenerateNew" xml:space="preserve">
+    <value>vytvoriť nový</value>
+  </data>
+  <data name="Instructions" xml:space="preserve">
+    <value>inštrukcie</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>jazyk</value>
+  </data>
+  <data name="Left" xml:space="preserve">
+    <value>odkazy</value>
+  </data>
+  <data name="LikeXtrose" xml:space="preserve">
+    <value>ako</value>
+  </data>
+  <data name="LockhelperInfo" xml:space="preserve">
+    <value>Vravel si , že nie , a tak nemôžeme zmeniť blokovací obrazovku !</value>
+  </data>
+  <data name="LockScreenChanger" xml:space="preserve">
+    <value>Zmena obrázka na pozadí</value>
+  </data>
+  <data name="MultipleAdd" xml:space="preserve">
+    <value>viac pridané</value>
+  </data>
+  <data name="NewName" xml:space="preserve">
+    <value>nový názov</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>ďalšie</value>
+  </data>
+  <data name="Notification" xml:space="preserve">
+    <value>oznámenia</value>
+  </data>
+  <data name="Off" xml:space="preserve">
+    <value>nie</value>
+  </data>
+  <data name="On" xml:space="preserve">
+    <value>áno</value>
+  </data>
+  <data name="OpenFolder" xml:space="preserve">
+    <value>otvoriť zložku</value>
+  </data>
+  <data name="OtherApps" xml:space="preserve">
+    <value>Ander xtrose aplikácie</value>
+  </data>
+  <data name="Picture" xml:space="preserve">
+    <value>obraz</value>
+  </data>
+  <data name="Pictures" xml:space="preserve">
+    <value>obrázky</value>
+  </data>
+  <data name="PleaseWait" xml:space="preserve">
+    <value>Čakajte prosím .....</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>predchádzajúce</value>
+  </data>
+  <data name="PurchaseNote" xml:space="preserve">
+    <value>Ďakujeme , že ste si zakúpili túto aplikáciu</value>
+  </data>
+  <data name="Random" xml:space="preserve">
+    <value>náhodný</value>
+  </data>
+  <data name="RandomFolder" xml:space="preserve">
+    <value>random Folder</value>
+  </data>
+  <data name="RandomPicture" xml:space="preserve">
+    <value>náhodný obrázok</value>
+  </data>
+  <data name="RateApp" xml:space="preserve">
+    <value>Hodnotiť Táto aplikácia</value>
+  </data>
+  <data name="RenameFolder" xml:space="preserve">
+    <value>premenovať zložku</value>
+  </data>
+  <data name="Right" xml:space="preserve">
+    <value>právo</value>
+  </data>
+  <data name="RotateLeft" xml:space="preserve">
+    <value>otočte doľava</value>
+  </data>
+  <data name="RotateRight" xml:space="preserve">
+    <value>odbočte vpravo</value>
+  </data>
+  <data name="SavedPictures" xml:space="preserve">
+    <value>uložené snímky</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>vybrať</value>
+  </data>
+  <data name="SelectAll" xml:space="preserve">
+    <value>vybrať všetko</value>
+  </data>
+  <data name="SelectCopy" xml:space="preserve">
+    <value>Vyberte snímky , ktoré chcete kopírovať</value>
+  </data>
+  <data name="SelectDelete" xml:space="preserve">
+    <value>Výber snímok pre vymazanie</value>
+  </data>
+  <data name="SelectImages" xml:space="preserve">
+    <value>Vyberte obrázky pridať</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Nastavenie</value>
+  </data>
+  <data name="SingleAdd" xml:space="preserve">
+    <value>individuálne pridanou</value>
+  </data>
+  <data name="SourceTarget" xml:space="preserve">
+    <value>Zdroj a cieľ je rovná</value>
+  </data>
+  <data name="Support" xml:space="preserve">
+    <value>podpora</value>
+  </data>
+  <data name="TaskInfo" xml:space="preserve">
+    <value>Lock screen zmena imidžu</value>
+  </data>
+  <data name="TrialVersion" xml:space="preserve">
+    <value>Skúšobná verzia</value>
+  </data>
+  <data name="UnselectAll" xml:space="preserve">
+    <value>zrušiť označenie všetkých</value>
+  </data>
+  <data name="WARNING" xml:space="preserve">
+    <value>VAROVANIE !</value>
+  </data>
+  <data name="Hour" xml:space="preserve">
+    <value>hodina</value>
+  </data>
+  <data name="Hours" xml:space="preserve">
+    <value>Prevádzková doba</value>
+  </data>
+  <data name="Minute" xml:space="preserve">
+    <value>minúta</value>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>minút</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Trial verzia vypršala !</value>
+  </data>
+  <data name="TrialNote" xml:space="preserve">
+    <value>Demo verzia už vypršala ! Vytvorenie aplikácie stojí veľa času . Cena tejto aplikácie nie je drahé . Pre ďalšie zamknúť obrazovku vytvárať obrazy , ktoré potrebujete kúpiť túto aplikáciu . Ďakujem vám !</value>
+  </data>
+  <data name="MsgNoPicture" xml:space="preserve">
+    <value>Neexistuje žiadny záber vo vybranej zložke . Budete prvý Otvorte zložku obrazov a dovozu .</value>
+  </data>
+  <data name="Randomization" xml:space="preserve">
+    <value>náhodný</value>
+  </data>
+  <data name="ClickHere" xml:space="preserve">
+    <value>stlačte tu</value>
+  </data>
+  <data name="LockScreenSettings" xml:space="preserve">
+    <value>Nastavenie zámku obrazovky</value>
+  </data>
+  <data name="LowBatteryWarning" xml:space="preserve">
+    <value>Upozornenie na vybité batérie</value>
+  </data>
+  <data name="NotificationFullyCharged" xml:space="preserve">
+    <value>Oznámenie je plne nabitá</value>
+  </data>
+  <data name="NotificationIsCharging" xml:space="preserve">
+    <value>nabíjanie Oznámenie</value>
+  </data>
+  <data name="NotificationSounds" xml:space="preserve">
+    <value>oznamovacie tóny</value>
+  </data>
+  <data name="PlaySounds" xml:space="preserve">
+    <value>prehrať zvuky</value>
+  </data>
+  <data name="Special" xml:space="preserve">
+    <value>špeciálne</value>
+  </data>
+  <data name="Standard" xml:space="preserve">
+    <value>štandard</value>
+  </data>
+  <data name="BatteryFullyCharged" xml:space="preserve">
+    <value>Batéria je plne nabitá</value>
+  </data>
+  <data name="BatteryIsCharging" xml:space="preserve">
+    <value>Batéria je nabitá</value>
+  </data>
+  <data name="BatteryLow" xml:space="preserve">
+    <value>Batéria je takmer vybitá</value>
+  </data>
+  <data name="BatteryStatus" xml:space="preserve">
+    <value>stav batérie</value>
+  </data>
+  <data name="Day" xml:space="preserve">
+    <value>deň</value>
+  </data>
+  <data name="Days" xml:space="preserve">
+    <value>dni</value>
+  </data>
+  <data name="ThankYouDown" xml:space="preserve">
+    <value>Ďakujeme za stiahnutie</value>
+  </data>
+  <data name="AAA_1" xml:space="preserve">
+    <value>lock screen</value>
+  </data>
+  <data name="AAA_2" xml:space="preserve">
+    <value>batérie</value>
+  </data>
+  <data name="AAA_3" xml:space="preserve">
+    <value>Panna</value>
+  </data>
+  <data name="AAA_4" xml:space="preserve">
+    <value>Wallaper</value>
+  </data>
+  <data name="AAA_5" xml:space="preserve">
+    <value>obraz</value>
+  </data>
+  <data name="AAA_AppDescription" xml:space="preserve">
+    <value>Pomocou tejto aplikácie na vytvorenie striedajúci obrázky na pozadí .
+Okrem toho sa informácie o vašej zobrazenie stavu batérie Aplikácia umožňuje .
+Pre tento účel je veľa hotových skvelých nastavenie .
+Váš obrázok na pozadí a váš indikátor batérie je aktualizovaná každých 30 minút .
+
+Zbrusu nový !
+Od GRD3 aktualizácie sú aplikačné hovorí oznámenia .</value>
+  </data>
+  <data name="InstGeneralHeader" xml:space="preserve">
+    <value>zvyčajne</value>
+  </data>
+  <data name="InstGeneralText" xml:space="preserve">
+    <value>Pomocou tejto aplikácie na vytvorenie striedajúci obrázky na pozadí . Okrem toho sa informácie o vašej zobrazenie stavu batérie Aplikácia umožňuje .
+Pre tento účel je veľa hotových nastavenie . Váš obrázok na pozadí a váš indikátor batérie je aktualizovaná každých 30 minút . Vezmite prosím na vedomie , že vo Windows Phone bežať na pozadí služby je potrebné aktívne pripojenie k internetu .
+Zobrazenie na obrazovke uzamknutia je založený na oznamovací systém Windows Phone . Je teda len je možné maximálne zobrazenie 99 % .</value>
+  </data>
+  <data name="InstMiscellaneousHeader" xml:space="preserve">
+    <value>ostatné</value>
+  </data>
+  <data name="InstMiscellaneousText" xml:space="preserve">
+    <value>Ohodnoťte , prosím , túto aplikáciu dobre , ak sa vám to páči . Ak máte nejaké problémy s touto aplikáciou , potom prosím dostať do kontaktu podporu ! Otázky a problémy sa nestratili nič na hodnotenie .
+Ďakujem vám !</value>
+  </data>
+  <data name="InstPictureHeader" xml:space="preserve">
+    <value>obrázky</value>
+  </data>
+  <data name="InstPictureText" xml:space="preserve">
+    <value>Vytvorte priečinok , otvorte ju a import , ľubovoľný počet obrázkov . Keď Import Images môže byť ľubovoľný obrázok zarovnaný a strih . Obraz je vždy vytvorený v maximálnom rozlíšení pre váš mobil . Môžete vytvoriť rýchlejšie priečinok zmeniť tapety .</value>
+  </data>
+  <data name="InstSettingsHeader" xml:space="preserve">
+    <value>Nastavenie</value>
+  </data>
+  <data name="InstSettingsText" xml:space="preserve">
+    <value>Na stránke nastavenia na pozadí a indikátor stavu batérie je možné prispôsobiť . Vyberte priečinok , z meniacich sa obrazov sú načítané . Môžete si tiež vybrať , či obrazy by mali byť vkladané postupne alebo náhodne jeden by mal byť vybraný .
+Indikátor stavu batérie musia byť nastavené v systémových nastaveniach . V nastavení aplikácie je k dispozícii odkaz na toto .
+Môžete si vybrať ďalšie zvuky oznámenia . V Spezialen tóny sú hovorené oznámenia . Vezmite prosím na vedomie , že tento tichý a oznámenia pracovať prvý z aktualizácie GDR3 .</value>
+  </data>
+  <data name="NoteLanguage" xml:space="preserve">
+    <value>zmeniť jazyk</value>
+  </data>
+  <data name="NoteLanguage2" xml:space="preserve">
+    <value>Reštartujte aplikáciu</value>
+  </data>
+  <data name="SelectLanguage" xml:space="preserve">
+    <value>Vyberte si jazyk</value>
+  </data>
+  <data name="Z01_BatteryFullyCharged" xml:space="preserve">
+    <value>Plne nabitá batéria</value>
+  </data>
+  <data name="Z01_BatteryIsCharging" xml:space="preserve">
+    <value>Batéria je nabitá</value>
+  </data>
+  <data name="Z01_BatteryLow" xml:space="preserve">
+    <value>vybitá batéria</value>
+  </data>
+  <data name="Z01_CompNewSound" xml:space="preserve">
+    <value>Nové oznámenie zvuky</value>
+  </data>
+  <data name="Z01_Components" xml:space="preserve">
+    <value>komponenty</value>
+  </data>
+  <data name="Z01_Connecting" xml:space="preserve">
+    <value>Spojte sa s xtrose</value>
+  </data>
+  <data name="Z01_CopySounds" xml:space="preserve">
+    <value>kopírovanie tóny</value>
+  </data>
+  <data name="Z01_DeleteSounds" xml:space="preserve">
+    <value>odstránenie poznámky</value>
+  </data>
+  <data name="Z01_EditSounds" xml:space="preserve">
+    <value>upraviť zvuky</value>
+  </data>
+  <data name="Z01_Installed" xml:space="preserve">
+    <value>nainštalovaný</value>
+  </data>
+  <data name="Z01_NewName" xml:space="preserve">
+    <value>nový názov</value>
+  </data>
+  <data name="Z01_NoteSounds" xml:space="preserve">
+    <value>Oznámenie zvuky</value>
+  </data>
+  <data name="Z01_Online" xml:space="preserve">
+    <value>on - line</value>
+  </data>
+  <data name="Z01_Play" xml:space="preserve">
+    <value>prehrať</value>
+  </data>
+  <data name="Z01_ReneameSounds" xml:space="preserve">
+    <value>premenovať zvuky</value>
+  </data>
+  <data name="Z01_Save" xml:space="preserve">
+    <value>uložiť</value>
+  </data>
+  <data name="Z01_Change" xml:space="preserve">
+    <value>meniace sa</value>
+  </data>
+  <data name="Z01_ConnectingNow" xml:space="preserve">
+    <value>Pripojte .....</value>
+  </data>
+  <data name="Z01_ConnectionFailed" xml:space="preserve">
+    <value>pripojenie zlyhalo</value>
+  </data>
+  <data name="Z01_ConnectionTimeOut" xml:space="preserve">
+    <value>Prekročenie alebo kombinované čas</value>
+  </data>
+  <data name="Z01_CopySoundInfo" xml:space="preserve">
+    <value>Skopírujte tieto zvuky a upraviť ho v editore</value>
+  </data>
+  <data name="Z01_CreateSounds" xml:space="preserve">
+    <value>Vytvorenie novej zvuky oznámenia</value>
+  </data>
+  <data name="Z01_CreateSoundsInfo" xml:space="preserve">
+    <value>Táto voľba kopíruje existujúce tóny . Potom môžete zmeniť zvuky do editora</value>
+  </data>
+  <data name="Z01_DownloadingSound" xml:space="preserve">
+    <value>Stiahnite si zvukové upozornenie</value>
+  </data>
+  <data name="Z01_EnterUrl" xml:space="preserve">
+    <value>Zadajte adresu URL . Mp3 súboru</value>
+  </data>
+  <data name="Z01_Error" xml:space="preserve">
+    <value>CHYBA !</value>
+  </data>
+  <data name="Z01_ErrorSounds" xml:space="preserve">
+    <value>je súčasťou systému a nie je možné ich upravovať , premenovaný alebo zmazaný .</value>
+  </data>
+  <data name="Z01_InUse" xml:space="preserve">
+    <value>CHYBA ! Názov sa už používa alebo neplatné znaky .</value>
+  </data>
+  <data name="Z01_LogoStart" xml:space="preserve">
+    <value>Ukázať logo pri štarte</value>
+  </data>
+  <data name="Z01_NoComponentsOnline" xml:space="preserve">
+    <value>Nie sú k dispozícii žiadne súčasti</value>
+  </data>
+  <data name="Z01_NoteDeleteSound" xml:space="preserve">
+    <value>Ak oznámenie znie naozaj chcete zmazať</value>
+  </data>
+  <data name="Z01_RenameSoundsWarning" xml:space="preserve">
+    <value>VAROVANIE ! Ak sú tieto zvuky v nastavení žiadny Benachrichtingungston sa vydáva .</value>
+  </data>
+  <data name="Z01_SoundChangeInfo" xml:space="preserve">
+    <value>Bohužiaľ , neexistuje žiadny spôsob , ako importovať zvuky upozornenia z telefónu do aplikácie . Z tohto dôvodu, to je potrebné stiahnuť z Internetu .</value>
+  </data>
+  <data name="Z01_SoundSilent" xml:space="preserve">
+    <value>( Tichý )</value>
+  </data>
+  <data name="Z01_SoundStandard" xml:space="preserve">
+    <value>( Standard )</value>
+  </data>
+  <data name="Z01_Warning" xml:space="preserve">
+    <value>VAROVANIE</value>
+  </data>
+  <data name="Z01_Address" xml:space="preserve">
+    <value>kontaktná adresa</value>
+  </data>
+  <data name="Z01_Contact" xml:space="preserve">
+    <value>kontakt</value>
+  </data>
+  <data name="Z01_OtherApps" xml:space="preserve">
+    <value>Andere xtrose aplikácie</value>
+  </data>
+  <data name="Z01_InstNoteHeader" xml:space="preserve">
+    <value>Oznámenie zvuky</value>
+  </data>
+  <data name="Z01_InstNoteText" xml:space="preserve">
+    <value>Vlastné oznámenia zvuky sú najprv vydané vyššie ako 8.0.10492 z verzií operačného systému .</value>
+  </data>
+  <data name="Z02_OtherXtroseApps" xml:space="preserve">
+    <value>Ďalšie xtrose aplikácie</value>
+  </data>
+  <data name="Z02_RateLater" xml:space="preserve">
+    <value>neskôr</value>
+  </data>
+  <data name="Z02_RateNever" xml:space="preserve">
+    <value>nikdy</value>
+  </data>
+  <data name="Z02_RateNow" xml:space="preserve">
+    <value>sadzba</value>
+  </data>
+  <data name="Z02_RateText" xml:space="preserve">
+    <value>Táto aplikácia sa zdá apelovať na vás .
+Ak chcete naprogramovať aplikácie je časovo náročné a ťažké.
+Dobrý prehľad nám môže pomôcť ju šíriť ďalej.
+
+Ďakujem moc</value>
+  </data>
+  
+  <data name="Z03_10_0_Screen_Changer" xml:space="preserve">
+<value>10.0 Zaslon menjalec</value>
+</data>
+  <data name="Z03_T1" xml:space="preserve">
+<value>Smo razvili popolnoma nov app!</value>
+</data>
+  <data name="Z03_T2" xml:space="preserve">
+<value>Prilagojena Windows 10.</value>
+</data>
+  <data name="Z03_T3" xml:space="preserve">
+<value>Višjo resolucijo. Prilagoditi velikost prikaza.</value>
+</data>
+  <data name="Z03_T6" xml:space="preserve">
+<value>Polja za informacije o uporabniku.</value>
+</data>
+  <data name="Z03_T7" xml:space="preserve">
+<value>Veliko več novih možnosti.</value>
+</data>
+  <data name="Z03_TestNow" xml:space="preserve">
+<value>Test zdaj</value>
+</data>
+</root>

@@ -1,0 +1,616 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AAA_AppName" xml:space="preserve">
+    <value>8.1 換網器</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>關於</value>
+  </data>
+  <data name="AllPictures" xml:space="preserve">
+    <value>所有圖片</value>
+  </data>
+  <data name="BuyApp" xml:space="preserve">
+    <value>購買這個程序</value>
+  </data>
+  <data name="ClickSkip" xml:space="preserve">
+    <value>按跳過</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>複製</value>
+  </data>
+  <data name="CopyFolder" xml:space="preserve">
+    <value>複製文件夾</value>
+  </data>
+  <data name="CopyImagesTo" xml:space="preserve">
+    <value>複製後的圖像</value>
+  </data>
+  <data name="CopyPictures" xml:space="preserve">
+    <value>複製圖像</value>
+  </data>
+  <data name="CreateNewFolder" xml:space="preserve">
+    <value>創建一個新的文件夾</value>
+  </data>
+  <data name="Current" xml:space="preserve">
+    <value>當前</value>
+  </data>
+  <data name="Cut" xml:space="preserve">
+    <value>切</value>
+  </data>
+  <data name="CutAuto" xml:space="preserve">
+    <value>自動</value>
+  </data>
+  <data name="CutPicture" xml:space="preserve">
+    <value>剪切圖像</value>
+  </data>
+  <data name="CutPictures" xml:space="preserve">
+    <value>剪下的圖片</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>刪除</value>
+  </data>
+  <data name="DeleteBar" xml:space="preserve">
+    <value>刪除</value>
+  </data>
+  <data name="DeleteFolder" xml:space="preserve">
+    <value>刪除文件夾</value>
+  </data>
+  <data name="DeleteImages" xml:space="preserve">
+    <value>刪除影像</value>
+  </data>
+  <data name="ErrorEnterName" xml:space="preserve">
+    <value>錯誤！輸入您的名字！</value>
+  </data>
+  <data name="ErrorEnterNewName" xml:space="preserve">
+    <value>錯誤！輸入新名稱！</value>
+  </data>
+  <data name="ErrorName" xml:space="preserve">
+    <value>錯誤！名稱已被使用或不正確的字符！</value>
+  </data>
+  <data name="ExError" xml:space="preserve">
+    <value>錯誤：這個程序後台任務已被禁用！</value>
+  </data>
+  <data name="Folder" xml:space="preserve">
+    <value>文件</value>
+  </data>
+  <data name="GenerateNew" xml:space="preserve">
+    <value>創建新</value>
+  </data>
+  <data name="Instructions" xml:space="preserve">
+    <value>說明</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>語</value>
+  </data>
+  <data name="Left" xml:space="preserve">
+    <value>鏈接</value>
+  </data>
+  <data name="LikeXtrose" xml:space="preserve">
+    <value>喜歡</value>
+  </data>
+  <data name="LockhelperInfo" xml:space="preserve">
+    <value>你說沒有，所以我們不能改變你的鎖屏！</value>
+  </data>
+  <data name="LockScreenChanger" xml:space="preserve">
+    <value>在後台更改圖像</value>
+  </data>
+  <data name="MultipleAdd" xml:space="preserve">
+    <value>多補充</value>
+  </data>
+  <data name="NewName" xml:space="preserve">
+    <value>新名稱</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>下一個</value>
+  </data>
+  <data name="Notification" xml:space="preserve">
+    <value>通知</value>
+  </data>
+  <data name="Off" xml:space="preserve">
+    <value>無</value>
+  </data>
+  <data name="On" xml:space="preserve">
+    <value>是的</value>
+  </data>
+  <data name="OpenFolder" xml:space="preserve">
+    <value>打開文件夾</value>
+  </data>
+  <data name="OtherApps" xml:space="preserve">
+    <value>安德xtrose應用程序</value>
+  </data>
+  <data name="Picture" xml:space="preserve">
+    <value>圖像</value>
+  </data>
+  <data name="Pictures" xml:space="preserve">
+    <value>圖片</value>
+  </data>
+  <data name="PleaseWait" xml:space="preserve">
+    <value>請稍候.....</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>以前</value>
+  </data>
+  <data name="PurchaseNote" xml:space="preserve">
+    <value>感謝您購買這個應用程序</value>
+  </data>
+  <data name="Random" xml:space="preserve">
+    <value>隨機</value>
+  </data>
+  <data name="RandomFolder" xml:space="preserve">
+    <value>隨機文件夾</value>
+  </data>
+  <data name="RandomPicture" xml:space="preserve">
+    <value>隨機圖片</value>
+  </data>
+  <data name="RateApp" xml:space="preserve">
+    <value>評價此應用程式</value>
+  </data>
+  <data name="RenameFolder" xml:space="preserve">
+    <value>重命名文件夾</value>
+  </data>
+  <data name="Right" xml:space="preserve">
+    <value>右邊</value>
+  </data>
+  <data name="RotateLeft" xml:space="preserve">
+    <value>向左轉</value>
+  </data>
+  <data name="RotateRight" xml:space="preserve">
+    <value>右轉</value>
+  </data>
+  <data name="SavedPictures" xml:space="preserve">
+    <value>存儲的圖像</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>選擇</value>
+  </data>
+  <data name="SelectAll" xml:space="preserve">
+    <value>全選</value>
+  </data>
+  <data name="SelectCopy" xml:space="preserve">
+    <value>選擇圖像複製</value>
+  </data>
+  <data name="SelectDelete" xml:space="preserve">
+    <value>刪除選擇的圖像</value>
+  </data>
+  <data name="SelectImages" xml:space="preserve">
+    <value>選擇圖像添加</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>設置</value>
+  </data>
+  <data name="SingleAdd" xml:space="preserve">
+    <value>個人補充</value>
+  </data>
+  <data name="SourceTarget" xml:space="preserve">
+    <value>源和目標等於</value>
+  </data>
+  <data name="Support" xml:space="preserve">
+    <value>支持</value>
+  </data>
+  <data name="TaskInfo" xml:space="preserve">
+    <value>鎖定屏幕圖像變化</value>
+  </data>
+  <data name="TrialVersion" xml:space="preserve">
+    <value>測試版</value>
+  </data>
+  <data name="UnselectAll" xml:space="preserve">
+    <value>取消選擇所有</value>
+  </data>
+  <data name="WARNING" xml:space="preserve">
+    <value>警告！</value>
+  </data>
+  <data name="Hour" xml:space="preserve">
+    <value>小時</value>
+  </data>
+  <data name="Hours" xml:space="preserve">
+    <value>小時</value>
+  </data>
+  <data name="Minute" xml:space="preserve">
+    <value>分鐘</value>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>會議紀要</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>試用版過期！</value>
+  </data>
+  <data name="TrialNote" xml:space="preserve">
+    <value>演示版本已經過期！創建應用程序花費大量的時間。這個應用程序的價格也不貴。為了進一步鎖定屏幕來創建你需要購買這個程序的圖像。謝謝！</value>
+  </data>
+  <data name="MsgNoPicture" xml:space="preserve">
+    <value>還有就是選擇的文件夾中沒有圖像。你會先打開該文件夾並導入圖像。</value>
+  </data>
+  <data name="Randomization" xml:space="preserve">
+    <value>隨機</value>
+  </data>
+  <data name="ClickHere" xml:space="preserve">
+    <value>請按這裡</value>
+  </data>
+  <data name="LockScreenSettings" xml:space="preserve">
+    <value>鎖屏設置</value>
+  </data>
+  <data name="LowBatteryWarning" xml:space="preserve">
+    <value>電池警告</value>
+  </data>
+  <data name="NotificationFullyCharged" xml:space="preserve">
+    <value>通知完全充電</value>
+  </data>
+  <data name="NotificationIsCharging" xml:space="preserve">
+    <value>收費通知</value>
+  </data>
+  <data name="NotificationSounds" xml:space="preserve">
+    <value>通知鈴聲</value>
+  </data>
+  <data name="PlaySounds" xml:space="preserve">
+    <value>播放聲音</value>
+  </data>
+  <data name="Special" xml:space="preserve">
+    <value>特別</value>
+  </data>
+  <data name="Standard" xml:space="preserve">
+    <value>標準</value>
+  </data>
+  <data name="BatteryFullyCharged" xml:space="preserve">
+    <value>電池充滿電</value>
+  </data>
+  <data name="BatteryIsCharging" xml:space="preserve">
+    <value>電池充電</value>
+  </data>
+  <data name="BatteryLow" xml:space="preserve">
+    <value>電池電量低</value>
+  </data>
+  <data name="BatteryStatus" xml:space="preserve">
+    <value>電池狀態</value>
+  </data>
+  <data name="Day" xml:space="preserve">
+    <value>日</value>
+  </data>
+  <data name="Days" xml:space="preserve">
+    <value>天</value>
+  </data>
+  <data name="ThankYouDown" xml:space="preserve">
+    <value>感謝您下載</value>
+  </data>
+  <data name="AAA_1" xml:space="preserve">
+    <value>鎖屏</value>
+  </data>
+  <data name="AAA_2" xml:space="preserve">
+    <value>電池</value>
+  </data>
+  <data name="AAA_3" xml:space="preserve">
+    <value>壁紙</value>
+  </data>
+  <data name="AAA_4" xml:space="preserve">
+    <value>Wallaper</value>
+  </data>
+  <data name="AAA_5" xml:space="preserve">
+    <value>圖像</value>
+  </data>
+  <data name="AAA_AppDescription" xml:space="preserve">
+    <value>使用這個應用程序來創建交替的背景圖像。
+另外，關於你的電池狀態顯示的應用程序的信息允許。
+出於這個目的，有很多現成偉大的設置。
+您的背景圖像和電池指示燈每30分鐘更新。
+
+全新的！
+從GRD3更新的應用程序是口語的通知。</value>
+  </data>
+  <data name="InstGeneralHeader" xml:space="preserve">
+    <value>通常</value>
+  </data>
+  <data name="InstGeneralText" xml:space="preserve">
+    <value>使用這個應用程序來創建交替的背景圖像。另外，關於你的電池狀態顯示的應用程序的信息允許。
+出於這個目的，有很多現成的設置。您的背景圖像和電池指示燈每30分鐘更新。請注意，在Windows手機需要激活的Internet連接來運行後台服務。
+在鎖屏上的顯示是基於Windows手機的通知系統。因此，只有99％的最大顯示是可能的。</value>
+  </data>
+  <data name="InstMiscellaneousHeader" xml:space="preserve">
+    <value>他人</value>
+  </data>
+  <data name="InstMiscellaneousText" xml:space="preserve">
+    <value>如果你喜歡它，請為這個應用不錯。如果您有與此應用程序的任何問題，那麼請您聯繫我們的支持！問題和困難的收視率並沒有失去任何東西。
+謝謝！</value>
+  </data>
+  <data name="InstPictureHeader" xml:space="preserve">
+    <value>圖片</value>
+  </data>
+  <data name="InstPictureText" xml:space="preserve">
+    <value>創建一個文件夾，打開它，匯入，任意數量的圖像。當導入圖像可以是對齊的並切斷任何圖像。圖像總是在最大分辨率為您的移動創建的。您可以創建更快速的文件夾改變你的壁紙。</value>
+  </data>
+  <data name="InstSettingsHeader" xml:space="preserve">
+    <value>設置</value>
+  </data>
+  <data name="InstSettingsText" xml:space="preserve">
+    <value>的背景和電池狀態指示燈的設置頁面可以定制。從不斷變化的圖像選擇一個文件夾被加載。還可以選擇是否將圖像應當依次被加載或隨機1應該被選中。
+電池狀態指示燈必須在系統設置中進行設置。在應用程序的設置是可用的鏈接這一點。
+您可以選擇其他通知聲音。該Spezialen音是口頭通知。請注意，這沉默和通知從GDR3更新第一個工作。</value>
+  </data>
+  <data name="NoteLanguage" xml:space="preserve">
+    <value>更改語言</value>
+  </data>
+  <data name="NoteLanguage2" xml:space="preserve">
+    <value>重新啟動應用程序</value>
+  </data>
+  <data name="SelectLanguage" xml:space="preserve">
+    <value>選擇語言</value>
+  </data>
+  <data name="Z01_BatteryFullyCharged" xml:space="preserve">
+    <value>完全充電的電池</value>
+  </data>
+  <data name="Z01_BatteryIsCharging" xml:space="preserve">
+    <value>電池充電</value>
+  </data>
+  <data name="Z01_BatteryLow" xml:space="preserve">
+    <value>電池電量低</value>
+  </data>
+  <data name="Z01_CompNewSound" xml:space="preserve">
+    <value>新的通知聲音</value>
+  </data>
+  <data name="Z01_Components" xml:space="preserve">
+    <value>組件</value>
+  </data>
+  <data name="Z01_Connecting" xml:space="preserve">
+    <value>連接與xtrose</value>
+  </data>
+  <data name="Z01_CopySounds" xml:space="preserve">
+    <value>複製色調</value>
+  </data>
+  <data name="Z01_DeleteSounds" xml:space="preserve">
+    <value>刪除備忘</value>
+  </data>
+  <data name="Z01_EditSounds" xml:space="preserve">
+    <value>編輯聲音</value>
+  </data>
+  <data name="Z01_Installed" xml:space="preserve">
+    <value>安裝</value>
+  </data>
+  <data name="Z01_NewName" xml:space="preserve">
+    <value>新名稱</value>
+  </data>
+  <data name="Z01_NoteSounds" xml:space="preserve">
+    <value>通知聲音</value>
+  </data>
+  <data name="Z01_Online" xml:space="preserve">
+    <value>在線</value>
+  </data>
+  <data name="Z01_Play" xml:space="preserve">
+    <value>播放</value>
+  </data>
+  <data name="Z01_ReneameSounds" xml:space="preserve">
+    <value>重命名聲音</value>
+  </data>
+  <data name="Z01_Save" xml:space="preserve">
+    <value>節省</value>
+  </data>
+  <data name="Z01_Change" xml:space="preserve">
+    <value>改變</value>
+  </data>
+  <data name="Z01_ConnectingNow" xml:space="preserve">
+    <value>連接.....</value>
+  </data>
+  <data name="Z01_ConnectionFailed" xml:space="preserve">
+    <value>連接失敗</value>
+  </data>
+  <data name="Z01_ConnectionTimeOut" xml:space="preserve">
+    <value>超過或不合併時間</value>
+  </data>
+  <data name="Z01_CopySoundInfo" xml:space="preserve">
+    <value>複製這些聲音，並用編輯器編輯它</value>
+  </data>
+  <data name="Z01_CreateSounds" xml:space="preserve">
+    <value>創建新的通知聲音</value>
+  </data>
+  <data name="Z01_CreateSoundsInfo" xml:space="preserve">
+    <value>此選項複製現有的音調。然後，您可以更改聲音的編輯器</value>
+  </data>
+  <data name="Z01_DownloadingSound" xml:space="preserve">
+    <value>下載通知聲音</value>
+  </data>
+  <data name="Z01_EnterUrl" xml:space="preserve">
+    <value>回車鍵。 mp3文件的url</value>
+  </data>
+  <data name="Z01_Error" xml:space="preserve">
+    <value>錯誤！</value>
+  </data>
+  <data name="Z01_ErrorSounds" xml:space="preserve">
+    <value>是一個系統組件和不能被編輯，重命名或刪除。</value>
+  </data>
+  <data name="Z01_InUse" xml:space="preserve">
+    <value>錯誤！名稱已被使用或無效字符。</value>
+  </data>
+  <data name="Z01_LogoStart" xml:space="preserve">
+    <value>標誌顯示在啟動時</value>
+  </data>
+  <data name="Z01_NoComponentsOnline" xml:space="preserve">
+    <value>任何組件都存在</value>
+  </data>
+  <data name="Z01_NoteDeleteSound" xml:space="preserve">
+    <value>如果通知聽起來真的要刪除</value>
+  </data>
+  <data name="Z01_RenameSoundsWarning" xml:space="preserve">
+    <value>警告！如果這些聲音在設置中設置不Benachrichtingungston發出。</value>
+  </data>
+  <data name="Z01_SoundChangeInfo" xml:space="preserve">
+    <value>不幸的是，沒有任何方法導入通知聲音從手機到該應用。因此，這些都必須從網上下載。</value>
+  </data>
+  <data name="Z01_SoundSilent" xml:space="preserve">
+    <value>（無聲）</value>
+  </data>
+  <data name="Z01_SoundStandard" xml:space="preserve">
+    <value>（標準）</value>
+  </data>
+  <data name="Z01_Warning" xml:space="preserve">
+    <value>警告</value>
+  </data>
+  <data name="Z01_Address" xml:space="preserve">
+    <value>聯繫地址</value>
+  </data>
+  <data name="Z01_Contact" xml:space="preserve">
+    <value>聯繫</value>
+  </data>
+  <data name="Z01_OtherApps" xml:space="preserve">
+    <value>企業的其它xtrose應用程序</value>
+  </data>
+  <data name="Z01_InstNoteHeader" xml:space="preserve">
+    <value>通知聲音</value>
+  </data>
+  <data name="Z01_InstNoteText" xml:space="preserve">
+    <value>自定義通知的聲音首先從操作系統發行版本高於8.0.10492 。</value>
+  </data>
+  <data name="Z02_OtherXtroseApps" xml:space="preserve">
+    <value>其他xtrose應用程序</value>
+  </data>
+  <data name="Z02_RateLater" xml:space="preserve">
+    <value>後來</value>
+  </data>
+  <data name="Z02_RateNever" xml:space="preserve">
+    <value>從來沒有</value>
+  </data>
+  <data name="Z02_RateNow" xml:space="preserve">
+    <value>率</value>
+  </data>
+  <data name="Z02_RateText" xml:space="preserve">
+    <value>此應用程序似乎吸引你。
+為了編程的應用程序是非常耗時和困難。
+一個很好的回顧可以幫助我們進一步傳播它。
+
+非常感謝</value>
+  </data>
+  
+  <data name="Z03_10_0_Screen_Changer" xml:space="preserve">
+<value>10.0 換網器</value>
+</data>
+  <data name="Z03_T1" xml:space="preserve">
+<value>我們開發了一個完全新的應用程式 ！</value>
+</data>
+  <data name="Z03_T2" xml:space="preserve">
+<value>適應 Windows 10。</value>
+</data>
+  <data name="Z03_T3" xml:space="preserve">
+<value>更高的解析度。適應的顯示大小。</value>
+</data>
+  <data name="Z03_T6" xml:space="preserve">
+<value>使用者資訊的欄位。</value>
+</data>
+  <data name="Z03_T7" xml:space="preserve">
+<value>很多更多的新的可能性。</value>
+</data>
+  <data name="Z03_TestNow" xml:space="preserve">
+<value>現在測試</value>
+</data>
+</root>

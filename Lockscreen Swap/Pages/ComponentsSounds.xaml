@@ -1,0 +1,172 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="Lockscreen_Swap.ComponentsSounds"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="False">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+
+
+
+
+
+        <!--Hintergrundbild-->
+        <Image Name="ImgLogo" Width="200" VerticalAlignment="Top" HorizontalAlignment="Right" Opacity="0.2" Source="/Images/Music.Dark.png" Margin="-30,-30"/>
+
+
+
+
+
+        <!--Pivot Control-->
+        <phone:Pivot Title="{Binding Path=MyLocalizedResx.Z01_NoteSounds, Source={StaticResource LocalizedResx}}">
+
+
+
+
+
+
+            <!--Tile Images-->
+            <phone:PivotItem Header="{Binding Path=MyLocalizedResx.Z01_Installed, Source={StaticResource LocalizedResx}}">
+                <StackPanel Margin="12,0,0,0">
+
+
+                    <!--Neuen Style erstellen-->
+                    <StackPanel Orientation="Horizontal">
+                        <Image Name="ImgImgAdd" Source="/Images/Folder.Add.Dark.png" Width="45" Height="45" VerticalAlignment="Center" MouseLeftButtonUp="BtnNewImages" Opacity="0.8" />
+                        <TextBlock Text="{Binding Path=MyLocalizedResx.Z01_CompNewSound, Source={StaticResource LocalizedResx}}" TextWrapping="NoWrap" Margin="12,0,0,0" Style="{StaticResource PhoneTextExtraLargeStyle}" FontFamily="Segoe WP Light" FontSize="40" VerticalAlignment="Center" Opacity="0.8" MouseLeftButtonUp="BtnNewImages"/>
+                    </StackPanel>
+
+
+                    <!--Auflistung der Styles-->
+                    <ListBox Name="LBImages" Margin="0,12,0,0" Height="550" ItemsSource="{Binding ClassImages}" SelectionChanged="BtnOpenImageMenu" >
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding name}" TextWrapping="NoWrap" Margin="0,12,0,0" Style="{StaticResource PhoneTextExtraLargeStyle}" FontFamily="Segoe WP Light" FontSize="40" VerticalAlignment="Center" />
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+
+                </StackPanel>
+            </phone:PivotItem>
+
+
+
+
+
+            <!--Images Online-->
+            <phone:PivotItem Header="{Binding Path=MyLocalizedResx.Z01_Online, Source={StaticResource LocalizedResx}}">
+                <StackPanel Margin="12,0,0,0">
+
+                    <!--=Online Styles laden-->
+                    <StackPanel Name="StpConnect" Orientation="Horizontal" >
+                        <Image Name="ImgImgLoad" Source="/Images/Globe.Dark.png" Width="45" Height="45" VerticalAlignment="Center" MouseLeftButtonUp="BtnConnect" Opacity="0.8" />
+                        <TextBlock Name="TxtConnect" Text="{Binding Path=MyLocalizedResx.Z01_Connecting, Source={StaticResource LocalizedResx}}" TextWrapping="NoWrap" Margin="12,0,0,0" Style="{StaticResource PhoneTextExtraLargeStyle}" FontFamily="Segoe WP Light" FontSize="40" VerticalAlignment="Center" Opacity="0.8" MouseLeftButtonUp="BtnConnect"/>
+                    </StackPanel>
+
+
+                    <!--Auflistung der Styles-->
+                    <ListBox Name="LBOnlineImages" Margin="-12,12,0,0" Height="610" ItemsSource="{Binding ClassImagesOnline}" SelectionChanged="BtnOpenImageOnline" >
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel Margin="0,0,0,12">
+                                    <TextBlock Text="{Binding name}" TextWrapping="NoWrap" Style="{StaticResource PhoneTextExtraLargeStyle}" FontFamily="Segoe WP Light" FontSize="40" VerticalAlignment="Center" Foreground="{StaticResource PhoneForegroundBrush}"/>
+                                    <TextBlock Text="{Binding autor}" TextWrapping="NoWrap" Style="{StaticResource PhoneTextExtraLargeStyle}" FontFamily="Segoe WP Light" FontSize="20" VerticalAlignment="Center" Opacity="0.8"/>
+                                </StackPanel>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+
+
+                </StackPanel>
+            </phone:PivotItem>
+        </phone:Pivot>
+
+
+
+
+
+        <!--Images Menü -->
+        <Grid Name="GRImagesMenu" Width="480" Height="800" Margin="-600,0,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Background="{StaticResource PhoneBackgroundBrush}">
+            <!--Hintergrundbild-->
+            <Image Name="ImgLogo02" Width="200" VerticalAlignment="Top" HorizontalAlignment="Right" Opacity="0.2" Source="/Images/Music.Dark.png" Margin="-30,-30"/>
+            <StackPanel>
+                <TextBlock Name="TBImagesMenuName" Text="Hier kommt der Name" Margin="24,12,12,12" FontSize="26" FontFamily="Segoe WP Light"/>
+
+                <StackPanel Margin="12,12,0,24">
+                    <TextBlock Text="{Binding Path=MyLocalizedResx.Z01_BatteryLow, Source={StaticResource LocalizedResx}}" FontSize="24" Margin="12,12,0,0" FontFamily="Segoe WP Semibold"/>
+                    <Button Content="{Binding Path=MyLocalizedResx.Z01_Play, Source={StaticResource LocalizedResx}}" FontSize="23" FontFamily="Segoe WP Light" Click="PlayBatteryLow" />
+                    <TextBlock Text="{Binding Path=MyLocalizedResx.Z01_BatteryIsCharging, Source={StaticResource LocalizedResx}}" FontSize="24" Margin="12,12,0,0" FontFamily="Segoe WP Semibold"/>
+                    <Button Content="{Binding Path=MyLocalizedResx.Z01_Play, Source={StaticResource LocalizedResx}}" FontSize="23" FontFamily="Segoe WP Light" Click="PlayBatteryIsCharging"/>
+                    <TextBlock Text="{Binding Path=MyLocalizedResx.Z01_BatteryFullyCharged, Source={StaticResource LocalizedResx}}" FontSize="24" Margin="12,12,0,0" FontFamily="Segoe WP Semibold"/>
+                    <Button Content="{Binding Path=MyLocalizedResx.Z01_Play, Source={StaticResource LocalizedResx}}" FontSize="23" FontFamily="Segoe WP Light" Click="PlayBatteryFullyCharged" />
+                </StackPanel>
+
+
+                <StackPanel Orientation="Horizontal" Margin="24,12,0,0">
+                    <Image Name="ImgImgEdit" Source="/Images/ComonentEditor.Dark.png" Height="45" MouseLeftButtonUp="BtnEditImages" />
+                    <TextBlock Text="{Binding Path=MyLocalizedResx.Z01_EditSounds, Source={StaticResource LocalizedResx}}" FontSize="40" Margin="12,0,0,0" MouseLeftButtonUp="BtnEditImages" FontFamily="Segoe WP Light" />
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal" Margin="24,12,0,0">
+                    <Image Name="ImgImgRename" Source="/Images/Edit.Dark.png" Height="45" MouseLeftButtonUp="BtnRemaneImages" />
+                    <TextBlock Text="{Binding Path=MyLocalizedResx.Z01_ReneameSounds, Source={StaticResource LocalizedResx}}" FontSize="40" Margin="12,0,0,0" MouseLeftButtonUp="BtnRemaneImages" FontFamily="Segoe WP Light" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="24,12,0,0">
+                    <Image Name="ImgImgCopy" Source="/Images/Copy.Dark.png" Height="45" MouseLeftButtonUp="BtnCopyImages" />
+                    <TextBlock Text="{Binding Path=MyLocalizedResx.Z01_CopySounds, Source={StaticResource LocalizedResx}}" FontSize="40" Margin="12,0,0,0" FontFamily="Segoe WP Light" MouseLeftButtonUp="BtnCopyImages" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="24,12,0,0">
+                    <Image Name="ImgImgDelete" Source="/Images/Delete.Dark.png" Height="45" MouseLeftButtonUp="BtnDeleteImages" />
+                    <TextBlock Text="{Binding Path=MyLocalizedResx.Z01_DeleteSounds, Source={StaticResource LocalizedResx}}" FontSize="40" Margin="12,0,0,0" FontFamily="Segoe WP Light" MouseLeftButtonUp="BtnDeleteImages" />
+                </StackPanel>
+            </StackPanel>
+        </Grid>
+
+
+
+
+
+        <!--Images Menü -->
+        <Grid Name="GRImagesOnline" Width="480" Height="800" Margin="-600,0,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Background="{StaticResource PhoneBackgroundBrush}">
+            <!--Hintergrundbild-->
+            <Image Name="ImgLogo03" Width="200" VerticalAlignment="Top" HorizontalAlignment="Right" Opacity="0.2" Source="/Images/Globe.Dark.png" Margin="-30,-30"/>
+            <StackPanel>
+                <TextBlock Name="TBImagesOnlineName" Text="Hier kommt der Name" Margin="24,12,12,24" FontSize="26" FontFamily="Segoe WP Light"/>
+
+                <StackPanel Name="SPSounds" Margin="12,12,0,0">
+                    <TextBlock Text="{Binding Path=MyLocalizedResx.Z01_BatteryLow, Source={StaticResource LocalizedResx}}" FontSize="24" Margin="12,12,0,0" FontFamily="Segoe WP Semibold"/>
+                    <Button Content="{Binding Path=MyLocalizedResx.Z01_Play, Source={StaticResource LocalizedResx}}" FontSize="23" FontFamily="Segoe WP Light" Click="PlayBatteryLowTemp" />
+                    <TextBlock Text="{Binding Path=MyLocalizedResx.Z01_BatteryIsCharging, Source={StaticResource LocalizedResx}}" FontSize="24" Margin="12,12,0,0" FontFamily="Segoe WP Semibold"/>
+                    <Button Content="{Binding Path=MyLocalizedResx.Z01_Play, Source={StaticResource LocalizedResx}}" FontSize="23" FontFamily="Segoe WP Light" Click="PlayBatteryIsChargingTemp"/>
+                    <TextBlock Text="{Binding Path=MyLocalizedResx.Z01_BatteryFullyCharged, Source={StaticResource LocalizedResx}}" FontSize="24" Margin="12,12,0,0" FontFamily="Segoe WP Semibold"/>
+                    <Button Content="{Binding Path=MyLocalizedResx.Z01_Play, Source={StaticResource LocalizedResx}}" FontSize="23" FontFamily="Segoe WP Light" Click="PlayBatteryFullyChargedTemp" />
+                </StackPanel>
+
+                <TextBlock Name="TBDownloadStatus" Text="Hier kommt der Status" Margin="24,24,0,0" FontSize="26" FontFamily="Segoe WP Light"/>
+                <StackPanel Name="SPSaveImages" Margin="0,36,0,0" >
+                    <TextBlock Text="{Binding Path=MyLocalizedResx.Z01_NewName, Source={StaticResource LocalizedResx}}" Margin="24,0,0,0" KeyDown="TBStyleName_KeyDown" FontFamily="Segoe WP" FontSize="20" />
+                    <TextBox Name="TBStyleName" Margin="12,0,0,0" KeyDown="TBStyleName_KeyDown" Background="#BFFFFFFF" BorderBrush="#FFA8A8A8" />
+                    <Button Name="BtnSaveImages" Margin="12,12,0,0" Content="{Binding Path=MyLocalizedResx.Z01_Save, Source={StaticResource LocalizedResx}}" FontSize="23" FontFamily="Segoe WP Light" Click="BtnSaveImagesClick"/>
+                </StackPanel>
+            </StackPanel>
+        </Grid>
+
+
+
+
+
+        <MediaElement Name="MediaElement" AutoPlay="True" Height="0" Width="0" Margin="-600,0,0,0"/>
+
+    </Grid>
+
+</phone:PhoneApplicationPage>

@@ -1,0 +1,616 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AAA_AppName" xml:space="preserve">
+    <value>8.1 Οθόνη συσκευή εναλλαγής</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>περίπου</value>
+  </data>
+  <data name="AllPictures" xml:space="preserve">
+    <value>όλων των εικόνων</value>
+  </data>
+  <data name="BuyApp" xml:space="preserve">
+    <value>Αγοράστε αυτό το app</value>
+  </data>
+  <data name="ClickSkip" xml:space="preserve">
+    <value>πιέστε για την παράβλεψη</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>αντίγραφο</value>
+  </data>
+  <data name="CopyFolder" xml:space="preserve">
+    <value>φακέλων Αντιγραφή</value>
+  </data>
+  <data name="CopyImagesTo" xml:space="preserve">
+    <value>Αντιγραφή εικόνων μετά</value>
+  </data>
+  <data name="CopyPictures" xml:space="preserve">
+    <value>Αντιγραφή εικόνων</value>
+  </data>
+  <data name="CreateNewFolder" xml:space="preserve">
+    <value>Δημιουργήστε ένα νέο φάκελο</value>
+  </data>
+  <data name="Current" xml:space="preserve">
+    <value>ρεύμα</value>
+  </data>
+  <data name="Cut" xml:space="preserve">
+    <value>κόψιμο</value>
+  </data>
+  <data name="CutAuto" xml:space="preserve">
+    <value>αυτομάτως</value>
+  </data>
+  <data name="CutPicture" xml:space="preserve">
+    <value>Αποκοπή εικόνας</value>
+  </data>
+  <data name="CutPictures" xml:space="preserve">
+    <value>Κόψτε εικόνες</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Διαγραφή</value>
+  </data>
+  <data name="DeleteBar" xml:space="preserve">
+    <value>διαγραφή</value>
+  </data>
+  <data name="DeleteFolder" xml:space="preserve">
+    <value>Διαγραφή φακέλου</value>
+  </data>
+  <data name="DeleteImages" xml:space="preserve">
+    <value>Διαγραφή εικόνων</value>
+  </data>
+  <data name="ErrorEnterName" xml:space="preserve">
+    <value>ΛΑΘΟΣ ! Πληκτρολογήστε το όνομα !</value>
+  </data>
+  <data name="ErrorEnterNewName" xml:space="preserve">
+    <value>ΛΑΘΟΣ ! Πληκτρολογήστε το νέο όνομα !</value>
+  </data>
+  <data name="ErrorName" xml:space="preserve">
+    <value>ΛΑΘΟΣ ! Όνομα χρησιμοποιείται ήδη ή λανθασμένους χαρακτήρες !</value>
+  </data>
+  <data name="ExError" xml:space="preserve">
+    <value>ΣΦΑΛΜΑ : Ιστορικό εργασίες για την εφαρμογή αυτή έχει απενεργοποιηθεί !</value>
+  </data>
+  <data name="Folder" xml:space="preserve">
+    <value>αρχείο</value>
+  </data>
+  <data name="GenerateNew" xml:space="preserve">
+    <value>Δημιουργία νέου</value>
+  </data>
+  <data name="Instructions" xml:space="preserve">
+    <value>οδηγίες</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>γλώσσα</value>
+  </data>
+  <data name="Left" xml:space="preserve">
+    <value>σύνδεσμοι</value>
+  </data>
+  <data name="LikeXtrose" xml:space="preserve">
+    <value>σαν</value>
+  </data>
+  <data name="LockhelperInfo" xml:space="preserve">
+    <value>Είπατε όχι, έτσι δεν μπορούμε να αλλάξουμε την οθόνη κλειδώματος σας !</value>
+  </data>
+  <data name="LockScreenChanger" xml:space="preserve">
+    <value>Αλλαγή εικόνας στο παρασκήνιο</value>
+  </data>
+  <data name="MultipleAdd" xml:space="preserve">
+    <value>περισσότερη προστιθέμενη</value>
+  </data>
+  <data name="NewName" xml:space="preserve">
+    <value>νέο όνομα</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>επόμενος</value>
+  </data>
+  <data name="Notification" xml:space="preserve">
+    <value>κοινοποίηση</value>
+  </data>
+  <data name="Off" xml:space="preserve">
+    <value>όχι</value>
+  </data>
+  <data name="On" xml:space="preserve">
+    <value>ναί</value>
+  </data>
+  <data name="OpenFolder" xml:space="preserve">
+    <value>Ανοίξτε το φάκελο</value>
+  </data>
+  <data name="OtherApps" xml:space="preserve">
+    <value>Ander xtrose Apps</value>
+  </data>
+  <data name="Picture" xml:space="preserve">
+    <value>εικόνα</value>
+  </data>
+  <data name="Pictures" xml:space="preserve">
+    <value>εικόνες</value>
+  </data>
+  <data name="PleaseWait" xml:space="preserve">
+    <value>Παρακαλώ περιμένετε .....</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>προηγούμενος</value>
+  </data>
+  <data name="PurchaseNote" xml:space="preserve">
+    <value>Σας ευχαριστούμε για την αγορά αυτού του app</value>
+  </data>
+  <data name="Random" xml:space="preserve">
+    <value>τυχαίος</value>
+  </data>
+  <data name="RandomFolder" xml:space="preserve">
+    <value>Τυχαία Φάκελος</value>
+  </data>
+  <data name="RandomPicture" xml:space="preserve">
+    <value>Τυχαία εικόνα</value>
+  </data>
+  <data name="RateApp" xml:space="preserve">
+    <value>Βαθμολογήστε αυτό το App</value>
+  </data>
+  <data name="RenameFolder" xml:space="preserve">
+    <value>Μετονομασία φακέλου</value>
+  </data>
+  <data name="Right" xml:space="preserve">
+    <value>δεξιά</value>
+  </data>
+  <data name="RotateLeft" xml:space="preserve">
+    <value>Στρίβουμε αριστερά</value>
+  </data>
+  <data name="RotateRight" xml:space="preserve">
+    <value>στρίψτε δεξιά</value>
+  </data>
+  <data name="SavedPictures" xml:space="preserve">
+    <value>αποθηκευμένες εικόνες</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>επιλέξτε</value>
+  </data>
+  <data name="SelectAll" xml:space="preserve">
+    <value>επιλογή όλων</value>
+  </data>
+  <data name="SelectCopy" xml:space="preserve">
+    <value>Επιλέξτε τις εικόνες για να αντιγράψετε</value>
+  </data>
+  <data name="SelectDelete" xml:space="preserve">
+    <value>Επιλέξτε εικόνες για διαγραφή</value>
+  </data>
+  <data name="SelectImages" xml:space="preserve">
+    <value>Επιλέξτε εικόνες για να προσθέσετε</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>ρυθμίσεις</value>
+  </data>
+  <data name="SingleAdd" xml:space="preserve">
+    <value>μεμονωμένα προστέθηκε</value>
+  </data>
+  <data name="SourceTarget" xml:space="preserve">
+    <value>Πηγή και ο στόχος είναι ίση με</value>
+  </data>
+  <data name="Support" xml:space="preserve">
+    <value>υποστήριξη</value>
+  </data>
+  <data name="TaskInfo" xml:space="preserve">
+    <value>Αλλαγή της εικόνας της οθόνης κλειδώματος</value>
+  </data>
+  <data name="TrialVersion" xml:space="preserve">
+    <value>Test Version</value>
+  </data>
+  <data name="UnselectAll" xml:space="preserve">
+    <value>καταργήσετε την επιλογή όλων</value>
+  </data>
+  <data name="WARNING" xml:space="preserve">
+    <value>ΠΡΟΣΟΧΗ !</value>
+  </data>
+  <data name="Hour" xml:space="preserve">
+    <value>ώρα</value>
+  </data>
+  <data name="Hours" xml:space="preserve">
+    <value>ώρες</value>
+  </data>
+  <data name="Minute" xml:space="preserve">
+    <value>λεπτό</value>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>πρακτικά</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Η δοκιμαστική έκδοση λήξει!</value>
+  </data>
+  <data name="TrialNote" xml:space="preserve">
+    <value>Demo έκδοση έχει λήξει ! Δημιουργήστε εφαρμογές κοστίζει πολύ χρόνο . Η τιμή αυτού του app δεν είναι ακριβό . Για την περαιτέρω κλείδωμα της οθόνης για να δημιουργήσετε τις εικόνες που χρειάζεστε για να αγοράσετε αυτό το app . Σας ευχαριστούμε !</value>
+  </data>
+  <data name="MsgNoPicture" xml:space="preserve">
+    <value>Δεν υπάρχει εικόνα στον επιλεγμένο φάκελο . Θα πρέπει πρώτα να ανοίξετε το φάκελο και την εισαγωγή εικόνων .</value>
+  </data>
+  <data name="Randomization" xml:space="preserve">
+    <value>τυχαίος</value>
+  </data>
+  <data name="ClickHere" xml:space="preserve">
+    <value>πατήστε εδώ</value>
+  </data>
+  <data name="LockScreenSettings" xml:space="preserve">
+    <value>Ρυθμίσεις κλειδώματος οθόνης</value>
+  </data>
+  <data name="LowBatteryWarning" xml:space="preserve">
+    <value>προειδοποίηση μπαταρίας</value>
+  </data>
+  <data name="NotificationFullyCharged" xml:space="preserve">
+    <value>Γνωστοποίηση πλήρως φορτισμένη</value>
+  </data>
+  <data name="NotificationIsCharging" xml:space="preserve">
+    <value>Φορτίστε Κοινοποίηση</value>
+  </data>
+  <data name="NotificationSounds" xml:space="preserve">
+    <value>ήχοι αναγγελίας</value>
+  </data>
+  <data name="PlaySounds" xml:space="preserve">
+    <value>Αναπαραγωγή ήχων</value>
+  </data>
+  <data name="Special" xml:space="preserve">
+    <value>ειδικός</value>
+  </data>
+  <data name="Standard" xml:space="preserve">
+    <value>πρότυπο</value>
+  </data>
+  <data name="BatteryFullyCharged" xml:space="preserve">
+    <value>Η μπαταρία είναι πλήρως φορτισμένη</value>
+  </data>
+  <data name="BatteryIsCharging" xml:space="preserve">
+    <value>Η μπαταρία είναι φορτισμένη</value>
+  </data>
+  <data name="BatteryLow" xml:space="preserve">
+    <value>Μπαταρίας είναι χαμηλή</value>
+  </data>
+  <data name="BatteryStatus" xml:space="preserve">
+    <value>Κατάσταση μπαταρίας</value>
+  </data>
+  <data name="Day" xml:space="preserve">
+    <value>ημέρα</value>
+  </data>
+  <data name="Days" xml:space="preserve">
+    <value>ημέρες</value>
+  </data>
+  <data name="ThankYouDown" xml:space="preserve">
+    <value>Σας ευχαριστώ για τη λήψη</value>
+  </data>
+  <data name="AAA_1" xml:space="preserve">
+    <value>κλείδωμα της οθόνης</value>
+  </data>
+  <data name="AAA_2" xml:space="preserve">
+    <value>μπαταρία</value>
+  </data>
+  <data name="AAA_3" xml:space="preserve">
+    <value>Ταπετσαρία</value>
+  </data>
+  <data name="AAA_4" xml:space="preserve">
+    <value>Wallaper</value>
+  </data>
+  <data name="AAA_5" xml:space="preserve">
+    <value>image</value>
+  </data>
+  <data name="AAA_AppDescription" xml:space="preserve">
+    <value>Χρησιμοποιήστε αυτή την εφαρμογή για να δημιουργήσετε εναλλασσόμενες εικόνες φόντου .
+Επιπλέον , οι πληροφορίες σχετικά με την εφαρμογή ένδειξη κατάστασης της μπαταρίας σας επιτρέπει .
+Για το σκοπό αυτό υπάρχουν πολλά έτοιμα μεγάλες ρυθμίσεις .
+Εικόνα φόντου σας και η ένδειξη της μπαταρίας σας ενημερώνεται κάθε 30 λεπτά .
+
+Brand new!
+Από την ενημέρωση GRD3 η εφαρμογή ομιλούνται των κοινοποιήσεων .</value>
+  </data>
+  <data name="InstGeneralHeader" xml:space="preserve">
+    <value>γενικά</value>
+  </data>
+  <data name="InstGeneralText" xml:space="preserve">
+    <value>Χρησιμοποιήστε αυτή την εφαρμογή για να δημιουργήσετε εναλλασσόμενες εικόνες φόντου . Επιπλέον , οι πληροφορίες σχετικά με την εφαρμογή ένδειξη κατάστασης της μπαταρίας σας επιτρέπει .
+Για το σκοπό αυτό είναι άφθονο έτοιμα ρυθμίσεις. Εικόνα φόντου σας και η ένδειξη της μπαταρίας σας ενημερώνεται κάθε 30 λεπτά . Παρακαλείστε να σημειώσετε ότι στα Windows Phone για να τρέξει τις υπηρεσίες παρασκήνιο μια ενεργή σύνδεση στο Διαδίκτυο δεν απαιτείται .
+Η εμφάνιση στην οθόνη κλειδώματος βασίζεται στο σύστημα κοινοποίησης των Windows Phone . Ως εκ τούτου, είναι μόνο μια μέγιστη προβολή του 99 % είναι δυνατή .</value>
+  </data>
+  <data name="InstMiscellaneousHeader" xml:space="preserve">
+    <value>Άλλα</value>
+  </data>
+  <data name="InstMiscellaneousText" xml:space="preserve">
+    <value>Παρακαλώ αξιολογήστε την εφαρμογή αυτή καλό , αν σας αρέσει . Αν έχετε οποιοδήποτε πρόβλημα με αυτή την εφαρμογή , στη συνέχεια, παρακαλούμε να έρθετε σε επαφή υποστήριξη ! Ερωτήσεις και προβλήματα που δεν έχουν χάσει τίποτα στις αξιολογήσεις .
+Σας ευχαριστούμε !</value>
+  </data>
+  <data name="InstPictureHeader" xml:space="preserve">
+    <value>εικόνες</value>
+  </data>
+  <data name="InstPictureText" xml:space="preserve">
+    <value>Δημιουργήστε ένα φάκελο , ανοίξτε το και εισαγωγής, οποιοδήποτε αριθμό των εικόνων . Όταν οι Import Images μπορεί να είναι οποιαδήποτε εικόνα ευθυγραμμισμένα και κοπεί. Η εικόνα δημιουργείται πάντα στη μέγιστη ανάλυση για το κινητό σας . Μπορείτε να δημιουργείτε για να αλλάξετε wallpapers σας πιο γρήγορα φάκελο .</value>
+  </data>
+  <data name="InstSettingsHeader" xml:space="preserve">
+    <value>ρυθμίσεις</value>
+  </data>
+  <data name="InstSettingsText" xml:space="preserve">
+    <value>Στη σελίδα ρυθμίσεων του φόντου και η ένδειξη κατάστασης της μπαταρίας μπορεί να προσαρμοστεί . Επιλέξτε ένα φάκελο από τις μεταβαλλόμενες εικόνες φορτώνονται . Μπορείτε επίσης να επιλέξετε αν οι εικόνες θα πρέπει να φορτώνονται διαδοχικά ή τυχαία θα πρέπει να επιλεγεί .
+Ο δείκτης κατάστασης της μπαταρίας πρέπει να οριστεί στις ρυθμίσεις του συστήματος . Στις ρυθμίσεις της εφαρμογής είναι διαθέσιμη μια σύνδεση για αυτό.
+Μπορείτε να επιλέξετε επιπλέον ήχων ειδοποίησης . Οι τόνοι Spezialen είναι προφορικό ειδοποιήσεις . Παρακαλώ σημειώστε ότι αυτή η σιωπηλή και κοινοποιήσεις δουλέψει από την πρώτη από την ενημέρωση GDR3 .</value>
+  </data>
+  <data name="NoteLanguage" xml:space="preserve">
+    <value>Αλλαγή γλώσσας</value>
+  </data>
+  <data name="NoteLanguage2" xml:space="preserve">
+    <value>Επανεκκινήστε την εφαρμογή</value>
+  </data>
+  <data name="SelectLanguage" xml:space="preserve">
+    <value>Επιλέξτε μια γλώσσα</value>
+  </data>
+  <data name="Z01_BatteryFullyCharged" xml:space="preserve">
+    <value>Πλήρως φορτισμένη μπαταρία</value>
+  </data>
+  <data name="Z01_BatteryIsCharging" xml:space="preserve">
+    <value>Η μπαταρία είναι φορτισμένη</value>
+  </data>
+  <data name="Z01_BatteryLow" xml:space="preserve">
+    <value>χαμηλής μπαταρίας</value>
+  </data>
+  <data name="Z01_CompNewSound" xml:space="preserve">
+    <value>Νέα ήχων ειδοποίησης</value>
+  </data>
+  <data name="Z01_Components" xml:space="preserve">
+    <value>Εξαρτήματα</value>
+  </data>
+  <data name="Z01_Connecting" xml:space="preserve">
+    <value>Σύνδεση με xtrose</value>
+  </data>
+  <data name="Z01_CopySounds" xml:space="preserve">
+    <value>Αντιγραφή τόνους</value>
+  </data>
+  <data name="Z01_DeleteSounds" xml:space="preserve">
+    <value>Διαγραφή σημειώσεων</value>
+  </data>
+  <data name="Z01_EditSounds" xml:space="preserve">
+    <value>Επεξεργασία ήχων</value>
+  </data>
+  <data name="Z01_Installed" xml:space="preserve">
+    <value>εγκατασταθεί</value>
+  </data>
+  <data name="Z01_NewName" xml:space="preserve">
+    <value>νέο όνομα</value>
+  </data>
+  <data name="Z01_NoteSounds" xml:space="preserve">
+    <value>ήχων ειδοποίησης</value>
+  </data>
+  <data name="Z01_Online" xml:space="preserve">
+    <value>σε απευθείας σύνδεση</value>
+  </data>
+  <data name="Z01_Play" xml:space="preserve">
+    <value>παιχνίδι</value>
+  </data>
+  <data name="Z01_ReneameSounds" xml:space="preserve">
+    <value>Μετονομασία ήχους</value>
+  </data>
+  <data name="Z01_Save" xml:space="preserve">
+    <value>εκτός</value>
+  </data>
+  <data name="Z01_Change" xml:space="preserve">
+    <value>Αλλαγή</value>
+  </data>
+  <data name="Z01_ConnectingNow" xml:space="preserve">
+    <value>Συνδέστε .....</value>
+  </data>
+  <data name="Z01_ConnectionFailed" xml:space="preserve">
+    <value>Η σύνδεση απέτυχε</value>
+  </data>
+  <data name="Z01_ConnectionTimeOut" xml:space="preserve">
+    <value>Υπέρβαση ή όχι συνδυασμένος χρόνος</value>
+  </data>
+  <data name="Z01_CopySoundInfo" xml:space="preserve">
+    <value>Αντιγράψτε αυτούς τους ήχους και να το επεξεργαστείτε με τον επεξεργαστή</value>
+  </data>
+  <data name="Z01_CreateSounds" xml:space="preserve">
+    <value>Δημιουργία νέων ήχων ειδοποίησης</value>
+  </data>
+  <data name="Z01_CreateSoundsInfo" xml:space="preserve">
+    <value>Αυτή η επιλογή αντιγράφει τις υπάρχουσες αποχρώσεις . Στη συνέχεια μπορείτε να αλλάξετε τους ήχους προς τη Σύνταξη</value>
+  </data>
+  <data name="Z01_DownloadingSound" xml:space="preserve">
+    <value>Κατεβάστε ήχο ειδοποίησης</value>
+  </data>
+  <data name="Z01_EnterUrl" xml:space="preserve">
+    <value>Πληκτρολογήστε το url του . mp3 αρχείων</value>
+  </data>
+  <data name="Z01_Error" xml:space="preserve">
+    <value>ΛΑΘΟΣ !</value>
+  </data>
+  <data name="Z01_ErrorSounds" xml:space="preserve">
+    <value>είναι ένα στοιχείο του συστήματος και δεν μπορεί να επεξεργαστεί , να μετονομαστούν ή να διαγραφούν .</value>
+  </data>
+  <data name="Z01_InUse" xml:space="preserve">
+    <value>ΛΑΘΟΣ ! Όνομα χρησιμοποιείται ήδη ή μη έγκυρους χαρακτήρες .</value>
+  </data>
+  <data name="Z01_LogoStart" xml:space="preserve">
+    <value>Δείτε το λογότυπο κατά την εκκίνηση</value>
+  </data>
+  <data name="Z01_NoComponentsOnline" xml:space="preserve">
+    <value>Κανένα από τα εξαρτήματα είναι παρόντες</value>
+  </data>
+  <data name="Z01_NoteDeleteSound" xml:space="preserve">
+    <value>Εάν η κοινοποίηση ακούγεται πραγματικά θέλετε να διαγράψετε</value>
+  </data>
+  <data name="Z01_RenameSoundsWarning" xml:space="preserve">
+    <value>ΠΡΟΣΟΧΗ ! Αν αυτοί οι ήχοι που στις ρυθμίσεις δεν Benachrichtingungston εκδίδεται .</value>
+  </data>
+  <data name="Z01_SoundChangeInfo" xml:space="preserve">
+    <value>Δυστυχώς , δεν υπάρχει τρόπος να εισάγουμε ήχους ειδοποίησης από το τηλέφωνο με το app . Ως εκ τούτου , αυτοί θα πρέπει να κατεβάσει από το Internet .</value>
+  </data>
+  <data name="Z01_SoundSilent" xml:space="preserve">
+    <value>( Αθόρυβη )</value>
+  </data>
+  <data name="Z01_SoundStandard" xml:space="preserve">
+    <value>( standard )</value>
+  </data>
+  <data name="Z01_Warning" xml:space="preserve">
+    <value>ΠΡΟΕΙΔΟΠΟΙΗΣΗ</value>
+  </data>
+  <data name="Z01_Address" xml:space="preserve">
+    <value>Διεύθυνση Επικοινωνίας</value>
+  </data>
+  <data name="Z01_Contact" xml:space="preserve">
+    <value>επαφή</value>
+  </data>
+  <data name="Z01_OtherApps" xml:space="preserve">
+    <value>Andere xtrose Apps</value>
+  </data>
+  <data name="Z01_InstNoteHeader" xml:space="preserve">
+    <value>ήχων ειδοποίησης</value>
+  </data>
+  <data name="Z01_InstNoteText" xml:space="preserve">
+    <value>Ήχους έθιμο κοινοποίηση πρώτης έκδοσης υψηλότερο από 8.0.10492 από μια έκδοση του λειτουργικού συστήματος .</value>
+  </data>
+  <data name="Z02_OtherXtroseApps" xml:space="preserve">
+    <value>Άλλες εφαρμογές xtrose</value>
+  </data>
+  <data name="Z02_RateLater" xml:space="preserve">
+    <value>αργότερα</value>
+  </data>
+  <data name="Z02_RateNever" xml:space="preserve">
+    <value>ποτέ</value>
+  </data>
+  <data name="Z02_RateNow" xml:space="preserve">
+    <value>τιμή</value>
+  </data>
+  <data name="Z02_RateText" xml:space="preserve">
+    <value>Αυτή η εφαρμογή φαίνεται να απευθύνονται σε σας .
+Για να προγραμματίσετε apps είναι χρονοβόρα και δύσκολη .
+Μια καλή κριτική μπορεί να μας βοηθήσει να εξαπλωθεί περαιτέρω .
+
+Σας ευχαριστώ πολύ</value>
+  </data>
+  
+  <data name="Z03_10_0_Screen_Changer" xml:space="preserve">
+<value>10.0 οθόνη συσκευή εναλλαγής</value>
+</data>
+  <data name="Z03_T1" xml:space="preserve">
+<value>Έχουμε αναπτύξει μια εντελώς νέα εφαρμογή!</value>
+</data>
+  <data name="Z03_T2" xml:space="preserve">
+<value>Προσαρμοστεί σε Windows 10.</value>
+</data>
+  <data name="Z03_T3" xml:space="preserve">
+<value>Υψηλότερη ανάλυση. Προσαρμοστεί το μέγεθος της οθόνης.</value>
+</data>
+  <data name="Z03_T6" xml:space="preserve">
+<value>Πεδίο για τις πληροφορίες χρήστη.</value>
+</data>
+  <data name="Z03_T7" xml:space="preserve">
+<value>Πολλές περισσότερες νέες δυνατότητες.</value>
+</data>
+  <data name="Z03_TestNow" xml:space="preserve">
+<value>Δοκιμή τώρα</value>
+</data>
+</root>

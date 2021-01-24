@@ -1,0 +1,616 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AAA_AppName" xml:space="preserve">
+    <value>8.1 Screen Changer</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>për</value>
+  </data>
+  <data name="AllPictures" xml:space="preserve">
+    <value>të gjitha fotot</value>
+  </data>
+  <data name="BuyApp" xml:space="preserve">
+    <value>Blej këtë app</value>
+  </data>
+  <data name="ClickSkip" xml:space="preserve">
+    <value>shtyp për të kaloni</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>kopje</value>
+  </data>
+  <data name="CopyFolder" xml:space="preserve">
+    <value>dosjet Copy</value>
+  </data>
+  <data name="CopyImagesTo" xml:space="preserve">
+    <value>Images Copy pas</value>
+  </data>
+  <data name="CopyPictures" xml:space="preserve">
+    <value>images Copy</value>
+  </data>
+  <data name="CreateNewFolder" xml:space="preserve">
+    <value>Krijo një dosje të re</value>
+  </data>
+  <data name="Current" xml:space="preserve">
+    <value>aktual</value>
+  </data>
+  <data name="Cut" xml:space="preserve">
+    <value>prerje</value>
+  </data>
+  <data name="CutAuto" xml:space="preserve">
+    <value>automatikisht</value>
+  </data>
+  <data name="CutPicture" xml:space="preserve">
+    <value>image Cut</value>
+  </data>
+  <data name="CutPictures" xml:space="preserve">
+    <value>Pritini fotot</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>fshij</value>
+  </data>
+  <data name="DeleteBar" xml:space="preserve">
+    <value>fshij</value>
+  </data>
+  <data name="DeleteFolder" xml:space="preserve">
+    <value>Delete Folder</value>
+  </data>
+  <data name="DeleteImages" xml:space="preserve">
+    <value>Fshij imazhe</value>
+  </data>
+  <data name="ErrorEnterName" xml:space="preserve">
+    <value>GABIM ! Shkruani emrin !</value>
+  </data>
+  <data name="ErrorEnterNewName" xml:space="preserve">
+    <value>GABIM ! Futni emrin e ri !</value>
+  </data>
+  <data name="ErrorName" xml:space="preserve">
+    <value>GABIM ! Emri është përdorur tashmë ose karaktere të pasakta !</value>
+  </data>
+  <data name="ExError" xml:space="preserve">
+    <value>Gabim: Detyrat Sfondi për këtë app është me aftësi të kufizuara !</value>
+  </data>
+  <data name="Folder" xml:space="preserve">
+    <value>skedar</value>
+  </data>
+  <data name="GenerateNew" xml:space="preserve">
+    <value>Krijo re</value>
+  </data>
+  <data name="Instructions" xml:space="preserve">
+    <value>udhëzime</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>gjuhë</value>
+  </data>
+  <data name="Left" xml:space="preserve">
+    <value>lidhje</value>
+  </data>
+  <data name="LikeXtrose" xml:space="preserve">
+    <value>si</value>
+  </data>
+  <data name="LockhelperInfo" xml:space="preserve">
+    <value>Ju tha jo , kështu që ne nuk mund të ndryshoni ekranin e kyçjes së !</value>
+  </data>
+  <data name="LockScreenChanger" xml:space="preserve">
+    <value>Ndryshimi një imazh në sfond</value>
+  </data>
+  <data name="MultipleAdd" xml:space="preserve">
+    <value>më të shtuar</value>
+  </data>
+  <data name="NewName" xml:space="preserve">
+    <value>Emri i ri</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>tjetër</value>
+  </data>
+  <data name="Notification" xml:space="preserve">
+    <value>njoftim</value>
+  </data>
+  <data name="Off" xml:space="preserve">
+    <value>jo</value>
+  </data>
+  <data name="On" xml:space="preserve">
+    <value>po</value>
+  </data>
+  <data name="OpenFolder" xml:space="preserve">
+    <value>dosje e hapur</value>
+  </data>
+  <data name="OtherApps" xml:space="preserve">
+    <value>Ander xtrose Apps</value>
+  </data>
+  <data name="Picture" xml:space="preserve">
+    <value>imazh</value>
+  </data>
+  <data name="Pictures" xml:space="preserve">
+    <value>Piktura</value>
+  </data>
+  <data name="PleaseWait" xml:space="preserve">
+    <value>Ju lutem prisni .....</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>i mëparshëm</value>
+  </data>
+  <data name="PurchaseNote" xml:space="preserve">
+    <value>Faleminderit për blerjen e këtij app</value>
+  </data>
+  <data name="Random" xml:space="preserve">
+    <value>i rastësishëm</value>
+  </data>
+  <data name="RandomFolder" xml:space="preserve">
+    <value>Folder Random</value>
+  </data>
+  <data name="RandomPicture" xml:space="preserve">
+    <value>image Random</value>
+  </data>
+  <data name="RateApp" xml:space="preserve">
+    <value>Vlerësoni këtë app</value>
+  </data>
+  <data name="RenameFolder" xml:space="preserve">
+    <value>Rename dosje</value>
+  </data>
+  <data name="Right" xml:space="preserve">
+    <value>e drejtë</value>
+  </data>
+  <data name="RotateLeft" xml:space="preserve">
+    <value>nga ana e majtë</value>
+  </data>
+  <data name="RotateRight" xml:space="preserve">
+    <value>nga ana e djathtë</value>
+  </data>
+  <data name="SavedPictures" xml:space="preserve">
+    <value>imazhet e ruajtura</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>zgjedh</value>
+  </data>
+  <data name="SelectAll" xml:space="preserve">
+    <value>zgjidhni të gjitha</value>
+  </data>
+  <data name="SelectCopy" xml:space="preserve">
+    <value>Zgjidhni imazhet për të kopjuar</value>
+  </data>
+  <data name="SelectDelete" xml:space="preserve">
+    <value>Zgjidhni imazhe për fshirje</value>
+  </data>
+  <data name="SelectImages" xml:space="preserve">
+    <value>Zgjidhni imazhet për të shtuar</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Cilësimet</value>
+  </data>
+  <data name="SingleAdd" xml:space="preserve">
+    <value>individual shtuar</value>
+  </data>
+  <data name="SourceTarget" xml:space="preserve">
+    <value>Source dhe objektiv është e barabartë me</value>
+  </data>
+  <data name="Support" xml:space="preserve">
+    <value>mbështetje</value>
+  </data>
+  <data name="TaskInfo" xml:space="preserve">
+    <value>Ekran Lock image ndryshim</value>
+  </data>
+  <data name="TrialVersion" xml:space="preserve">
+    <value>Test Version</value>
+  </data>
+  <data name="UnselectAll" xml:space="preserve">
+    <value>deselect të gjithë</value>
+  </data>
+  <data name="WARNING" xml:space="preserve">
+    <value>KUJDES !</value>
+  </data>
+  <data name="Hour" xml:space="preserve">
+    <value>orë</value>
+  </data>
+  <data name="Hours" xml:space="preserve">
+    <value>orë</value>
+  </data>
+  <data name="Minute" xml:space="preserve">
+    <value>minutë</value>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>Procesverbalet</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Version gjyq skaduar !</value>
+  </data>
+  <data name="TrialNote" xml:space="preserve">
+    <value>Version Demo ka skaduar ! Krijo Apps kushton shumë kohë . Çmimi i këtij app nuk është e shtrenjtë . Për të kyçur ekranin më tej për të krijuar imazhe që ju duhet për të blerë këtë app . Ju faleminderit !</value>
+  </data>
+  <data name="MsgNoPicture" xml:space="preserve">
+    <value>Nuk ka imazh në kartelën e zgjedhur . Ju së pari do të hapë dosjen dhe të importit imazhe .</value>
+  </data>
+  <data name="Randomization" xml:space="preserve">
+    <value>i rastësishëm</value>
+  </data>
+  <data name="ClickHere" xml:space="preserve">
+    <value>shtyp këtu</value>
+  </data>
+  <data name="LockScreenSettings" xml:space="preserve">
+    <value>Settings ekran Lock</value>
+  </data>
+  <data name="LowBatteryWarning" xml:space="preserve">
+    <value>paralajmërim Battery</value>
+  </data>
+  <data name="NotificationFullyCharged" xml:space="preserve">
+    <value>Njoftimi plotësisht e ngarkuar</value>
+  </data>
+  <data name="NotificationIsCharging" xml:space="preserve">
+    <value>Ngarkimi Njoftim</value>
+  </data>
+  <data name="NotificationSounds" xml:space="preserve">
+    <value>tones Njoftimi</value>
+  </data>
+  <data name="PlaySounds" xml:space="preserve">
+    <value>Luaj tingujt</value>
+  </data>
+  <data name="Special" xml:space="preserve">
+    <value>i veçantë</value>
+  </data>
+  <data name="Standard" xml:space="preserve">
+    <value>standard</value>
+  </data>
+  <data name="BatteryFullyCharged" xml:space="preserve">
+    <value>Bateria është plotësisht e ngarkuar</value>
+  </data>
+  <data name="BatteryIsCharging" xml:space="preserve">
+    <value>Bateria është ngarkuar</value>
+  </data>
+  <data name="BatteryLow" xml:space="preserve">
+    <value>Bateria është e ulët</value>
+  </data>
+  <data name="BatteryStatus" xml:space="preserve">
+    <value>Battery Status</value>
+  </data>
+  <data name="Day" xml:space="preserve">
+    <value>ditë</value>
+  </data>
+  <data name="Days" xml:space="preserve">
+    <value>Ditët</value>
+  </data>
+  <data name="ThankYouDown" xml:space="preserve">
+    <value>Faleminderit për shkarkimin</value>
+  </data>
+  <data name="AAA_1" xml:space="preserve">
+    <value>ekran Lock</value>
+  </data>
+  <data name="AAA_2" xml:space="preserve">
+    <value>bateri</value>
+  </data>
+  <data name="AAA_3" xml:space="preserve">
+    <value>Wallpaper</value>
+  </data>
+  <data name="AAA_4" xml:space="preserve">
+    <value>Wallaper</value>
+  </data>
+  <data name="AAA_5" xml:space="preserve">
+    <value>imazh</value>
+  </data>
+  <data name="AAA_AppDescription" xml:space="preserve">
+    <value>Përdoreni këtë kërkesë për të krijuar të alternuara imazhe sfond .
+Përveç kësaj , të dhënat e aplikimit tuaj për shfaqjen e statusit bateri lejon .
+Për këtë qëllim janë shumë të settings gatshme të mëdha .
+Imazhin tuaj sfond dhe tregues juaj bateria është përditësuar çdo 30 minuta .
+
+Krejt të re !
+Nga GRD3 përditësimit tëaplikimit janë folur e njoftimeve .</value>
+  </data>
+  <data name="InstGeneralHeader" xml:space="preserve">
+    <value>përgjithësisht</value>
+  </data>
+  <data name="InstGeneralText" xml:space="preserve">
+    <value>Përdoreni këtë kërkesë për të krijuar të alternuara imazhe sfond . Përveç kësaj , të dhënat e aplikimit tuaj për shfaqjen e statusit bateri lejon .
+Për këtë qëllim janë shumë të settings gatshme . Imazhin tuaj sfond dhe tregues juaj bateria është përditësuar çdo 30 minuta . Ju lutem vini re se në Windows Phone për të drejtuar shërbimet sfond një lidhje aktive në internet është e nevojshme .
+Shfaq në ekran bllokohet është e bazuar në sistemin e njoftimit të Windows Phone . Prandaj është vetëm një shfaqje maksimum prej 99% është e mundur .</value>
+  </data>
+  <data name="InstMiscellaneousHeader" xml:space="preserve">
+    <value>të tjerët</value>
+  </data>
+  <data name="InstMiscellaneousText" xml:space="preserve">
+    <value>Ju lutemi të jepni vlerësim për këtë aplikim të mirë në qoftë se ju pëlqen . Nëse keni ndonjë problem me këtë kërkesë , atëherë ju lutemi të mbështetjes kontakt ! Pyetje dhe problemet nuk kanë humbur asgjë në ratings .
+Ju faleminderit !</value>
+  </data>
+  <data name="InstPictureHeader" xml:space="preserve">
+    <value>Piktura</value>
+  </data>
+  <data name="InstPictureText" xml:space="preserve">
+    <value>Krijo një dosje , të hapur dhe të importit , çdo numër të imazheve . Kur Imazhet e importit mund të jetë çdo imazh linjë dhe të prerë . Imazhi është krijuar gjithmonë në rezolucion maksimal për telefonin tuaj . Ju mund të krijoni të ndryshojë Wallpapers tuaja më shpejt dosje .</value>
+  </data>
+  <data name="InstSettingsHeader" xml:space="preserve">
+    <value>Cilësimet</value>
+  </data>
+  <data name="InstSettingsText" xml:space="preserve">
+    <value>Në faqen settings e sfondit dhe me statusin tregues baterisë mund të personalizohet . Zgjidhni një dosje nga ndryshim imazhet janë të ngarkuar . Ju gjithashtu mund të zgjidhni nëse imazhet duhet të jetë i ngarkuar sequentially ose rastësisht duhet të zgjidhen .
+Treguesi Gjendja e baterisë duhet të jetë e vendosur në konfigurimet e sistemit . Në cilësimet e aplikimit është në dispozicion një lidhje për këtë .
+Ju mund të zgjidhni tinguj shtesë njoftimit . Tonet Spezialen janë njoftime të folura . Ju lutem vini re se ky heshtur dhe njoftimet punojnë parë nga update GDR3 .</value>
+  </data>
+  <data name="NoteLanguage" xml:space="preserve">
+    <value>Ndryshimi Gjuha</value>
+  </data>
+  <data name="NoteLanguage2" xml:space="preserve">
+    <value>Restart aplikimin</value>
+  </data>
+  <data name="SelectLanguage" xml:space="preserve">
+    <value>zgjidhni një gjuhë</value>
+  </data>
+  <data name="Z01_BatteryFullyCharged" xml:space="preserve">
+    <value>Bateri plotësisht e ngarkuar</value>
+  </data>
+  <data name="Z01_BatteryIsCharging" xml:space="preserve">
+    <value>Bateria është ngarkuar</value>
+  </data>
+  <data name="Z01_BatteryLow" xml:space="preserve">
+    <value>Battery Low</value>
+  </data>
+  <data name="Z01_CompNewSound" xml:space="preserve">
+    <value>Dashuri të reja njoftimit</value>
+  </data>
+  <data name="Z01_Components" xml:space="preserve">
+    <value>komponentet</value>
+  </data>
+  <data name="Z01_Connecting" xml:space="preserve">
+    <value>Lidhu me xtrose</value>
+  </data>
+  <data name="Z01_CopySounds" xml:space="preserve">
+    <value>tones Copy</value>
+  </data>
+  <data name="Z01_DeleteSounds" xml:space="preserve">
+    <value>Fshij shënime</value>
+  </data>
+  <data name="Z01_EditSounds" xml:space="preserve">
+    <value>Edit tinguj</value>
+  </data>
+  <data name="Z01_Installed" xml:space="preserve">
+    <value>instaluar</value>
+  </data>
+  <data name="Z01_NewName" xml:space="preserve">
+    <value>Emri i ri</value>
+  </data>
+  <data name="Z01_NoteSounds" xml:space="preserve">
+    <value>Dashuri Njoftimi</value>
+  </data>
+  <data name="Z01_Online" xml:space="preserve">
+    <value>në linjë</value>
+  </data>
+  <data name="Z01_Play" xml:space="preserve">
+    <value>Luaj</value>
+  </data>
+  <data name="Z01_ReneameSounds" xml:space="preserve">
+    <value>Rename tinguj</value>
+  </data>
+  <data name="Z01_Save" xml:space="preserve">
+    <value>ruaj</value>
+  </data>
+  <data name="Z01_Change" xml:space="preserve">
+    <value>Ndryshimi</value>
+  </data>
+  <data name="Z01_ConnectingNow" xml:space="preserve">
+    <value>Lidhu .....</value>
+  </data>
+  <data name="Z01_ConnectionFailed" xml:space="preserve">
+    <value>Lidhja dështoi</value>
+  </data>
+  <data name="Z01_ConnectionTimeOut" xml:space="preserve">
+    <value>Tejkaluar apo jo të kombinuara herë</value>
+  </data>
+  <data name="Z01_CopySoundInfo" xml:space="preserve">
+    <value>Kopjoni këto tinguj dhe redaktoj atë me redaktorin</value>
+  </data>
+  <data name="Z01_CreateSounds" xml:space="preserve">
+    <value>Krijo tingujt reja notifikimit</value>
+  </data>
+  <data name="Z01_CreateSoundsInfo" xml:space="preserve">
+    <value>Ky opsion kopje tone ekzistuese . Ju pastaj mund të ndryshojë tingujt me Editor</value>
+  </data>
+  <data name="Z01_DownloadingSound" xml:space="preserve">
+    <value>Download njoftimit të shëndoshë</value>
+  </data>
+  <data name="Z01_EnterUrl" xml:space="preserve">
+    <value>Futni url e . mp3 dosjes</value>
+  </data>
+  <data name="Z01_Error" xml:space="preserve">
+    <value>GABIM !</value>
+  </data>
+  <data name="Z01_ErrorSounds" xml:space="preserve">
+    <value>është një komponent sistem dhe nuk mund të redaktohen , riemëruar , ose fshihen .</value>
+  </data>
+  <data name="Z01_InUse" xml:space="preserve">
+    <value>GABIM ! Emri është përdorur tashmë ose karaktere të pavlefshme .</value>
+  </data>
+  <data name="Z01_LogoStart" xml:space="preserve">
+    <value>Shfaq logo në fillimin</value>
+  </data>
+  <data name="Z01_NoComponentsOnline" xml:space="preserve">
+    <value>Nuk ka komponentët janë të pranishme</value>
+  </data>
+  <data name="Z01_NoteDeleteSound" xml:space="preserve">
+    <value>Nëse njoftimi tingëllon me të vërtetë doni të fshini</value>
+  </data>
+  <data name="Z01_RenameSoundsWarning" xml:space="preserve">
+    <value>KUJDES ! Nëse këto tingujt janë vendosur në konfigurimet nuk Benachrichtingungston lëshohet .</value>
+  </data>
+  <data name="Z01_SoundChangeInfo" xml:space="preserve">
+    <value>Për fat të keq , nuk ka asnjë mënyrë për të importuar njoftimi tingujt nga telefoni në app . Prandaj , këto duhet të shkarkohet nga interneti .</value>
+  </data>
+  <data name="Z01_SoundSilent" xml:space="preserve">
+    <value>( qetë )</value>
+  </data>
+  <data name="Z01_SoundStandard" xml:space="preserve">
+    <value>(standard )</value>
+  </data>
+  <data name="Z01_Warning" xml:space="preserve">
+    <value>KUJDES</value>
+  </data>
+  <data name="Z01_Address" xml:space="preserve">
+    <value>Kontakt Adresa</value>
+  </data>
+  <data name="Z01_Contact" xml:space="preserve">
+    <value>kontakt</value>
+  </data>
+  <data name="Z01_OtherApps" xml:space="preserve">
+    <value>Andere xtrose Apps</value>
+  </data>
+  <data name="Z01_InstNoteHeader" xml:space="preserve">
+    <value>Dashuri Njoftimi</value>
+  </data>
+  <data name="Z01_InstNoteText" xml:space="preserve">
+    <value>Dashuri njoftimit Custom janë lëshuar për herë të parë më i lartë se 8.0.10492 nga një version të sistemit operativ .</value>
+  </data>
+  <data name="Z02_OtherXtroseApps" xml:space="preserve">
+    <value>Apps tjera xtrose</value>
+  </data>
+  <data name="Z02_RateLater" xml:space="preserve">
+    <value>më vonë</value>
+  </data>
+  <data name="Z02_RateNever" xml:space="preserve">
+    <value>kurrë</value>
+  </data>
+  <data name="Z02_RateNow" xml:space="preserve">
+    <value>normë</value>
+  </data>
+  <data name="Z02_RateText" xml:space="preserve">
+    <value>Kjo kërkesë duket se apel për ju .
+Te programosh Apps është kohë dhe e vështirë .
+Një përmbledhje të mirë mund të na ndihmojë për të përhapur atë më tej .
+
+Ju faleminderit shumë</value>
+  </data>
+  
+  <data name="Z03_10_0_Screen_Changer" xml:space="preserve">
+<value>10.0 Ekran Changer</value>
+</data>
+  <data name="Z03_T1" xml:space="preserve">
+<value>Ne kemi zhvilluar një app krejtësisht të re!</value>
+</data>
+  <data name="Z03_T2" xml:space="preserve">
+<value>Përshtatur për 10 të Windows</value>
+</data>
+  <data name="Z03_T3" xml:space="preserve">
+<value>rezolucion të lartë. Përshtatur për madhësinë e ekranit.</value>
+</data>
+  <data name="Z03_T6" xml:space="preserve">
+<value>Field për informacion të përdoruesit.</value>
+</data>
+  <data name="Z03_T7" xml:space="preserve">
+<value>Shumë opsione të tjera të reja.</value>
+</data>
+  <data name="Z03_TestNow" xml:space="preserve">
+<value>Regjistrohu</value>
+</data>
+</root>

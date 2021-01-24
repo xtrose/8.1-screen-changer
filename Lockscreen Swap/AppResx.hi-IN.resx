@@ -1,0 +1,617 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AAA_AppName" xml:space="preserve">
+    <value>8.1 स्क्रीन परिवर्तक</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>के बारे में</value>
+  </data>
+  <data name="AllPictures" xml:space="preserve">
+    <value>सभी तस्वीरें</value>
+  </data>
+  <data name="BuyApp" xml:space="preserve">
+    <value>इस एप्लिकेशन को खरीदें</value>
+  </data>
+  <data name="ClickSkip" xml:space="preserve">
+    <value>छोड़ करने के लिए प्रेस</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>नकल</value>
+  </data>
+  <data name="CopyFolder" xml:space="preserve">
+    <value>कॉपी फ़ोल्डरों</value>
+  </data>
+  <data name="CopyImagesTo" xml:space="preserve">
+    <value>कॉपी छवियों के बाद</value>
+  </data>
+  <data name="CopyPictures" xml:space="preserve">
+    <value>कॉपी छवियों</value>
+  </data>
+  <data name="CreateNewFolder" xml:space="preserve">
+    <value>एक नया फ़ोल्डर बनाएँ</value>
+  </data>
+  <data name="Current" xml:space="preserve">
+    <value>वर्तमान</value>
+  </data>
+  <data name="Cut" xml:space="preserve">
+    <value>कटौती</value>
+  </data>
+  <data name="CutAuto" xml:space="preserve">
+    <value>स्वतः</value>
+  </data>
+  <data name="CutPicture" xml:space="preserve">
+    <value>कट छवि</value>
+  </data>
+  <data name="CutPictures" xml:space="preserve">
+    <value>तस्वीरों में कटौती</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>हटाना</value>
+  </data>
+  <data name="DeleteBar" xml:space="preserve">
+    <value>हटाना</value>
+  </data>
+  <data name="DeleteFolder" xml:space="preserve">
+    <value>फ़ोल्डरमिटाएँ</value>
+  </data>
+  <data name="DeleteImages" xml:space="preserve">
+    <value>छवियों को नष्ट</value>
+  </data>
+  <data name="ErrorEnterName" xml:space="preserve">
+    <value>त्रुटि! नाम दर्ज करें !</value>
+  </data>
+  <data name="ErrorEnterNewName" xml:space="preserve">
+    <value>त्रुटि! नया नाम दर्ज करें !</value>
+  </data>
+  <data name="ErrorName" xml:space="preserve">
+    <value>त्रुटि! नाम पहले से ही इस्तेमाल किया है या गलत अक्षर है !</value>
+  </data>
+  <data name="ExError" xml:space="preserve">
+    <value>त्रुटि: इस अनुप्रयोग के लिए पृष्ठभूमि कार्यों को निष्क्रिय कर दिया गया है!</value>
+  </data>
+  <data name="Folder" xml:space="preserve">
+    <value>फ़ाइल</value>
+  </data>
+  <data name="GenerateNew" xml:space="preserve">
+    <value>नई बनाएँ</value>
+  </data>
+  <data name="Instructions" xml:space="preserve">
+    <value>निर्देश</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>भाषा</value>
+  </data>
+  <data name="Left" xml:space="preserve">
+    <value>लिंक</value>
+  </data>
+  <data name="LikeXtrose" xml:space="preserve">
+    <value>जैसा</value>
+  </data>
+  <data name="LockhelperInfo" xml:space="preserve">
+    <value>तुम नहीं, इस तरह हम अपनी स्क्रीन लॉक नहीं बदल सकते कहा !</value>
+  </data>
+  <data name="LockScreenChanger" xml:space="preserve">
+    <value>पृष्ठभूमि में एक छवि बदलें</value>
+  </data>
+  <data name="MultipleAdd" xml:space="preserve">
+    <value>अधिक गयी</value>
+  </data>
+  <data name="NewName" xml:space="preserve">
+    <value>नया नाम</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>अगला</value>
+  </data>
+  <data name="Notification" xml:space="preserve">
+    <value>अधिसूचना</value>
+  </data>
+  <data name="Off" xml:space="preserve">
+    <value>नहीं</value>
+  </data>
+  <data name="On" xml:space="preserve">
+    <value>हां</value>
+  </data>
+  <data name="OpenFolder" xml:space="preserve">
+    <value>ओपन फ़ोल्डर</value>
+  </data>
+  <data name="OtherApps" xml:space="preserve">
+    <value>Ander Apps xtrose</value>
+  </data>
+  <data name="Picture" xml:space="preserve">
+    <value>छवि</value>
+  </data>
+  <data name="Pictures" xml:space="preserve">
+    <value>तस्वीरें</value>
+  </data>
+  <data name="PleaseWait" xml:space="preserve">
+    <value>कृपया प्रतीक्षा करें .....</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>पिछला</value>
+  </data>
+  <data name="PurchaseNote" xml:space="preserve">
+    <value>इस एप्लिकेशन को खरीदने के लिये धन्यवाद</value>
+  </data>
+  <data name="Random" xml:space="preserve">
+    <value>यादृच्छिक</value>
+  </data>
+  <data name="RandomFolder" xml:space="preserve">
+    <value>यादृच्छिक फ़ोल्डर</value>
+  </data>
+  <data name="RandomPicture" xml:space="preserve">
+    <value>यादृच्छिक छवि</value>
+  </data>
+  <data name="RateApp" xml:space="preserve">
+    <value>इस ऐप्लिकेशन को रेट</value>
+  </data>
+  <data name="RenameFolder" xml:space="preserve">
+    <value>फ़ोल्डर का नाम बदलें</value>
+  </data>
+  <data name="Right" xml:space="preserve">
+    <value>सही</value>
+  </data>
+  <data name="RotateLeft" xml:space="preserve">
+    <value>बाएं मुड़ें</value>
+  </data>
+  <data name="RotateRight" xml:space="preserve">
+    <value>सही बारी</value>
+  </data>
+  <data name="SavedPictures" xml:space="preserve">
+    <value>संग्रहीत छवियों</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>चयन</value>
+  </data>
+  <data name="SelectAll" xml:space="preserve">
+    <value>सभी का चयन करें</value>
+  </data>
+  <data name="SelectCopy" xml:space="preserve">
+    <value>कॉपी करने के लिए छवियों का चयन करें</value>
+  </data>
+  <data name="SelectDelete" xml:space="preserve">
+    <value>हटाने के लिए चयन छवियों</value>
+  </data>
+  <data name="SelectImages" xml:space="preserve">
+    <value>जोड़ने के लिए छवियों का चयन करें</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>सेटिंग्स</value>
+  </data>
+  <data name="SingleAdd" xml:space="preserve">
+    <value>जोड़ा व्यक्ति</value>
+  </data>
+  <data name="SourceTarget" xml:space="preserve">
+    <value>स्रोत और लक्ष्य के बराबर है</value>
+  </data>
+  <data name="Support" xml:space="preserve">
+    <value>समर्थन</value>
+  </data>
+  <data name="TaskInfo" xml:space="preserve">
+    <value>लॉक स्क्रीन छवि परिवर्तन</value>
+  </data>
+  <data name="TrialVersion" xml:space="preserve">
+    <value>परीक्षण संस्करण</value>
+  </data>
+  <data name="UnselectAll" xml:space="preserve">
+    <value>सभी अचयनित</value>
+  </data>
+  <data name="WARNING" xml:space="preserve">
+    <value>चेतावनी!</value>
+  </data>
+  <data name="Hour" xml:space="preserve">
+    <value>घंटा</value>
+  </data>
+  <data name="Hours" xml:space="preserve">
+    <value>घंटे</value>
+  </data>
+  <data name="Minute" xml:space="preserve">
+    <value>मिनट</value>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>कार्यवृत्त</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>परीक्षण संस्करण समाप्त हो गई है !</value>
+  </data>
+  <data name="TrialNote" xml:space="preserve">
+    <value>डेमो संस्करण समाप्त हो गया है ! क्षुधा बनाने में बहुत समय खर्च होता है. इस एप्लिकेशन की कीमत महंगी नहीं है . आगे आप इस एप्लिकेशन को खरीदने की जरूरत चित्र बनाने के लिए स्क्रीन लॉक करने . धन्यवाद!</value>
+  </data>
+  <data name="MsgNoPicture" xml:space="preserve">
+    <value>चयनित फोल्डर में कोई छवि नहीं है. आप पहले फ़ोल्डर और आयात छवियों खुलेगा.</value>
+  </data>
+  <data name="Randomization" xml:space="preserve">
+    <value>यादृच्छिक</value>
+  </data>
+  <data name="ClickHere" xml:space="preserve">
+    <value>यहां प्रेस</value>
+  </data>
+  <data name="LockScreenSettings" xml:space="preserve">
+    <value>लॉक स्क्रीन सेटिंग्स</value>
+  </data>
+  <data name="LowBatteryWarning" xml:space="preserve">
+    <value>बैटरी चेतावनी</value>
+  </data>
+  <data name="NotificationFullyCharged" xml:space="preserve">
+    <value>अधिसूचना पूरी तरह से चार्ज</value>
+  </data>
+  <data name="NotificationIsCharging" xml:space="preserve">
+    <value>अधिसूचना चार्ज</value>
+  </data>
+  <data name="NotificationSounds" xml:space="preserve">
+    <value>अधिसूचना टन</value>
+  </data>
+  <data name="PlaySounds" xml:space="preserve">
+    <value>लगता है खेलने</value>
+  </data>
+  <data name="Special" xml:space="preserve">
+    <value>विशेष</value>
+  </data>
+  <data name="Standard" xml:space="preserve">
+    <value>मानक</value>
+  </data>
+  <data name="BatteryFullyCharged" xml:space="preserve">
+    <value>बैटरी पूरी तरह चार्ज है</value>
+  </data>
+  <data name="BatteryIsCharging" xml:space="preserve">
+    <value>बैटरी चार्ज किया जाता है</value>
+  </data>
+  <data name="BatteryLow" xml:space="preserve">
+    <value>बैटरी कम है</value>
+  </data>
+  <data name="BatteryStatus" xml:space="preserve">
+    <value>बैट्री की स्थिति</value>
+  </data>
+  <data name="Day" xml:space="preserve">
+    <value>दिन</value>
+  </data>
+  <data name="Days" xml:space="preserve">
+    <value>दिन</value>
+  </data>
+  <data name="ThankYouDown" xml:space="preserve">
+    <value>डाउनलोडिंग के लिए धन्यवाद</value>
+  </data>
+  <data name="AAA_1" xml:space="preserve">
+    <value>लॉक स्क्रीन</value>
+  </data>
+  <data name="AAA_2" xml:space="preserve">
+    <value>बैटरी</value>
+  </data>
+  <data name="AAA_3" xml:space="preserve">
+    <value>वॉलपेपर</value>
+  </data>
+  <data name="AAA_4" xml:space="preserve">
+    <value>Wallaper</value>
+  </data>
+  <data name="AAA_5" xml:space="preserve">
+    <value>छवि</value>
+  </data>
+  <data name="AAA_AppDescription" xml:space="preserve">
+    <value>बारी पृष्ठभूमि चित्र बनाने के लिए इस आवेदन का उपयोग करें.
+इसके अलावा , अपनी बैटरी की स्थिति के प्रदर्शन के बारे में आवेदन की जानकारी देता है.
+इस प्रयोजन के लिए तैयार महान सेटिंग्स का सेवन कर रहे हैं .
+अपनी पृष्ठभूमि छवि और अपनी बैटरी सूचक हर 30 मिनट में अद्यतन किया जाता है .
+
+ब्रांड नई !
+GRD3 अद्यतन से आवेदन सूचनाओं की बात कर रहे हैं .</value>
+  </data>
+  <data name="InstGeneralHeader" xml:space="preserve">
+    <value>आम तौर पर</value>
+  </data>
+  <data name="InstGeneralText" xml:space="preserve">
+    <value>बारी पृष्ठभूमि चित्र बनाने के लिए इस आवेदन का उपयोग करें. इसके अलावा , अपनी बैटरी की स्थिति के प्रदर्शन के बारे में आवेदन की जानकारी देता है.
+इस प्रयोजन के लिए तैयार सेटिंग्स का सेवन कर रहे हैं . अपनी पृष्ठभूमि छवि और अपनी बैटरी सूचक हर 30 मिनट में अद्यतन किया जाता है . एक सक्रिय इंटरनेट कनेक्शन की आवश्यकता है पृष्ठभूमि सेवाओं को चलाने के लिए विंडोज फोन में कृपया ध्यान दें.
+लॉक स्क्रीन पर प्रदर्शन के विंडोज फोन की अधिसूचना प्रणाली पर आधारित है . यह केवल 99 % की एक अधिकतम प्रदर्शन संभव है इसलिए है .</value>
+  </data>
+  <data name="InstMiscellaneousHeader" xml:space="preserve">
+    <value>दूसरों</value>
+  </data>
+  <data name="InstMiscellaneousText" xml:space="preserve">
+    <value>अगर तुम इसे पसंद इस आवेदन अच्छा दर कृपया . आप इस आवेदन के साथ कोई समस्या है , तो स्पर्श समर्थन में मिल कृपया ! सवालों और समस्याओं मूल्यांकन में कुछ भी नहीं खोया है .
+धन्यवाद!</value>
+  </data>
+  <data name="InstPictureHeader" xml:space="preserve">
+    <value>तस्वीरें</value>
+  </data>
+  <data name="InstPictureText" xml:space="preserve">
+    <value>एक फ़ोल्डर बनाएँ इसे खोलने और आयात , छवियों के किसी भी संख्या . आयात छवियाँ गठबंधन और कटौती किसी भी छवि हो सकती है. छवि हमेशा आपके मोबाइल के लिए अधिकतम संकल्प में बनाया जाता है . आप और अधिक जल्दी फ़ोल्डर अपने वॉलपेपर बदलने के लिए बना सकते हैं.</value>
+  </data>
+  <data name="InstSettingsHeader" xml:space="preserve">
+    <value>सेटिंग्स</value>
+  </data>
+  <data name="InstSettingsText" xml:space="preserve">
+    <value>पृष्ठभूमि और बैटरी स्थिति सूचक की सेटिंग पेज पर अनुकूलित किया जा सकता है . बदलते छवियों से एक फोल्डर चुनें लोड कर रहे हैं . तुम भी छवियों क्रमिक रूप से लोड किया जाना चाहिए या बेतरतीब ढंग से एक का चयन किया जाना चाहिए या नहीं चुन सकते हैं.
+बैटरी स्थिति सूचक प्रणाली सेटिंग्स में सेट किया जाना चाहिए . आवेदन की सेटिंग में उपलब्ध इस के लिए एक कड़ी है.
+आप अतिरिक्त अधिसूचना ध्वनियों का चयन कर सकते हैं . Spezialen टन बोले सूचनाएं हैं . इस मूक और सूचनाएं GDR3 अद्यतन से पहले काम कृपया ध्यान दें.</value>
+  </data>
+  <data name="NoteLanguage" xml:space="preserve">
+    <value>भाषा बदलें</value>
+  </data>
+  <data name="NoteLanguage2" xml:space="preserve">
+    <value>आवेदन को पुनः आरंभ</value>
+  </data>
+  <data name="SelectLanguage" xml:space="preserve">
+    <value>एक भाषा का चयन करें</value>
+  </data>
+  <data name="Z01_BatteryFullyCharged" xml:space="preserve">
+    <value>पूरी तरह से चार्ज बैटरी</value>
+  </data>
+  <data name="Z01_BatteryIsCharging" xml:space="preserve">
+    <value>बैटरी चार्ज किया जाता है</value>
+  </data>
+  <data name="Z01_BatteryLow" xml:space="preserve">
+    <value>कम बैटरी</value>
+  </data>
+  <data name="Z01_CompNewSound" xml:space="preserve">
+    <value>नई अधिसूचना आवाज़</value>
+  </data>
+  <data name="Z01_Components" xml:space="preserve">
+    <value>अवयव</value>
+  </data>
+  <data name="Z01_Connecting" xml:space="preserve">
+    <value>Xtrose साथ कनेक्ट</value>
+  </data>
+  <data name="Z01_CopySounds" xml:space="preserve">
+    <value>कॉपी टन</value>
+  </data>
+  <data name="Z01_DeleteSounds" xml:space="preserve">
+    <value>नोटों हटाएं</value>
+  </data>
+  <data name="Z01_EditSounds" xml:space="preserve">
+    <value>संपादित आवाज़</value>
+  </data>
+  <data name="Z01_Installed" xml:space="preserve">
+    <value>स्थापित</value>
+  </data>
+  <data name="Z01_NewName" xml:space="preserve">
+    <value>नया नाम</value>
+  </data>
+  <data name="Z01_NoteSounds" xml:space="preserve">
+    <value>अधिसूचना आवाज़</value>
+  </data>
+  <data name="Z01_Online" xml:space="preserve">
+    <value>ऑनलाइन</value>
+  </data>
+  <data name="Z01_Play" xml:space="preserve">
+    <value>प्ले</value>
+  </data>
+  <data name="Z01_ReneameSounds" xml:space="preserve">
+    <value>ध्वनियों का नाम बदलें</value>
+  </data>
+  <data name="Z01_Save" xml:space="preserve">
+    <value>बचाना</value>
+  </data>
+  <data name="Z01_Change" xml:space="preserve">
+    <value>बदलना</value>
+  </data>
+  <data name="Z01_ConnectingNow" xml:space="preserve">
+    <value>कनेक्ट .....</value>
+  </data>
+  <data name="Z01_ConnectionFailed" xml:space="preserve">
+    <value>कनेक्शन विफल</value>
+  </data>
+  <data name="Z01_ConnectionTimeOut" xml:space="preserve">
+    <value>संयुक्त पार हो गई है या नहीं समय</value>
+  </data>
+  <data name="Z01_CopySoundInfo" xml:space="preserve">
+    <value>इन ध्वनियों को कॉपी और संपादक के साथ संपादित</value>
+  </data>
+  <data name="Z01_CreateSounds" xml:space="preserve">
+    <value>नई अधिसूचना ध्वनियों बनाएँ</value>
+  </data>
+  <data name="Z01_CreateSoundsInfo" xml:space="preserve">
+    <value>यह विकल्प प्रतियां टन मौजूदा . तुम तो संपादक को ध्वनियों को बदल सकते हैं</value>
+  </data>
+  <data name="Z01_DownloadingSound" xml:space="preserve">
+    <value>अधिसूचना ध्वनि डाउनलोड</value>
+  </data>
+  <data name="Z01_EnterUrl" xml:space="preserve">
+    <value>. एमपी 3 फ़ाइल का URL दर्ज करें</value>
+  </data>
+  <data name="Z01_Error" xml:space="preserve">
+    <value>त्रुटि!</value>
+  </data>
+  <data name="Z01_ErrorSounds" xml:space="preserve">
+    <value>एक सिस्टम घटक है और उसका नाम बदला , या नष्ट कर दिया , संपादित नहीं किया जा सकता है .</value>
+  </data>
+  <data name="Z01_InUse" xml:space="preserve">
+    <value>त्रुटि! नाम पहले से ही इस्तेमाल किया है या अमान्य वर्ण है.</value>
+  </data>
+  <data name="Z01_LogoStart" xml:space="preserve">
+    <value>स्टार्टअप पर लोगो दिखाएँ</value>
+  </data>
+  <data name="Z01_NoComponentsOnline" xml:space="preserve">
+    <value>कोई घटक मौजूद हैं</value>
+  </data>
+  <data name="Z01_NoteDeleteSound" xml:space="preserve">
+    <value>अधिसूचना वास्तव में हटाना चाहते हैं लगता है</value>
+  </data>
+  <data name="Z01_RenameSoundsWarning" xml:space="preserve">
+    <value>चेतावनी! इन ध्वनियों सेटिंग्स में सेट कर रहे हैं , तो कोई Benachrichtingungston जारी किया जाता है .</value>
+  </data>
+  <data name="Z01_SoundChangeInfo" xml:space="preserve">
+    <value>दुर्भाग्य से , अधिसूचना app करने के लिए फोन से लग रहा है आयात करने के लिए कोई रास्ता नहीं है . इसलिए, इन इंटरनेट से डाउनलोड किया जाना चाहिए .</value>
+  </data>
+  <data name="Z01_SoundSilent" xml:space="preserve">
+    <value>( नीरव )</value>
+  </data>
+  <data name="Z01_SoundStandard" xml:space="preserve">
+    <value>( मानक )</value>
+  </data>
+  <data name="Z01_Warning" xml:space="preserve">
+    <value>चेतावनी</value>
+  </data>
+  <data name="Z01_Address" xml:space="preserve">
+    <value>पता</value>
+  </data>
+  <data name="Z01_Contact" xml:space="preserve">
+    <value>संपर्क</value>
+  </data>
+  <data name="Z01_OtherApps" xml:space="preserve">
+    <value>Andere Apps xtrose</value>
+  </data>
+  <data name="Z01_InstNoteHeader" xml:space="preserve">
+    <value>अधिसूचना आवाज़</value>
+  </data>
+  <data name="Z01_InstNoteText" xml:space="preserve">
+    <value>कस्टम अधिसूचना ध्वनियों पहले एक ऑपरेटिंग सिस्टम संस्करण से अधिक से अधिक 8.0.10492 जारी किए जाते हैं .</value>
+  </data>
+  <data name="Z02_OtherXtroseApps" xml:space="preserve">
+    <value>अन्य xtrose क्षुधा</value>
+  </data>
+  <data name="Z02_RateLater" xml:space="preserve">
+    <value>बाद में</value>
+  </data>
+  <data name="Z02_RateNever" xml:space="preserve">
+    <value>कभी नहीं</value>
+  </data>
+  <data name="Z02_RateNow" xml:space="preserve">
+    <value>दर</value>
+  </data>
+  <data name="Z02_RateText" xml:space="preserve">
+    <value>यह आवेदन आप के लिए अपील करने के लिए लगता है.
+क्षुधा कार्यक्रम समय लगता है और मुश्किल है .
+एक अच्छी समीक्षा हमें इसे आगे प्रसार में मदद कर सकते हैं .
+
+बहुत बहुत धन्यवाद</value>
+  </data>
+  
+  
+  <data name="Z03_10_0_Screen_Changer" xml:space="preserve">
+<value>10.0 स्क्रीन परिवर्तक</value>
+</data>
+  <data name="Z03_T1" xml:space="preserve">
+<value>हम एक पूरी तरह से नए एप्लिकेशन को विकसित किया है!</value>
+</data>
+  <data name="Z03_T2" xml:space="preserve">
+<value>विंडोज 10 वीं के लिए अनुकूलित</value>
+</data>
+  <data name="Z03_T3" xml:space="preserve">
+<value>उच्च संकल्प। स्क्रीन आकार के लिए अनुकूलित।</value>
+</data>
+  <data name="Z03_T6" xml:space="preserve">
+<value>उपयोगकर्ता जानकारी के लिए फील्ड।</value>
+</data>
+  <data name="Z03_T7" xml:space="preserve">
+<value>कई अन्य नए विकल्प।</value>
+</data>
+  <data name="Z03_TestNow" xml:space="preserve">
+<value>साइन अप करें</value>
+</data>
+</root>

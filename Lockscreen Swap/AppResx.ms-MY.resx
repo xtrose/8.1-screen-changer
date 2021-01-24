@@ -1,0 +1,617 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AAA_AppName" xml:space="preserve">
+    <value>8.1 Penukar skrin</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Mengenai</value>
+  </data>
+  <data name="AllPictures" xml:space="preserve">
+    <value>semua gambar</value>
+  </data>
+  <data name="BuyApp" xml:space="preserve">
+    <value>Beli aplikasi ini</value>
+  </data>
+  <data name="ClickSkip" xml:space="preserve">
+    <value>tab untuk melangkau</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>salinan</value>
+  </data>
+  <data name="CopyFolder" xml:space="preserve">
+    <value>folder salinan</value>
+  </data>
+  <data name="CopyImagesTo" xml:space="preserve">
+    <value>Imej salinan selepas</value>
+  </data>
+  <data name="CopyPictures" xml:space="preserve">
+    <value>imej salinan</value>
+  </data>
+  <data name="CreateNewFolder" xml:space="preserve">
+    <value>Buat folder baru</value>
+  </data>
+  <data name="Current" xml:space="preserve">
+    <value>semasa</value>
+  </data>
+  <data name="Cut" xml:space="preserve">
+    <value>potong</value>
+  </data>
+  <data name="CutAuto" xml:space="preserve">
+    <value>secara automatik</value>
+  </data>
+  <data name="CutPicture" xml:space="preserve">
+    <value>imej Cut</value>
+  </data>
+  <data name="CutPictures" xml:space="preserve">
+    <value>potong gambar</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Padam</value>
+  </data>
+  <data name="DeleteBar" xml:space="preserve">
+    <value>memadam</value>
+  </data>
+  <data name="DeleteFolder" xml:space="preserve">
+    <value>Padam Folder</value>
+  </data>
+  <data name="DeleteImages" xml:space="preserve">
+    <value>Padamkan imej-imej</value>
+  </data>
+  <data name="ErrorEnterName" xml:space="preserve">
+    <value>RALAT ! Masukkan nama !</value>
+  </data>
+  <data name="ErrorEnterNewName" xml:space="preserve">
+    <value>RALAT ! Masukkan nama baru !</value>
+  </data>
+  <data name="ErrorName" xml:space="preserve">
+    <value>RALAT ! Nama ini telah digunakan atau watak-watak yang tidak betul !</value>
+  </data>
+  <data name="ExError" xml:space="preserve">
+    <value>RALAT: tugas latar belakang untuk aplikasi ini telah dimatikan !</value>
+  </data>
+  <data name="Folder" xml:space="preserve">
+    <value>fail</value>
+  </data>
+  <data name="GenerateNew" xml:space="preserve">
+    <value>Cipta Baru</value>
+  </data>
+  <data name="Instructions" xml:space="preserve">
+    <value>arahan</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>bahasa</value>
+  </data>
+  <data name="Left" xml:space="preserve">
+    <value>pautan</value>
+  </data>
+  <data name="LikeXtrose" xml:space="preserve">
+    <value>seperti</value>
+  </data>
+  <data name="LockhelperInfo" xml:space="preserve">
+    <value>Anda berkata tidak, oleh itu kita tidak boleh menukar kunci skrin anda !</value>
+  </data>
+  <data name="LockScreenChanger" xml:space="preserve">
+    <value>Menukar imej di latar belakang</value>
+  </data>
+  <data name="MultipleAdd" xml:space="preserve">
+    <value>lebih ditambah</value>
+  </data>
+  <data name="NewName" xml:space="preserve">
+    <value>Nama Baru</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>seterusnya</value>
+  </data>
+  <data name="Notification" xml:space="preserve">
+    <value>Pemberitahuan</value>
+  </data>
+  <data name="Off" xml:space="preserve">
+    <value>ada</value>
+  </data>
+  <data name="On" xml:space="preserve">
+    <value>ya</value>
+  </data>
+  <data name="OpenFolder" xml:space="preserve">
+    <value>Buka folder</value>
+  </data>
+  <data name="OtherApps" xml:space="preserve">
+    <value>Ander xtrose Apps</value>
+  </data>
+  <data name="Picture" xml:space="preserve">
+    <value>imej</value>
+  </data>
+  <data name="Pictures" xml:space="preserve">
+    <value>gambar</value>
+  </data>
+  <data name="PleaseWait" xml:space="preserve">
+    <value>Sila tunggu .....</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>sebelumnya</value>
+  </data>
+  <data name="PurchaseNote" xml:space="preserve">
+    <value>Terima kasih kerana membeli aplikasi ini</value>
+  </data>
+  <data name="Random" xml:space="preserve">
+    <value>rawak</value>
+  </data>
+  <data name="RandomFolder" xml:space="preserve">
+    <value>Folder rawak</value>
+  </data>
+  <data name="RandomPicture" xml:space="preserve">
+    <value>imej rawak</value>
+  </data>
+  <data name="RateApp" xml:space="preserve">
+    <value>Nilai di App ini</value>
+  </data>
+  <data name="RenameFolder" xml:space="preserve">
+    <value>menamakan semula folder</value>
+  </data>
+  <data name="Right" xml:space="preserve">
+    <value>betul</value>
+  </data>
+  <data name="RotateLeft" xml:space="preserve">
+    <value>belok kiri</value>
+  </data>
+  <data name="RotateRight" xml:space="preserve">
+    <value>belok kanan</value>
+  </data>
+  <data name="SavedPictures" xml:space="preserve">
+    <value>imej yang disimpan</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>pilih</value>
+  </data>
+  <data name="SelectAll" xml:space="preserve">
+    <value>pilih semua</value>
+  </data>
+  <data name="SelectCopy" xml:space="preserve">
+    <value>Pilih imej-imej untuk menyalin</value>
+  </data>
+  <data name="SelectDelete" xml:space="preserve">
+    <value>Pilih imej untuk penghapusan</value>
+  </data>
+  <data name="SelectImages" xml:space="preserve">
+    <value>Pilih imej untuk menambah</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Tetapan</value>
+  </data>
+  <data name="SingleAdd" xml:space="preserve">
+    <value>individu ditambah</value>
+  </data>
+  <data name="SourceTarget" xml:space="preserve">
+    <value>Sumber dan sasaran adalah sama dengan</value>
+  </data>
+  <data name="Support" xml:space="preserve">
+    <value>sokongan</value>
+  </data>
+  <data name="TaskInfo" xml:space="preserve">
+    <value>Kunci skrin perubahan imej</value>
+  </data>
+  <data name="TrialVersion" xml:space="preserve">
+    <value>ujian versi</value>
+  </data>
+  <data name="UnselectAll" xml:space="preserve">
+    <value>membatalkan semua</value>
+  </data>
+  <data name="WARNING" xml:space="preserve">
+    <value>AMARAN !</value>
+  </data>
+  <data name="Hour" xml:space="preserve">
+    <value>jam</value>
+  </data>
+  <data name="Hours" xml:space="preserve">
+    <value>jam</value>
+  </data>
+  <data name="Minute" xml:space="preserve">
+    <value>minit</value>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>minit</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Versi percubaan tamat!</value>
+  </data>
+  <data name="TrialNote" xml:space="preserve">
+    <value>Versi demo telah tamat ! Mencipta aplikasi kos banyak masa. Harga aplikasi ini tidak mahal. Untuk mengunci skrin lagi untuk mewujudkan imej yang anda perlu membeli aplikasi ini. Terima kasih !</value>
+  </data>
+  <data name="MsgNoPicture" xml:space="preserve">
+    <value>Tidak ada imej di dalam folder yang dipilih. Anda pertama akan Buka folder dan import imej.</value>
+  </data>
+  <data name="Randomization" xml:space="preserve">
+    <value>rawak</value>
+  </data>
+  <data name="ClickHere" xml:space="preserve">
+    <value>akhbar di sini</value>
+  </data>
+  <data name="LockScreenSettings" xml:space="preserve">
+    <value>Tetapan skrin kunci</value>
+  </data>
+  <data name="LowBatteryWarning" xml:space="preserve">
+    <value>amaran bateri</value>
+  </data>
+  <data name="NotificationFullyCharged" xml:space="preserve">
+    <value>Pemberitahuan dicas penuh</value>
+  </data>
+  <data name="NotificationIsCharging" xml:space="preserve">
+    <value>mengenakan Pemberitahuan</value>
+  </data>
+  <data name="NotificationSounds" xml:space="preserve">
+    <value>nada pemberitahuan</value>
+  </data>
+  <data name="PlaySounds" xml:space="preserve">
+    <value>Main bunyi</value>
+  </data>
+  <data name="Special" xml:space="preserve">
+    <value>khas</value>
+  </data>
+  <data name="Standard" xml:space="preserve">
+    <value>standard</value>
+  </data>
+  <data name="BatteryFullyCharged" xml:space="preserve">
+    <value>Bateri dicas sepenuhnya</value>
+  </data>
+  <data name="BatteryIsCharging" xml:space="preserve">
+    <value>Bateri dicas</value>
+  </data>
+  <data name="BatteryLow" xml:space="preserve">
+    <value>Bateri adalah rendah</value>
+  </data>
+  <data name="BatteryStatus" xml:space="preserve">
+    <value>bateri Status</value>
+  </data>
+  <data name="Day" xml:space="preserve">
+    <value>hari</value>
+  </data>
+  <data name="Days" xml:space="preserve">
+    <value>hari</value>
+  </data>
+  <data name="ThankYouDown" xml:space="preserve">
+    <value>Terima kasih kerana memuat turun</value>
+  </data>
+  <data name="AAA_1" xml:space="preserve">
+    <value>kunci skrin</value>
+  </data>
+  <data name="AAA_2" xml:space="preserve">
+    <value>bateri</value>
+  </data>
+  <data name="AAA_3" xml:space="preserve">
+    <value>Wallpaper</value>
+  </data>
+  <data name="AAA_4" xml:space="preserve">
+    <value>Wallaper</value>
+  </data>
+  <data name="AAA_5" xml:space="preserve">
+    <value>imej</value>
+  </data>
+  <data name="AAA_AppDescription" xml:space="preserve">
+    <value>Menggunakan aplikasi ini untuk mewujudkan seli imej latar belakang.
+Selain itu, maklumat permohonan itu kira-kira paparan status bateri anda membolehkan.
+Bagi tujuan ini banyak tetapan besar bersedia.
+Imej latar belakang anda dan penunjuk bateri anda dikemas kini setiap 30 minit.
+
+Jenama baru !
+Dari GRD3 update permohonan adalah diperkatakan pemberitahuan.</value>
+  </data>
+  <data name="InstGeneralHeader" xml:space="preserve">
+    <value>Secara amnya</value>
+  </data>
+  <data name="InstGeneralText" xml:space="preserve">
+    <value>Menggunakan aplikasi ini untuk mewujudkan seli imej latar belakang. Selain itu, maklumat permohonan itu kira-kira paparan status bateri anda membolehkan.
+Bagi tujuan ini banyak tetapan bersedia. Imej latar belakang anda dan penunjuk bateri anda dikemas kini setiap 30 minit. Sila ambil perhatian bahawa di dalam Telefon Windows untuk menjalankan perkhidmatan latar belakang sambungan internet aktif diperlukan.
+Paparan pada skrin kunci adalah berdasarkan kepada sistem pemberitahuan Telefon Windows. Oleh itu, adalah hanya paparan maksimum 99% adalah mungkin.</value>
+  </data>
+  <data name="InstMiscellaneousHeader" xml:space="preserve">
+    <value>lain</value>
+  </data>
+  <data name="InstMiscellaneousText" xml:space="preserve">
+    <value>Sila nilai permohonan ini baik jika anda suka. Jika anda mempunyai sebarang masalah dengan permohonan ini , maka sila menyokong sentuh! Soalan dan masalah tidak kehilangan apa-apa dalam penarafan .
+Terima kasih !</value>
+  </data>
+  <data name="InstPictureHeader" xml:space="preserve">
+    <value>gambar</value>
+  </data>
+  <data name="InstPictureText" xml:space="preserve">
+    <value>Membuat folder , membukanya dan import, apa-apa bilangan imej. Apabila Import Imej boleh menjadi apa-apa imej sejajar dan dipotong. Imej sentiasa dicipta dalam resolusi maksimum untuk mudah alih anda. Anda boleh membuat untuk menukar wallpaper anda lebih cepat folder.</value>
+  </data>
+  <data name="InstSettingsHeader" xml:space="preserve">
+    <value>Tetapan</value>
+  </data>
+  <data name="InstSettingsText" xml:space="preserve">
+    <value>Pada halaman tetapan bagi latar belakang dan penunjuk status bateri boleh disesuaikan. Pilih folder dari imej-imej berubah dimuatkan . Anda juga boleh memilih sama ada imej-imej boleh dimuatkan secara berturutan atau secara rawak satu perlu dipilih .
+Penunjuk status bateri mesti ditetapkan dalam tetapan sistem . Dalam tatacara aplikasi terdapat hubungan untuk .
+Anda boleh memilih bunyi pemberitahuan tambahan. Nada Spezialen adalah pemberitahuan lisan. Sila ambil perhatian bahawa ini senyap dan pemberitahuan bekerja pertama dari update GDR3 itu.</value>
+  </data>
+  <data name="NoteLanguage" xml:space="preserve">
+    <value>Tukar Bahasa</value>
+  </data>
+  <data name="NoteLanguage2" xml:space="preserve">
+    <value>Mulakan semula permohonan itu</value>
+  </data>
+  <data name="SelectLanguage" xml:space="preserve">
+    <value>Pilih bahasa</value>
+  </data>
+  <data name="Z01_BatteryFullyCharged" xml:space="preserve">
+    <value>Bateri yang dicas penuh</value>
+  </data>
+  <data name="Z01_BatteryIsCharging" xml:space="preserve">
+    <value>Bateri dicas</value>
+  </data>
+  <data name="Z01_BatteryLow" xml:space="preserve">
+    <value>Bateri rendah</value>
+  </data>
+  <data name="Z01_CompNewSound" xml:space="preserve">
+    <value>Bunyi pemberitahuan baru</value>
+  </data>
+  <data name="Z01_Components" xml:space="preserve">
+    <value>komponen</value>
+  </data>
+  <data name="Z01_Connecting" xml:space="preserve">
+    <value>Berhubungan dengan xtrose</value>
+  </data>
+  <data name="Z01_CopySounds" xml:space="preserve">
+    <value>nada salinan</value>
+  </data>
+  <data name="Z01_DeleteSounds" xml:space="preserve">
+    <value>memadam nota-nota</value>
+  </data>
+  <data name="Z01_EditSounds" xml:space="preserve">
+    <value>Edit bunyi</value>
+  </data>
+  <data name="Z01_Installed" xml:space="preserve">
+    <value>dipasang</value>
+  </data>
+  <data name="Z01_NewName" xml:space="preserve">
+    <value>nama baru</value>
+  </data>
+  <data name="Z01_NoteSounds" xml:space="preserve">
+    <value>bunyi pemberitahuan</value>
+  </data>
+  <data name="Z01_Online" xml:space="preserve">
+    <value>dalam talian</value>
+  </data>
+  <data name="Z01_Play" xml:space="preserve">
+    <value>Main</value>
+  </data>
+  <data name="Z01_ReneameSounds" xml:space="preserve">
+    <value>Nama semula bunyi</value>
+  </data>
+  <data name="Z01_Save" xml:space="preserve">
+    <value>Jimat</value>
+  </data>
+  <data name="Z01_Change" xml:space="preserve">
+    <value>menukar</value>
+  </data>
+  <data name="Z01_ConnectingNow" xml:space="preserve">
+    <value>Menyambung .....</value>
+  </data>
+  <data name="Z01_ConnectionFailed" xml:space="preserve">
+    <value>sambungan Gagal</value>
+  </data>
+  <data name="Z01_ConnectionTimeOut" xml:space="preserve">
+    <value>Masa melebihi atau tidak digabungkan</value>
+  </data>
+  <data name="Z01_CopySoundInfo" xml:space="preserve">
+    <value>Salin bunyi ini dan mengeditnya dengan editor</value>
+  </data>
+  <data name="Z01_CreateSounds" xml:space="preserve">
+    <value>Membuat bunyi pemberitahuan baru</value>
+  </data>
+  <data name="Z01_CreateSoundsInfo" xml:space="preserve">
+    <value>Ini salinan pilihan sedia ada nada. Anda kemudiannya boleh menukar bunyi kepada Pengarang</value>
+  </data>
+  <data name="Z01_DownloadingSound" xml:space="preserve">
+    <value>Muat turun bunyi pemberitahuan</value>
+  </data>
+  <data name="Z01_EnterUrl" xml:space="preserve">
+    <value>masukkan url . mp3 file</value>
+  </data>
+  <data name="Z01_Error" xml:space="preserve">
+    <value>RALAT !</value>
+  </data>
+  <data name="Z01_ErrorSounds" xml:space="preserve">
+    <value>merupakan komponen sistem dan tidak boleh diedit , dinamakan semula, atau dihapuskan.</value>
+  </data>
+  <data name="Z01_InUse" xml:space="preserve">
+    <value>RALAT ! Nama ini telah digunakan atau aksara tidak sah.</value>
+  </data>
+  <data name="Z01_LogoStart" xml:space="preserve">
+    <value>Menunjukkan logo pada permulaan</value>
+  </data>
+  <data name="Z01_NoComponentsOnline" xml:space="preserve">
+    <value>Tiada komponen hadir</value>
+  </data>
+  <data name="Z01_NoteDeleteSound" xml:space="preserve">
+    <value>Jika pemberitahuan bunyi benar-benar mahu memadam</value>
+  </data>
+  <data name="Z01_RenameSoundsWarning" xml:space="preserve">
+    <value>AMARAN ! Jika bunyi ini dihuraikan dalam tetapan tidak Benachrichtingungston dikeluarkan.</value>
+  </data>
+  <data name="Z01_SoundChangeInfo" xml:space="preserve">
+    <value>Malangnya, tidak ada cara untuk mengimport pemberitahuan bunyi dari telefon ke app. Oleh itu, ini perlu dimuat turun dari Internet.</value>
+  </data>
+  <data name="Z01_SoundSilent" xml:space="preserve">
+    <value>( tak bersuara )</value>
+  </data>
+  <data name="Z01_SoundStandard" xml:space="preserve">
+    <value>(standard)</value>
+  </data>
+  <data name="Z01_Warning" xml:space="preserve">
+    <value>AMARAN</value>
+  </data>
+  <data name="Z01_Address" xml:space="preserve">
+    <value>Hubungi Alamat</value>
+  </data>
+  <data name="Z01_Contact" xml:space="preserve">
+    <value>Hubungi</value>
+  </data>
+  <data name="Z01_OtherApps" xml:space="preserve">
+    <value>Andere xtrose Apps</value>
+  </data>
+  <data name="Z01_InstNoteHeader" xml:space="preserve">
+    <value>bunyi pemberitahuan</value>
+  </data>
+  <data name="Z01_InstNoteText" xml:space="preserve">
+    <value>Bunyi pemberitahuan Custom pertama dikeluarkan lebih tinggi daripada 8.0.10492 dari versi sistem operasi.</value>
+  </data>
+  <data name="Z02_OtherXtroseApps" xml:space="preserve">
+    <value>Aplikasi xtrose lain</value>
+  </data>
+  <data name="Z02_RateLater" xml:space="preserve">
+    <value>kemudian</value>
+  </data>
+  <data name="Z02_RateNever" xml:space="preserve">
+    <value>Jangan sekali-kali</value>
+  </data>
+  <data name="Z02_RateNow" xml:space="preserve">
+    <value>kadar</value>
+  </data>
+  <data name="Z02_RateText" xml:space="preserve">
+    <value>Permohonan ini seolah-olah merayu kepada anda .
+Untuk mengisi aplikasi ini memakan masa dan sukar.
+Kajian semula yang baik boleh membantu kita untuk menyebarkan lebih lanjut.
+
+Terima kasih banyak</value>
+  </data>
+  
+  
+  <data name="Z03_10_0_Screen_Changer" xml:space="preserve">
+<value>10.0 Skrin pengurup</value>
+</data>
+  <data name="Z03_T1" xml:space="preserve">
+<value>Kami telah membangunkan aplikasi benar-benar baru!</value>
+</data>
+  <data name="Z03_T2" xml:space="preserve">
+<value>Diadaptasi ke Windows 10.</value>
+</data>
+  <data name="Z03_T3" xml:space="preserve">
+<value>Resolusi yang lebih tinggi. Menyesuaikan diri dengan saiz paparan.</value>
+</data>
+  <data name="Z03_T6" xml:space="preserve">
+<value>Medan untuk maklumat pengguna.</value>
+</data>
+  <data name="Z03_T7" xml:space="preserve">
+<value>Banyak peluang baru yang lebih banyak.</value>
+</data>
+  <data name="Z03_TestNow" xml:space="preserve">
+<value>Ujian sekarang</value>
+</data>
+</root>
